@@ -3,3 +3,8 @@ RewriteCond %{HTTP_HOST} ^abhatia.ca$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.abhatia.ca$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
+
+RewriteCond %{HTTP_HOST} ^staging.abhatia.ca$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.staging.abhatia.ca$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
