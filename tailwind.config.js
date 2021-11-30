@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "blue-custom":"#b2eff0",
         firebirds: {
           blue: {
             light: {
