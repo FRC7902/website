@@ -7,14 +7,30 @@
     <link rel="stylesheet" href="./style.css" />  
     <title>Landing Page</title>
 </head>
-<body>
+<body class="">
     <!-- Header -->
-    <header> 
-        <nav class="container text-center bg-blue-custom"> 
-            <h1 class="text-red-700">Heyo </h1>
-
-        </nav>    
-    </header>
-    
+    <div class="relative min-h-screen flex">
+        <div class="w-40">
+            <nav>
+                <a href="#" class="block py-8 5 px-4 mt-24 hover:bg-blue-800">About</a> 
+                <a href="#" class="block py-8 5 px-4 hover:bg-blue-800">Sponsors</a> 
+                <a href="#" class="block py-8 5 px-4 hover:bg-blue-800">Events</a> 
+                <a href="#" class="block py-8 5 px-4 hover:bg-blue-800">Resources</a> 
+                <a href="#" class="block py-8 5 px-4 hover:bg-blue-800">Contact</a> 
+            </nav>
+        </div>
+        <main class="max-h-screen w-full overflow-y-scroll snap">
+                <section class="w-full h-screen bg-red-200 snap-start">
+                </section>
+                <section class="w-full h-screen bg-blue-200 snap-start">
+                </section>
+                <section class="w-full h-screen bg-green-200 snap-start">
+                </section>
+                <section class="w-full h-screen bg-indigo-200 snap-start">
+                </section>
+                <section class="w-full h-screen bg-yellow-200 snap-start">
+            </div>
+        </main>
+    </div>
 </body>
 </html>
