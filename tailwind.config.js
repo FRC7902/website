@@ -24,6 +24,9 @@ module.exports = {
                     },
                 },
             },
+            ringWidth: {
+                '2.5': '2.5px',
+            }
         },
     },
     variants: {

@@ -10,9 +10,10 @@
 
 .menu-item-1{
     @apply cursor-pointer 
-    ring-0 ring-firebirds-blue-light-500 
-    ring-offset-8 ring-offset-gray-900 
-    hover:ring-2 hover:ring-firebirds-blue-light-100
+    sm:ring-4 lg:ring-2.5
+    ring-firebirds-blue-light-500 rounded-sm 
+    ring-offset-8 ring-offset-gray-900 ring-opacity-0
+    hover:ring-firebirds-blue-light-100
     hover:text-firebirds-blue-light-100
     transition-all duration-200;
 }
