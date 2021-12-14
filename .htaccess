@@ -1,10 +1,10 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^abhatia.ca$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.abhatia.ca$
+RewriteCond %{HTTP_HOST} ^markhamfirebirds.ca$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.markhamfirebirds.ca$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
 
-RewriteCond %{HTTP_HOST} ^staging.abhatia.ca$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.staging.abhatia.ca$
+RewriteCond %{HTTP_HOST} ^staging.markhamfirebirds.ca$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.staging.markhamfirebirds.ca$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
