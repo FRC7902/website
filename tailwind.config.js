@@ -1,8 +1,9 @@
 module.exports = {
-    content: [],
+    content: ['./public/*{html,js,css}'],
     theme: {
         extend: {
             colors: {
+                "blue-custom": "#b2efe0",
                 firebirds: {
                     blue: {
                         light: {
