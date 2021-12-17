@@ -1,10 +1,8 @@
 module.exports = {
-    purge: [],
-    darkMode: false, // or 'media' or 'class'
+    content: [],
     theme: {
         extend: {
             colors: {
-                "blue-custom": "#b2efe0",
                 firebirds: {
                     blue: {
                         light: {
@@ -29,11 +27,5 @@ module.exports = {
             }
         },
     },
-    variants: {
-        extend: {
-            ringWidth: ['hover', 'active'],
-            ringColor: ['hover', 'active'],
-        },
-    },
     plugins: [],
-};
+}
