@@ -12,7 +12,7 @@
     @apply cursor-pointer 
     ring-2.5
     ring-firebirds-blue-light-500 rounded-sm 
-    ring-offset-8 ring-offset-gray-900 ring-opacity-0
+    ring-offset-8 ring-offset-slate-800 ring-opacity-0
     hover:ring-firebirds-blue-light-100
     hover:text-firebirds-blue-light-100
     transition-all duration-200;
