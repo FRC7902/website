@@ -17,3 +17,10 @@
     hover:text-firebirds-blue-light-100
     transition-all duration-200;
 }
+
+.snap {
+    scroll-snap-type: y mandatory;
+  }
+  .snap-start {
+    scroll-snap-align: start;
+  }
