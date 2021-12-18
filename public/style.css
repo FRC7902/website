@@ -810,7 +810,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-color: rgb(140 236 248 / var(--tw-ring-opacity));
   --tw-ring-opacity: 0;
   --tw-ring-offset-width: 8px;
-  --tw-ring-offset-color: #1e293b;
+  --tw-ring-offset-color: #ecfeff;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
