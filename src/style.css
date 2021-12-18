@@ -18,9 +18,13 @@
     transition-all duration-200;
 }
 
-.snap {
-    scroll-snap-type: y mandatory;
-  }
-  .snap-start {
-    scroll-snap-align: start;
-  }
+.menu-item{
+  @apply
+  block
+  basis-1/5;
+}
+
+.menu-item-visible{
+  @apply
+  text-blue-400
+}
