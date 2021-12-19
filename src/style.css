@@ -10,12 +10,23 @@
 
 .menu-item-1{
     @apply cursor-pointer 
-    ring-2.5
-    ring-firebirds-blue-light-500 rounded-sm 
-    ring-offset-8 ring-offset-slate-800 ring-opacity-0
-    hover:ring-firebirds-blue-light-100
-    hover:text-firebirds-blue-light-100
+    h-full
+    flex items-center 
+    flex-1 justify-center self-center
+    text-firebirds-blue-light-500
+    hover:bg-firebirds-blue-light-100 hover:text-black
+    mt-4 rounded-t-3xl
     transition-all duration-200;
+}
+
+.menu-item-active{
+  @apply
+  cursor-pointer
+  h-full
+  bg-firebirds-blue-light-100
+  flex items-center 
+  flex-1 justify-center self-center
+  text-black
 }
 
 .menu-item{
@@ -28,3 +39,4 @@
   @apply
   text-blue-400
 }
+
