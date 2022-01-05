@@ -19,6 +19,19 @@
     transition-all duration-200;
 }
 
+.menu-item-2{
+  @apply cursor-pointer 
+  w-full  py-5
+  flex 
+  flex-1 justify-start pl-10 self-center
+  text-white
+  hover:bg-slate-200 hover:text-firebirds-blue-mid-600
+  hover:translate-x-4 hover:pl-6
+  transition-all
+  duration-300
+  rounded-l-sm;
+}
+
 .menu-item-active{
   @apply
   cursor-pointer
