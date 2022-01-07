@@ -11,12 +11,12 @@ module.exports = {
                         light: {
                             100: "#b2eff0",
                             200: "#A8EEF2",
-                            300: "#9FEEF4",
+                            300: "#9feef4",
                             400: "#95EDF6",
                             500: "#8cecf8",
-                            600: "#82EBF9",
+                            600: "#82ebf9",
                             700: "#78EBFB",
-                            800: "#6FEAFD",
+                            800: "#6feafd",
                             900: "#65e9ff",
                         },
                         mid: {

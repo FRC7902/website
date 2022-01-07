@@ -724,9 +724,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-y-4 {
   border-top-width: 4px;
   border-bottom-width: 4px;
+}
+
+.border-y-8 {
+  border-top-width: 8px;
+  border-bottom-width: 8px;
+}
+
+.border-y-2 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
 }
 
 .border-l-4 {
@@ -741,14 +755,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-right-width: 8px;
 }
 
-.border-firebirds-blue-light-400 {
+.border-slate-200 {
   --tw-border-opacity: 1;
-  border-color: rgb(149 237 246 / var(--tw-border-opacity));
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
 
-.border-firebirds-blue-light-100 {
+.border-red-500 {
   --tw-border-opacity: 1;
-  border-color: rgb(178 239 240 / var(--tw-border-opacity));
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .border-firebirds-blue-light-600 {
@@ -756,9 +770,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(130 235 249 / var(--tw-border-opacity));
 }
 
+.border-firebirds-blue-light-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(149 237 246 / var(--tw-border-opacity));
+}
+
+.border-firebirds-blue-light-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(168 238 242 / var(--tw-border-opacity));
+}
+
+.border-firebirds-blue-light-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(140 236 248 / var(--tw-border-opacity));
+}
+
+.border-firebirds-blue-light-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(178 239 240 / var(--tw-border-opacity));
+}
+
 .border-slate-800 {
   --tw-border-opacity: 1;
   border-color: rgb(30 41 59 / var(--tw-border-opacity));
+}
+
+.border-y-firebirds-blue-light-400 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(149 237 246 / var(--tw-border-opacity));
+  border-bottom-color: rgb(149 237 246 / var(--tw-border-opacity));
+}
+
+.border-y-firebirds-blue-light-600 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(130 235 249 / var(--tw-border-opacity));
+  border-bottom-color: rgb(130 235 249 / var(--tw-border-opacity));
 }
 
 .bg-red-200 {
@@ -867,6 +913,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fill-current {
   fill: currentColor;
+}
+
+.fill-slate-50 {
+  fill: #f8fafc;
 }
 
 .object-center {
