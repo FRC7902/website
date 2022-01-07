@@ -34,7 +34,7 @@
 
 .menu-item-3{
   @apply cursor-pointer 
-  w-full  py-5
+  py-5
   flex 
   flex-1 justify-center self-center
   text-white
