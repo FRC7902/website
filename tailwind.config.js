@@ -1,9 +1,15 @@
 module.exports = {
-    content: ['./public/*{html,js,css}'],
+    content: ['./public/*{html,js,css}',
+        './public/Mockup/*{html,js,css}'
+    ],
     theme: {
         extend: {
             // Cooper hewitt for menu items
             // Fira sans for general body text
+            fontFamily: {
+                ch: ['Cooper Hewitt'],
+            },
+
             colors: {
                 "blue-custom": "#b2efe0",
                 firebirds: {
@@ -45,5 +51,7 @@ module.exports = {
             }
         },
     },
-    plugins: [],
+    plugins: [
+        require('tw-elements/dist/plugin')
+    ],
 }
