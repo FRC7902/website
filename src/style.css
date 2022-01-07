@@ -32,6 +32,19 @@
   rounded-l-sm;
 }
 
+.menu-item-3{
+  @apply cursor-pointer 
+  w-full  py-5
+  flex 
+  flex-1 justify-center self-center
+  text-white
+  hover:bg-slate-200 hover:text-firebirds-blue-mid-600
+  hover:translate-x-4 hover:pl-6
+  transition-all
+  duration-300
+  rounded-l-sm;
+}
+
 .menu-item-active{
   @apply
   cursor-pointer

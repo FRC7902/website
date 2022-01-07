@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="104.98127mm"
+   height="54.561111mm"
+   version="1.1"
+   viewBox="0 0 104.98127 54.561113"
+   id="svg7171"
+   sodipodi:docname="LogoTextLeftWhite.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="C:\Users\argon\Downloads\DarkBlueLockup.png"
+   inkscape:export-xdpi="329.99524"
+   inkscape:export-ydpi="329.99524"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7173"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0183535"
+     inkscape:cx="39.77008"
+     inkscape:cy="87.886967"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7171" />
+  <defs
+     id="defs7103">
+    <radialGradient
+       id="radialGradient16626-9-5-5-9-9-5-5-6"
+       cx="-62.826"
+       cy="38.674999"
+       r="62.849998"
+       gradientTransform="matrix(0.90162,0.60578,-0.58626,0.87258,10.798,34.317)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#f35e5e"
+         offset="0"
+         id="stop7052" />
+      <stop
+         stop-color="#f03737"
+         offset="1"
+         id="stop7054" />
+    </radialGradient>
+    <linearGradient
+       id="linearGradient39939"
+       x1="-11.942"
+       x2="-76.394997"
+       y1="73.220001"
+       y2="-11.117"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#001498"
+         offset="0"
+         id="stop7057" />
+      <stop
+         stop-color="#b4007a"
+         offset="1"
+         id="stop7059" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39937"
+       x1="-86.053001"
+       x2="-23.153"
+       y1="7.8832002"
+       y2="74.710999"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Paired_with_Light_Blue_Clarinet" />
+    <linearGradient
+       id="Paired_with_Light_Blue_Clarinet">
+      <stop
+         stop-color="#0b32b0"
+         offset="0"
+         id="stop7063" />
+      <stop
+         stop-color="#4caeff"
+         offset="1"
+         id="stop7065" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39943"
+       x1="-7.7529998"
+       x2="144.89999"
+       y1="18.666"
+       y2="-26.424"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient5360" />
+    <linearGradient
+       id="linearGradient5360">
+      <stop
+         stop-color="#00a8b4"
+         offset="0"
+         id="stop7069" />
+      <stop
+         stop-color="#90e0ef"
+         offset="1"
+         id="stop7071" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39941"
+       x1="79.050003"
+       x2="126.04"
+       y1="40.539001"
+       y2="-32.618999"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Light_Blue_Gradient" />
+    <linearGradient
+       id="Light_Blue_Gradient">
+      <stop
+         stop-color="#65e9ff"
+         offset="0"
+         id="stop7075" />
+      <stop
+         stop-color="#b2eff0"
+         offset="1"
+         id="stop7077" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39947"
+       x1="15.056"
+       x2="117.36"
+       y1="67"
+       y2="-0.88132"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient5360" />
+    <linearGradient
+       id="linearGradient39945"
+       x2="138.44"
+       y1="104.27"
+       y2="-27.177999"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Light_Blue_Gradient" />
+    <linearGradient
+       id="linearGradient39949"
+       x1="11.448"
+       x2="-78.149002"
+       y1="-78.487"
+       y2="84.490997"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Paired_with_Light_Blue_Clarinet" />
+    <linearGradient
+       id="linearGradient39953"
+       x1="-129.75999"
+       x2="32.405998"
+       y1="52.285"
+       y2="29.621"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient5360" />
+    <linearGradient
+       id="linearGradient39951"
+       x1="-106.78"
+       x2="62.125"
+       y1="97.519997"
+       y2="-23.360001"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Light_Blue_Gradient" />
+    <linearGradient
+       id="linearGradient39955"
+       x2="1"
+       gradientTransform="matrix(1,0,0,-1,0,4.4337e-5)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#ecdb9e"
+         offset="0"
+         id="stop7085" />
+      <stop
+         stop-color="#ecdb9e"
+         offset=".07"
+         id="stop7087" />
+      <stop
+         stop-color="#fbb36a"
+         offset=".3"
+         id="stop7089" />
+      <stop
+         stop-color="#eb9053"
+         offset=".58"
+         id="stop7091" />
+      <stop
+         stop-color="#e76a4c"
+         offset=".88"
+         id="stop7093" />
+      <stop
+         stop-color="#e76a4c"
+         offset="1"
+         id="stop7095" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39959"
+       x2="17.261"
+       y1="0.88749999"
+       y2="0.88749999"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Light_Blue_Gradient" />
+    <linearGradient
+       id="linearGradient39963"
+       x2="8.6309996"
+       y1="5.4805002"
+       y2="5.4805002"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Light_Blue_Gradient" />
+    <linearGradient
+       id="linearGradient39965"
+       x1="-63.271"
+       x2="-96.143997"
+       y1="161.07001"
+       y2="71.083"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Paired_with_Light_Blue_Clarinet" />
+    <linearGradient
+       id="linearGradient39969"
+       x1="735.47998"
+       x2="1350"
+       y1="2209.7"
+       y2="1884.5"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient5360" />
+    <linearGradient
+       id="linearGradient39967"
+       x1="918.37"
+       x2="965.66998"
+       y1="1725.3"
+       y2="2248.8"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#Light_Blue_Gradient" />
+    <linearGradient
+       id="_Linear1"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,0,4.43368e-5)">
+      <stop
+         offset="0"
+         style="stop-color:rgb(236,219,158);stop-opacity:1"
+         id="stop4675" />
+      <stop
+         offset="0.07"
+         style="stop-color:rgb(236,219,158);stop-opacity:1"
+         id="stop4677" />
+      <stop
+         offset="0.3"
+         style="stop-color:rgb(251,179,106);stop-opacity:1"
+         id="stop4679" />
+      <stop
+         offset="0.58"
+         style="stop-color:rgb(235,144,83);stop-opacity:1"
+         id="stop4681" />
+      <stop
+         offset="0.88"
+         style="stop-color:rgb(231,106,76);stop-opacity:1"
+         id="stop4683" />
+      <stop
+         offset="1"
+         style="stop-color:rgb(231,106,76);stop-opacity:1"
+         id="stop4685" />
+    </linearGradient>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8938px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.322346"
+     x="6.8721623"
+     y="14.307291"
+     id="text6211-1-8-9-4-4-8-5-7"
+     inkscape:export-filename="C:\Users\argon\Downloads\LightLogoLockup.png"
+     inkscape:export-xdpi="1152.9296"
+     inkscape:export-ydpi="1152.9296"><tspan
+       sodipodi:role="line"
+       id="tspan6209-3-2-9-7-3-9-2-8"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.8938px;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.322346"
+       x="6.8721623"
+       y="14.307291">FRC <tspan
+   id="tspan51767"
+   style="fill:#ffffff;fill-opacity:1;stroke-width:0.322346">7902</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5799px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.133479px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.514504"
+     x="6.777401"
+     y="23.055063"
+     id="text6211-2-1-6-3-0-5-9-8-8"
+     inkscape:export-filename="C:\Users\argon\Downloads\LightLogoLockup.png"
+     inkscape:export-xdpi="1152.9296"
+     inkscape:export-ydpi="1152.9296"><tspan
+       sodipodi:role="line"
+       id="tspan6209-2-7-8-3-4-4-7-6-5"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20.5799px;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.368041px;fill:#ffffff;fill-opacity:1;stroke-width:0.514504"
+       x="6.777401"
+       y="23.055063"
+       dx="0"
+       dy="7.7782683"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20.5799px;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.368041px;fill:#ffffff;fill-opacity:1;stroke-width:0.514504"
+         id="tspan8747-1-9-7-4-3-7-6-0"
+         dy="8.5643826"
+         dx="-0.16469966">MARKHAM</tspan></tspan><tspan
+       sodipodi:role="line"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20.5799px;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.252746px;fill:#ffffff;fill-opacity:1;stroke-width:0.514504"
+       x="6.777401"
+       y="49.003632"
+       id="tspan3638-8-3-2-6-1-9-7-1"
+       dx="0">FIREBIRDS</tspan></text>
+</svg>
