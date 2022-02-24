@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build:tailwinds": "tailwind build -i src/style.css -o public/style.css"
+        "build:spaghettiman": "tailwind build -i src/style.css -o public/style.css",
+        "build:tailwinds": "tailwind build -i src/style.css -o public/style.css",
+        "build:tailwind": "tailwind build -i src/style.css -o public/style.css"
     },
     "keywords": [],
     "author": "",
