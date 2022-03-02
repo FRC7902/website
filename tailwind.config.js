@@ -1,6 +1,7 @@
 module.exports = {
     content: ['./public/*{html,js,css}',
-        './public/Mockup/*{html,js,css}'
+        './public/Mockup/*{html,js,css}',
+        './img/*svg'
     ],
     theme: {
         extend: {
@@ -43,6 +44,11 @@ module.exports = {
                         200: "#ff2c4a",
                         300: "#f35e5e",
                         400: "#f03737",
+                    },
+                    background: {
+                        200: "#ff2c4a",
+                        300: "#f35e5e",
+                        400: "#001A37",
                     },
                 },
             },
