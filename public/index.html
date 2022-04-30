@@ -1,44 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css" />
+
     <script src="../path/to/tw-elements/dist/js/index.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    
 
     <title>Landing Page</title>
 </head>
 
-<body class="overflow-y-hidden">
-    <!-- Header -->
-    <div class="relative max-h-screen w-screen flex flex-row">
-        <div class="flex justify-center content-center pt-8">
-            <nav class="h-1/4 w-32 flex flex-col justify-center items-center text-center">
-                <a href="#" class="menu-item menuItem1">About</a>
-                <a href="#" class="menu-item menuItem2">Sponsors</a>
-                <a href="#" class="menu-item menuItem3">Events</a>
-                <a href="#" class="menu-item menuItem4">Resources</a>
-                <a href="#" class="menu-item menuItem5">Contact</a>
-            </nav>
-        </div>
-        <main class="w-screen h-screen overflow-y-scroll snap-y snap-mandatory snap-always">
-            <section class="section1 w-full h-screen bg-red-200 snap-start">
-            </section>
-            <section class="section2 w-full h-screen bg-blue-200 snap-start">
-            </section>
-            <section class="section3 w-full h-screen bg-green-200 snap-start">
-            </section>
-            <section class="section4 w-full h-screen bg-indigo-200 snap-start">
-            </section>
-            <section class="section5 w-full h-screen bg-yellow-200 snap-start">
-            </section>
-        </main>
-    </div>
-</body>
+<body class= "relative h-screen flex overflow-hidden">
+    <script>
+        $(function() {
+            $("#nav").load("nav.html");
+        });
+        $(function() {
+            $("#carousel").load("carousel.html");
+        });
+    </script>
 
-<script src="./scripts/intersection.js">
-</script>
+    <!-- Navbar -->
+    <header class="bg-slate-800 text-white w-64 gap-0">
+        <div id="nav" class="flex"></div>
+    </header>
+
+    <div class="bg-slate-500 flex place-content-center flex-col w-4/5 m-auto">
+        <!-- landing greeting -->
+        <h1 class=" text-white font-semibold m-auto">this is a carousel test</h1>
+
+        <!-- Carousel -->
+        <div id="carousel" class="flex-1 m-8"></div>
+    </div>
+    
+</body>
 
 </html>
