@@ -3,19 +3,118 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .fire-text-5{
+    text-shadow: 0 0 10px #eaf3fb, 
+    20px 0 30px #9acaf5, 
+    -20px 0 30px #1462a9, 
+    23px -20px 40px #035197, 
+    -25px -40px 50px #5baffa, 
+    6px -60px 60px #3a8fdc, 
+    18px -70px 70px #7fbcea,
+    12px -80px 80px #164c76,
+    -9px -900px 90px #0286ea;
+  }
+
+  .fire-text-4{
+    text-shadow: 0 0 20px #eaf3fb, 
+    8px -10px 30px #9acaf5, 
+    -12px -10px 40px #1462a9, 
+    14px -30px 60px #035197,
+    -16px -20px 70px #5baffa;
+  }
+
+  .fire-text-3{
+    text-shadow: 0 10px 20px #fefcc9, 
+    10px 0 30px #feec85, 
+    -20px -10px 40px #ffae34, 
+    20px -30px 50px #ec760c, 
+    -20px -50px 60px #cd4606, 
+    0 -60px 70px #973716, 
+    10px -70px 80px #451b0e;
+  }
+
+  .fire-text-2{
+    text-shadow: 0 0 20px #fefcc9, 
+    10px 5px 30px #feec85, 
+    -20px 0px 40px #ffae34, 
+    20px -20px 50px #ec760c, 
+    -20px -40px 60px #cd4606, 
+    0 -80px 60px #973716;
+  }
+
+  .fire-text-1{
+    text-shadow: 0 0 20px #fefcc9, 
+    10px 0px 30px #feec85, 
+    -20px -10px 40px #ffae34,
+    20px -30px 50px #ec760c;
+  }
+}
+
+.logo{
+  @apply 
+  mx-14
+  my-9
+  h-48
+  p-8
+  transition-transform
+  duration-500
+  hover:border-transparent
+  hover:scale-110
+  hover:origin-center;
+}
+
+.sponsor-row{
+  @apply
+  m-4
+}
+
+.sponsor-page-banner{
+  @apply
+  p-4
+  mt-12
+  text-white
+  bg-firebirds-background-400
+  font-ch 
+  font-semibold 
+  text-7xl
+  mx-auto;
+}
+
+.sponsor-heading-1{
+  @apply
+  text-black 
+  font-ch 
+  font-bold
+  ml-20
+  mr-8 
+  my-auto 
+  text-3xl 
+  w-20;
+}
+
+.h-line{
+  @apply 
+  border-2
+  w-11/12
+  mx-auto
+  opacity-40
+  border-firebirds-background-400;
+}
+
 .grid-item-1{
-    @apply bg-firebirds-blue-light-500 p-6;
+  @apply bg-firebirds-blue-light-500 p-6;
 }
 
 .menu-item-1{
-    @apply cursor-pointer 
-    h-full
-    flex items-center 
-    flex-1 justify-center self-center
-    text-firebirds-blue-light-500
-    hover:bg-slate-100 hover:text-firebirds-blue-mid-200
-    mt-4 rounded-t-3xl
-    transition-all duration-200;
+  @apply cursor-pointer 
+  h-full
+  flex items-center 
+  flex-1 justify-center self-center
+  text-firebirds-blue-light-500
+  hover:bg-slate-100 hover:text-firebirds-blue-mid-200
+  mt-4 rounded-t-3xl
+  transition-all duration-200;
 }
 
 .menu-item-2{
