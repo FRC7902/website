@@ -49,6 +49,16 @@
     -20px -10px 40px #ffae34,
     20px -30px 50px #ec760c;
   }
+
+  .show_bg_2 {
+    background-image:
+    linear-gradient(to right, rgba(32, 34, 46, 0.99), rgba(0, 0, 0, 0.01)),
+    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
 .logo{

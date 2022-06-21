@@ -6,7 +6,8 @@
     "scripts": {
         "build:spaghettiman": "tailwind build -i src/style.css -o public/style.css",
         "build:tailwinds": "tailwind build -i src/style.css -o public/style.css",
-        "build:tailwind": "tailwind build -i src/style.css -o public/style.css"
+        "build:tailwind": "tailwind build -i src/style.css -o public/style.css",
+        "tw": "tailwind build -i src/style.css -o public/style.css"
     },
     "keywords": [],
     "author": "",
@@ -20,6 +21,6 @@
     "devDependencies": {
         "autoprefixer": "^10.4.0",
         "postcss": "^8.4.5",
-        "tailwindcss": "^3.0.23"
+        "tailwindcss": "^3.1.3"
     }
 }
