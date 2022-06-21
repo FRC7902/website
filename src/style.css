@@ -52,12 +52,16 @@
 
   .show_bg_2 {
     background-image:
-    linear-gradient(to right, rgba(32, 34, 46, 0.99), rgba(0, 0, 0, 0.01)),
+    linear-gradient(to right, rgb(32, 34, 46) 0%, rgba(32, 34, 46, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
     url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     height: 100%;
+    image-rendering: pixelated;
+    position: relative;
   }
 }
 
