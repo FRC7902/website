@@ -4,11 +4,13 @@ module.exports = {
         './img/*{svg,jpg}'
     ],
     theme: {
+        
         extend: {
             // Cooper hewitt for menu items
             // Fira sans for general body text
             fontFamily: {
                 ch: ['Cooper Hewitt'],
+                ls: ['League Spartan'],
             },
 
             colors: {
@@ -56,6 +58,12 @@ module.exports = {
                 '2.5': '2.5px',
             }
         },
+    },
+    variants: {
+    
+            stroke: ['hover', 'focus', 'focus-visible', 'first'],
+   
+ 
     },
     plugins: [
         require('tw-elements/dist/plugin')

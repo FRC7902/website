@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="smooth-scroll">
+<html lang="en" class="scroll-smooth duration-1000 transition-all">
 
 
 <head>
@@ -20,9 +20,29 @@
         dropdown();
   
         function openSidebar() {
-          document.querySelector(".sidebar").classList.toggle("hidden");
-          
+          document.querySelector(".sidebar").classList.toggle("hidden"); 
         }
+
+        // Smooth scroll
+        function scrollFunction1() {
+        let e = document.getElementById("maincontent");
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
+      function scrollFunction2() {
+        let e = document.getElementById("el2");
+        // This ends the block to the window 
+        // bottom and also aligns the view to the center 
+        e.scrollIntoView({
+          block: 'end',
+          behavior: 'smooth',
+          inline: 'center'
+        });
+      }
+
       </script>
 
     <title>Menu</title>
@@ -31,26 +51,25 @@
 
 
 
-<body class="bg-slate-200 relative h-screen flex overflow-hidden">
+<body class="bg-slate-200 relative h-screen flex overflow-hidden scroll-smooth">
 
-    <span
-      class="absolute text-white text-4xl top-5 left-4 cursor-pointer transition-all md:hidden"
-      onclick="openSidebar()"
-    >
-      <i class="bi bi-filter-left px-2 bg-gray-900 rounded-md transition-all"></i>
+    <span class="absolute z-20 text-white text-4xl top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
+      onclick="openSidebar()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-white m-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+
     </span>
 
     <!-- sidebar -->
-    <header class="sidebar bg-firebirds-background-200 transition-all text-white w-64 flex">
+    <header class="z-10 sidebar bg-firebirds-background-200 transition-all text-white w-64 hidden md:flex fixed md:relative h-screen">
 
         <!-- nav -->
         <nav class="font-semibold text-white gap-y-4
                           text-sm lg:text-lg content-center uppercase">
 
-                    
-
             <!-- logo -->
-            <a href="#" class="pl-4 pr-28 py-10 flex mx-5">
+            <a href="#" class="pl-4 pr-28 pb-10 pt-28 md:pt-10 flex mx-5">
                 <img src="/img/LogoIcon.svg" alt="" class="cursor-pointer">
             </a>
 
@@ -130,26 +149,34 @@
             </div>
         </nav>
 
-
-
     </header>
 
 
-    <main class="flex-1 overflow-y-scroll h-full">
+    <main class="flex-1 overflow-y-scroll h-full ">
 
-        <!-- <div class="bg-gradient-to-r from-firebirds-background-200 to-transparent">
-            <img src="/img/WebsiteCover.JPG" class="mix-blend object-cover bg-transparent" alt="">
-        </div> -->
-
-            <div class='show_bg_2 -z-50'>
-                <h1 class="uppercase flex h-screen items-center text-left px-40 align-middle font-ch text-white text-6xl ">
-                    <div class = "border-l-firebirds-blue-light-200 border-l-4 drop-shadow-2xl pl-4">
+            <div class='show_bg_2 shadow-2xl'>
+                
+                <div class="uppercase flex h-screen text-left px-10 md:px-40 font-ls font-medium 
+                 items-center justify-center text-shadow-md text-white ">
+                    
+                    <!-- Big text -->
+                    <h1 class = "border-l-firebirds-blue-light-600 border-l-4 pl-6 leading-tight text-5xl md:text-6xl">
                         Markham's Community
-                        Robotics Team</div>
-                  
-                </h1>
+                        Robotics Team
+                    </h1>
+
+                    <!-- Down arrow -->
+                    <a class="absolute self-end mb-12 z-0 scroll-smooth"  onclick="scrollFunction1()">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="z-0 h-24 w-auto flex flex-1 transition-all duration-500 stroke-firebirds-blue-light-600 hover:stroke-firebirds-blue-light-200 " fill="none" viewBox="0 0 24 24"  stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"/>
+                            </svg>
+                        </a>
+
+                </div>
+
             </div>
-            <div class = "m-6">
+
+        <div class = "m-6" id = "maincontent">
             <div>hello</div>hello
             <div>hello</div>
             <div>hello</div>
@@ -201,6 +228,7 @@
             <div>hello</div>
             
         </div>
+        <div class = "m-6 scroll-smooth" ></div>
     </main>
 
 
