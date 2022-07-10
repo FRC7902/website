@@ -159,12 +159,14 @@
 
 .menu-item-2{
   @apply cursor-pointer 
-  w-full  py-5
+  w-full  py-4
   flex 
-  flex-1 justify-start pl-10 self-center
-  text-white
-  hover:bg-slate-200 hover:text-firebirds-blue-mid-600
-  hover:translate-x-4 hover:pl-6
+  flex-1 justify-start pl-8 ml-2 self-center
+  text-white hover:text-firebirds-blue-mid-900
+
+  hover:bg-slate-200
+  hover:translate-x-2
+ 
   font-ch font-normal
   transition-all
   duration-300
@@ -178,6 +180,7 @@
   flex-1 justify-center self-center
   text-white
   hover:bg-slate-200 hover:text-firebirds-blue-mid-600
+
   hover:translate-x-4 hover:pl-6
   transition-all
   font-ch font-normal
