@@ -57,7 +57,7 @@
 
   .show_bg_2 {
     background-image:
-    linear-gradient(to right, rgb(32, 34, 46) 0%, rgba(32, 34, 46, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
+    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
     url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
     background-position: center;
     background-repeat: no-repeat;
@@ -163,6 +163,8 @@
   flex 
   flex-1 justify-start pl-8 ml-2 self-center
   text-white hover:text-firebirds-blue-mid-900
+
+  rounded-r-sm
 
   hover:bg-slate-200
   hover:translate-x-2

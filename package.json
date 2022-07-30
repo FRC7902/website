@@ -16,6 +16,7 @@
         "jquery": "^3.6.0",
         "jsdom": "^19.0.0",
         "swiper": "^7.4.1",
+        "tailwindcss-border-gradient-radius": "^1.0.0",
         "tw-elements": "^1.0.0-alpha4"
     },
     "devDependencies": {
