@@ -11,6 +11,7 @@ module.exports = {
             fontFamily: {
                 ch: ['Cooper Hewitt'],
                 ls: ['League Spartan'],
+                firasans: ['Fira Sans'],
             },
 
             colors: {
