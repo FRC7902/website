@@ -4343,12 +4343,12 @@ textarea.form-control.is-invalid {
   height: 6rem;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .h-1 {
   height: 0.25rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-6 {
@@ -4465,8 +4465,8 @@ textarea.form-control.is-invalid {
   width: fit-content;
 }
 
-.w-3\/4 {
-  width: 75%;
+.w-3\/5 {
+  width: 60%;
 }
 
 .w-4 {
@@ -5462,12 +5462,12 @@ textarea.form-control.is-invalid {
   padding: 4rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-12 {
   padding: 3rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-0 {
@@ -5630,16 +5630,16 @@ textarea.form-control.is-invalid {
   padding-left: 1.5rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .pt-20 {
@@ -5794,19 +5794,24 @@ textarea.form-control.is-invalid {
   line-height: 1.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .text-6xl {
@@ -5824,11 +5829,6 @@ textarea.form-control.is-invalid {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-\[15px\] {
   font-size: 15px;
 }
@@ -5841,12 +5841,16 @@ textarea.form-control.is-invalid {
   font-weight: 500;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
-.font-light {
-  font-weight: 300;
+.font-extralight {
+  font-weight: 200;
 }
 
 .font-black {
