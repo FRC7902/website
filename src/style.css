@@ -159,6 +159,14 @@
   border-firebirds-background-400;
 }
 
+.h-line2{
+  @apply 
+  border-2
+  mx-auto
+  opacity-20
+  border-firebirds-background-400;
+}
+
 .grid-item-1{
   @apply bg-firebirds-blue-light-500 p-6;
 }
