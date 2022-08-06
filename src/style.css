@@ -6,9 +6,6 @@
 
 
 @layer utilities {
-
- 
-
   .fire-text-5{
     text-shadow: 0 0 10px #eaf3fb, 
     20px 0 30px #9acaf5, 
@@ -87,16 +84,37 @@
   
 }
 
+.logo-section{
+  @apply
+  flex 
+  place-content-center 
+  flex-row 
+  flex-wrap 
+  items-center 
+  mx-auto 
+  mt-12
+}
 
-  
+.logo-square{
+  @apply 
+  h-48
+}
 
+.logo-short-rect{
+  @apply
+  w-72
+}
+
+.logo-long-rect{
+  @apply
+  w-96
+}
 
 .logo{
   @apply 
-  mx-14
-  my-9
-  h-48
-  p-8
+  mx-6
+  my-5
+  p-4
   transition-transform
   duration-500
   hover:border-transparent
@@ -126,10 +144,9 @@
   text-black 
   font-ch 
   font-bold
-  ml-20
-  mr-8 
-  my-auto 
-  text-3xl 
+  ml-12
+  mr-4 
+  text-5xl
   w-20;
 }
 

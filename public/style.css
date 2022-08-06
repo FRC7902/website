@@ -2245,6 +2245,22 @@ textarea.form-control.is-invalid {
   border: 1px solid #000;
 }
 
+.timepicker-elements {
+  min-width: 310px;
+  min-height: 325px;
+  background: #fff;
+  border-top-right-radius: 0.6rem;
+  border-top-left-radius: 0.6rem;
+}
+
+.timepicker-head {
+  background-color: #2979ff;
+  height: 100px;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  padding: 10px 24px 10px 50px;
+}
+
 .timepicker-current {
   font-size: 3.75rem;
   font-weight: 300;
@@ -2389,6 +2405,18 @@ textarea.form-control.is-invalid {
 
 .timepicker-time-tips-hours::selection {
   background-color: transparent;
+}
+
+.timepicker-dot {
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+  color: #fff;
+  font-size: 3.75rem;
+  opacity: 0.54;
+  border: none;
+  background: transparent;
+  padding: 0;
 }
 
 .timepicker-time-tips {
@@ -4152,6 +4180,10 @@ textarea.form-control.is-invalid {
   margin-left: 5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .-mr-10 {
   margin-right: -2.5rem;
 }
@@ -4414,20 +4446,16 @@ textarea.form-control.is-invalid {
   width: fit-content;
 }
 
-.w-9\/12 {
-  width: 75%;
-}
-
 .w-3\/4 {
   width: 75%;
 }
 
-.w-9 {
-  width: 2.25rem;
-}
-
 .w-3 {
   width: 0.75rem;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .w-1 {
@@ -5380,6 +5408,10 @@ textarea.form-control.is-invalid {
   padding: 2.5rem;
 }
 
+.p-16 {
+  padding: 4rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -6111,13 +6143,35 @@ textarea.form-control.is-invalid {
   text-shadow: none;
 }
 
-.logo {
-  margin-left: 3.5rem;
-  margin-right: 3.5rem;
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
+.logo-section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-content: center;
+  align-items: center;
+}
+
+.logo-square {
   height: 12rem;
-  padding: 2rem;
+}
+
+.logo-short-rect {
+  width: 18rem;
+}
+
+.logo-long-rect {
+  width: 24rem;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms;
@@ -6151,14 +6205,12 @@ textarea.form-control.is-invalid {
 }
 
 .sponsor-heading-1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 5rem;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
   width: 5rem;
   font-family: Cooper Hewitt;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 3rem;
+  line-height: 1;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
