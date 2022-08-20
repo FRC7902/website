@@ -5794,6 +5794,11 @@ textarea.form-control.is-invalid {
   line-height: 1.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -5802,11 +5807,6 @@ textarea.form-control.is-invalid {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-lg {
@@ -6191,10 +6191,7 @@ textarea.form-control.is-invalid {
     20px -30px 50px #ec760c;
 }
 
-.show_bg_2 {
-  background-image:
-    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
+.bg_img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6204,6 +6201,12 @@ textarea.form-control.is-invalid {
   image-rendering: -moz-crisp-edges;
   image-rendering: pixelated;
   position: relative;
+}
+
+.show_bg_2 {
+  background-image:
+    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
+    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
 }
 
 .text-shadow {
@@ -7046,13 +7049,6 @@ textarea.form-control.is-invalid {
 .active\:text-slate-900:active {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
-}
-
-@media (min-width: 640px) {
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 768px) {

@@ -52,10 +52,7 @@
     20px -30px 50px #ec760c;
   }
 
-  .show_bg_2 {
-    background-image:
-    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
+  .bg_img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,6 +61,14 @@
     height: 100%;
     image-rendering: pixelated;
     position: relative;
+  }
+
+  .show_bg_2 {
+    background-image:
+    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
+    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
+    
+
   }
 
   .text-shadow {
