@@ -6191,19 +6191,15 @@ textarea.form-control.is-invalid {
     20px -30px 50px #ec760c;
 }
 
-.bg_img {
+.bg-img-home {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  height: 100%;
   image-rendering: -moz-crisp-edges;
   image-rendering: pixelated;
   position: relative;
-}
-
-.show_bg_2 {
   background-image:
     linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
     url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');

@@ -52,24 +52,24 @@
     20px -30px 50px #ec760c;
   }
 
-  .bg_img {
+  .bg-img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    height: 100%;
     image-rendering: pixelated;
     position: relative;
   }
 
-  .show_bg_2 {
+  .bg-img-home {
+    @apply bg-img;
     background-image:
     linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
     url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
-    
-
   }
+
+
 
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0,0,0,0.4);
