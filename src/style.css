@@ -189,7 +189,8 @@
 
 .menu-item-2{
   @apply cursor-pointer 
-  w-full  py-4
+  w-full 
+
   flex 
   flex-1 justify-start pl-8 ml-2 self-center
   text-white hover:text-firebirds-blue-mid-900
@@ -200,10 +201,16 @@
   hover:translate-x-2
  
   font-firasans font-normal
-  text-lg
+
+  items-center
+
+  text-base md:text-lg
+
   transition-all
   duration-300
   rounded-l-sm;
+
+  vertical-align: central;
 }
 
 .menu-item-3{
@@ -213,6 +220,8 @@
   flex-1 justify-center self-center
   text-white
   hover:bg-slate-200 hover:text-firebirds-blue-mid-600
+
+ 
 
   hover:translate-x-4 hover:pl-6
   transition-all
