@@ -102,19 +102,22 @@
 
 .logo-square{
   @apply 
-  sm:h-36
+  h-32
+  md:h-36
   lg:h-48
 }
 
 .logo-short-rect{
   @apply
-  sm:w-48
+  w-40
+  md:w-48
   lg:w-72
 }
 
 .logo-long-rect{
   @apply
-  sm:w-48
+  w-40
+  md:w-48
   lg:w-96
 }
 
@@ -152,11 +155,11 @@
   text-black 
   font-ch 
   font-bold
-  sm:mx-auto
-  sm:mt-8
+  mx-auto
+  mt-8
   lg:ml-12
   lg:mr-4
-  sm:text-4xl
+  text-4xl
   lg:text-5xl
   w-20;
 }
