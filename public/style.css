@@ -4084,12 +4084,12 @@ textarea.form-control.is-invalid {
   z-index: 20;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-0 {
   z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .z-50 {
@@ -4188,11 +4188,6 @@ textarea.form-control.is-invalid {
   margin: 7rem;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -4201,6 +4196,11 @@ textarea.form-control.is-invalid {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .mx-12 {
@@ -4263,10 +4263,6 @@ textarea.form-control.is-invalid {
   margin-right: 7rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -4293,6 +4289,10 @@ textarea.form-control.is-invalid {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .ml-5 {
@@ -4499,10 +4499,6 @@ textarea.form-control.is-invalid {
   height: 2rem;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-full {
   height: 100%;
 }
@@ -4517,6 +4513,10 @@ textarea.form-control.is-invalid {
 
 .h-1 {
   height: 0.25rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-3 {
@@ -4625,16 +4625,12 @@ textarea.form-control.is-invalid {
   width: 2rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .w-auto {
   width: auto;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .w-2\/5 {
@@ -4643,6 +4639,10 @@ textarea.form-control.is-invalid {
 
 .w-56 {
   width: 14rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-4\/5 {
@@ -6422,10 +6422,6 @@ textarea.form-control.is-invalid {
      object-position: center;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-16 {
   padding: 4rem;
 }
@@ -6436,6 +6432,10 @@ textarea.form-control.is-invalid {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-8 {
@@ -6579,6 +6579,10 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.875rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -6599,20 +6603,12 @@ textarea.form-control.is-invalid {
   padding-left: 0.5rem;
 }
 
-.pr-8 {
-  padding-right: 2rem;
-}
-
 .pb-5 {
   padding-bottom: 1.25rem;
 }
 
-.pr-16 {
-  padding-right: 4rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
+.pr-8 {
+  padding-right: 2rem;
 }
 
 .pl-9 {
@@ -6633,6 +6629,10 @@ textarea.form-control.is-invalid {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
 }
 
 .pb-8 {
@@ -6808,14 +6808,14 @@ textarea.form-control.is-invalid {
   line-height: 2.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-lg {
@@ -6867,16 +6867,16 @@ textarea.form-control.is-invalid {
   font-size: 15px;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-medium {
   font-weight: 500;
 }
 
 .font-light {
   font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .font-normal {
@@ -8473,12 +8473,12 @@ textarea.form-control.is-invalid {
     padding-right: 3rem;
   }
 
-  .md\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
   .md\:pb-12 {
     padding-bottom: 3rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .md\:text-6xl {
@@ -8531,11 +8531,6 @@ textarea.form-control.is-invalid {
     padding-right: 4rem;
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -8549,6 +8544,11 @@ textarea.form-control.is-invalid {
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
