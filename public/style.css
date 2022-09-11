@@ -4061,6 +4061,10 @@ textarea.form-control.is-invalid {
   margin: 0.5rem;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -4071,10 +4075,6 @@ textarea.form-control.is-invalid {
 
 .m-6 {
   margin: 1.5rem;
-}
-
-.m-0 {
-  margin: 0px;
 }
 
 .m-12 {
@@ -4106,6 +4106,11 @@ textarea.form-control.is-invalid {
   margin-right: 1.25rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -4119,11 +4124,6 @@ textarea.form-control.is-invalid {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .my-4 {
@@ -4490,12 +4490,20 @@ textarea.form-control.is-invalid {
   width: auto;
 }
 
-.w-56 {
-  width: 14rem;
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-1\/3 {
   width: 33.333333%;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-4\/5 {
@@ -4546,10 +4554,6 @@ textarea.form-control.is-invalid {
 
 .w-80 {
   width: 20rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-screen {
@@ -5505,16 +5509,16 @@ textarea.form-control.is-invalid {
   padding: 2.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-16 {
   padding: 4rem;
 }
 
 .p-12 {
   padding: 3rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-8 {
@@ -5572,6 +5576,11 @@ textarea.form-control.is-invalid {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-2 {
@@ -5632,11 +5641,6 @@ textarea.form-control.is-invalid {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 .py-4 {
@@ -5842,12 +5846,12 @@ textarea.form-control.is-invalid {
   font-family: League Spartan;
 }
 
-.font-firasans {
-  font-family: Fira Sans;
-}
-
 .font-ch {
   font-family: Cooper Hewitt;
+}
+
+.font-firasans {
+  font-family: Fira Sans;
 }
 
 .text-4xl {
@@ -5865,9 +5869,9 @@ textarea.form-control.is-invalid {
   line-height: 1;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -5875,9 +5879,9 @@ textarea.form-control.is-invalid {
   line-height: 1.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-3xl {
@@ -5903,6 +5907,11 @@ textarea.form-control.is-invalid {
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-\[15px\] {
@@ -5970,14 +5979,14 @@ textarea.form-control.is-invalid {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-blue-400 {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
 .text-firebirds-background-200 {
@@ -6290,7 +6299,6 @@ textarea.form-control.is-invalid {
 .logo-section {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6298,16 +6306,46 @@ textarea.form-control.is-invalid {
   align-items: center;
 }
 
-.logo-square {
-  height: 12rem;
+@media (min-width: 1024px) {
+  .logo-section {
+    margin-top: 3rem;
+  }
 }
 
-.logo-short-rect {
-  width: 18rem;
+@media (min-width: 640px) {
+  .logo-square {
+    height: 9rem;
+  }
 }
 
-.logo-long-rect {
-  width: 24rem;
+@media (min-width: 1024px) {
+  .logo-square {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .logo-short-rect {
+    width: 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-short-rect {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .logo-long-rect {
+    width: 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-long-rect {
+    width: 24rem;
+  }
 }
 
 .logo {
@@ -6316,17 +6354,22 @@ textarea.form-control.is-invalid {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   padding: 1rem;
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 500ms;
 }
 
-.logo:hover {
-  transform-origin: center;
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  border-color: transparent;
+@media (min-width: 1024px) {
+  .logo {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+  }
+
+  .logo:hover {
+    transform-origin: center;
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-color: transparent;
+  }
 }
 
 .sponsor-row {
@@ -6349,15 +6392,30 @@ textarea.form-control.is-invalid {
 }
 
 .sponsor-heading-1 {
-  margin-left: 3rem;
-  margin-right: 1rem;
   width: 5rem;
   font-family: Cooper Hewitt;
-  font-size: 3rem;
-  line-height: 1;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sponsor-heading-1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sponsor-heading-1 {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 .h-line {
@@ -7123,6 +7181,37 @@ textarea.form-control.is-invalid {
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
@@ -7177,6 +7266,10 @@ textarea.form-control.is-invalid {
     left: 0px;
   }
 
+  .lg\:m-12 {
+    margin: 3rem;
+  }
+
   .lg\:mx-28 {
     margin-left: 7rem;
     margin-right: 7rem;
@@ -7195,6 +7288,10 @@ textarea.form-control.is-invalid {
     height: 100vh;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -7208,5 +7305,15 @@ textarea.form-control.is-invalid {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }

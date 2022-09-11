@@ -97,22 +97,25 @@
   flex-wrap 
   items-center 
   mx-auto 
-  mt-12
+  lg:mt-12
 }
 
 .logo-square{
   @apply 
-  h-48
+  sm:h-36
+  lg:h-48
 }
 
 .logo-short-rect{
   @apply
-  w-72
+  sm:w-48
+  lg:w-72
 }
 
 .logo-long-rect{
   @apply
-  w-96
+  sm:w-48
+  lg:w-96
 }
 
 .logo{
@@ -120,11 +123,11 @@
   mx-6
   my-5
   p-4
-  transition-transform
-  duration-500
-  hover:border-transparent
-  hover:scale-110
-  hover:origin-center;
+  lg:transition-transform
+  lg:duration-500
+  lg:hover:border-transparent
+  lg:hover:scale-110
+  lg:hover:origin-center;
 }
 
 .sponsor-row{
@@ -149,9 +152,12 @@
   text-black 
   font-ch 
   font-bold
-  ml-12
-  mr-4 
-  text-5xl
+  sm:mx-auto
+  sm:mt-8
+  lg:ml-12
+  lg:mr-4
+  sm:text-4xl
+  lg:text-5xl
   w-20;
 }
 
