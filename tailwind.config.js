@@ -1,7 +1,7 @@
 module.exports = {
-    content: ['./public/*{html,js,css}',
-        './public/Mockup/*{html,js,css}',
-        './img/*{svg,jpg}'
+    content: ['./public/*{html,js,css,txt}',
+        './public/Mockup/*{html,js,css,txt}',
+        './img/*{svg,jpg,txt}'
     ],
     theme: {
         
