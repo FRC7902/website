@@ -3,7 +3,7 @@
         hidden md:flex fixed md:relative h-screen py-6 md:pb-12">
 
         <!-- nav -->
-        <nav class="font-semibold text-white content-center flex flex-col">
+        <nav class="font-semibold text-white content-center flex flex-col max-h-[800px]">
 
             <!-- logo -->
             <a href="/" class="pl-4 pr-28 pb-10 pt-28 md:pt-10 flex mx-5">

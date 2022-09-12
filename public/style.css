@@ -4601,6 +4601,10 @@ textarea.form-control.is-invalid {
   height: 25%;
 }
 
+.max-h-\[800px\] {
+  max-height: 800px;
+}
+
 .max-h-full {
   max-height: 100%;
 }
