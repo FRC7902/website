@@ -6599,8 +6599,8 @@ textarea.form-control.is-invalid {
   padding-bottom: 2.5rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pl-2 {
@@ -6635,16 +6635,16 @@ textarea.form-control.is-invalid {
   padding-top: 4rem;
 }
 
+.pt-28 {
+  padding-top: 7rem;
+}
+
 .pr-16 {
   padding-right: 4rem;
 }
 
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pr-0 {
