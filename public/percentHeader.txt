@@ -1,17 +1,17 @@
 <header class="z-10 sidebar bg-firebirds-background-200 text-white 
-        w-56  md:w-64 
+        w-56  md:w-64
         hidden md:flex fixed md:relative h-screen py-6 md:pb-12">
 
     <!-- nav -->
-    <nav class="font-semibold text-white content-center flex flex-col pb-12 max-h-[800px]">
+    <nav class="font-semibold text-white content-center flex flex-col pb-12 max-h-[1000px] mx-2">
 
         <!-- logo -->
-        <a href="/" class="pr-28 pl-8 mb-10 mt-20 md:mt-10 flex h-[14%]">
+        <a href="/" class="pl-8 mb-10 mt-20 md:mt-10 flex h-[12%]">
             <img src="/img/LogoIcon.svg" alt="" class="cursor-pointer">
         </a>
 
         <!-- Logo text -->
-        <a href="/" class="pl-8 py-4 flex pr-8 h-1/6">
+        <a href="/" class="pl-8 py-4 flex pr-16 h-1/6">
             <img src="/img/LogoTextLeftWhite.svg" alt="" class="cursor-pointer">
         </a>
 
