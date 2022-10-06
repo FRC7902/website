@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="104.98127mm"
-   height="54.561111mm"
+   width="90.483536mm"
+   height="43.607937mm"
    version="1.1"
-   viewBox="0 0 104.98127 54.561113"
+   viewBox="0 0 90.483536 43.607938"
    id="svg7171"
    sodipodi:docname="LogoTextLeftWhite.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    inkscape:export-filename="C:\Users\argon\Downloads\DarkBlueLockup.png"
    inkscape:export-xdpi="329.99524"
    inkscape:export-ydpi="329.99524"
@@ -26,12 +26,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.0183535"
-     inkscape:cx="39.77008"
-     inkscape:cy="87.886967"
-     inkscape:window-width="1920"
-     inkscape:window-height="1051"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:cx="11.292739"
+     inkscape:cy="66.283466"
+     inkscape:window-width="1440"
+     inkscape:window-height="878"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg7171" />
   <defs
@@ -269,7 +269,8 @@
   <g
      aria-label="FRC 7902"
      id="text6211-1-8-9-4-4-8-5-7"
-     style="font-size:12.8938px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';letter-spacing:0px;fill:#ffffff;stroke-width:0.322346">
+     style="font-size:12.8938px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';letter-spacing:0px;fill:#ffffff;stroke-width:0.322346"
+     transform="translate(-7.5490868,-5.6426576)">
     <path
        d="M 7.5490868,5.7973832 H 12.100598 V 6.9642721 H 8.8513606 V 9.4592223 H 11.874957 V 10.619664 H 8.8513606 v 3.687627 H 7.5490868 Z"
        style="font-weight:500;font-family:'League Spartan';-inkscape-font-specification:'League Spartan, Medium'"
@@ -296,10 +297,10 @@
        id="path5455" />
   </g>
   <g
-     aria-label="MARKHAM
-FIREBIRDS"
+     aria-label="MARKHAM FIREBIRDS"
      id="text6211-2-1-6-3-0-5-9-8-8"
-     style="font-size:20.5799px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';letter-spacing:0.133479px;fill:#ffffff;stroke-width:0.514504">
+     style="font-size:20.5799px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';letter-spacing:0.133479px;fill:#ffffff;stroke-width:0.514504"
+     transform="translate(-7.5490868,-5.6426576)">
     <path
        d="m 21.183271,18.036711 v 13.582735 h -2.541618 v -8.715588 l 0.11319,-1.965381 -0.463048,2.23292 -2.675387,7.480793 H 13.10566 l -2.665097,-7.480793 -0.4630479,-2.23292 0.1234789,1.965381 v 8.715588 H 7.5490868 V 18.036711 H 11.08883 l 3.107565,9.693134 0.164639,0.926095 0.164639,-0.926095 3.128145,-9.693134 z"
        id="path5458" />
