@@ -1,5 +1,5 @@
 <header class="z-10 sidebar bg-firebirds-background-200 text-white 
-        w-3/5  md:w-64 overflow-clip
+        w-3/5 md:w-72 overflow-clip
         hidden md:flex fixed md:relative h-screen py-6 md:pb-12">
 
     <!-- nav -->
