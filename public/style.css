@@ -4565,12 +4565,12 @@ textarea.form-control.is-invalid {
   height: 60%;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .h-3 {
   height: 0.75rem;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .h-auto {
@@ -4707,22 +4707,22 @@ textarea.form-control.is-invalid {
   width: 40%;
 }
 
-.w-3\/5 {
-  width: 60%;
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-fit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-3\/5 {
+  width: 60%;
 }
 
 .w-2 {
