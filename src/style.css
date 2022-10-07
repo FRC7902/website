@@ -201,7 +201,7 @@
   w-full 
 
   flex 
-  flex-1 justify-start pl-8 ml-2 self-center
+  flex-1 justify-start pl-8 ml-2 self-center my-0.5
   text-white hover:text-firebirds-blue-mid-900
 
   rounded-r-sm
@@ -255,6 +255,18 @@ bg-slate-100
 .menu-item-visible{
   @apply
   text-blue-400
+}
+
+#aboutPage #menuAbout, 
+#contactPage #menuContact, 
+#sponsorsPage #menuSponsors, 
+#joinPage #menuJoin, 
+#resourcesPage #menuResources {
+  
+  @apply
+text-firebirds-blue-mid-900
+bg-slate-100
+  translate-x-2;
 }
 
 @font-face {

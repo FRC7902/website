@@ -1,9 +1,10 @@
-<header class="z-10 sidebar bg-firebirds-background-200 text-white 
+<header id = "header" class="z-10 sidebar bg-firebirds-background-200 text-white 
         w-3/5 md:w-72 overflow-clip
         hidden md:flex fixed md:relative h-screen py-6 md:pb-12">
 
     <!-- nav -->
-    <nav class="font-semibold text-white content-center flex flex-col pb-12 max-h-[1000px] mx-2">
+    <nav class="font-semibold text-white content-center flex flex-col pb-12 max-h-[1800px] mx-2"
+    id = "navigation"> 
 
         <!-- logo -->
         <a href="/" class="pl-8 mb-10 mt-20 md:mt-10 flex h-[12%]">
@@ -11,12 +12,12 @@
         </a>
 
         <!-- Logo text -->
-        <a href="/" class="pl-8 py-4 flex pr-16 h-1/6">
+        <a href="/" class="pl-8 py-4 flex mr-16 h-1/6">
             <img src="/img/LogoTextLeftWhite.svg" alt="" class="cursor-pointer">
         </a>
 
         <!-- Menu items -->
-        <div class="h-3/5 flex flex-col py-4">
+        <div class="h-3/4 flex flex-col py-4">
             <a class="menu-item-2" id="menuAbout" href="about.html">About</a>
             <a class="menu-item-2" id="menuSponsors" href="sponsors.html">Sponsors</a>
             <a class="menu-item-2" id="menuResources" href="resources.html">Resources</a>
@@ -25,10 +26,10 @@
         </div>
 
         <!-- Social Media -->
-        <div class="pl-9 p-4 py-8 flex w-full pr-10 flex-row h-1/6">
+        <div class="pl-8 p-4 py-8 flex w-full pr-10 flex-row h-1/6">
 
             <!-- Instagram -->
-            <div class="mr-6">
+            <div class="mr-7">
                 <a class="flex" target="_blank" href="https://www.instagram.com/frc7902/">
                     <svg class="transition-all fill-current cursor-alias text-white hover:text-firebirds-blue-light-600 w-full"
                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -38,8 +39,9 @@
                     </svg>
                 </a>
             </div>
+
             <!-- Facebook -->
-            <div class="mr-6">
+            <div class="mr-7">
                 <a class="flex" target="_blank" href="https://www.facebook.com/FRC7902">
                     <svg class="transition-colors text-white hover:text-firebirds-blue-light-600 fill-current cursor-alias w-full"
                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -49,8 +51,9 @@
                     </svg>
                 </a>
             </div>
+
             <!-- Linkedin -->
-            <div class="mr-6">
+            <div class="mr-7">
                 <a class="flex" target="_blank" href="https://www.linkedin.com/company/18928744">
                     <svg class="text-white hover:text-firebirds-blue-light-600 fill-current cursor-alias w-full"
                         viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +99,16 @@
                     </svg>
                 </a>
             </div>
+
+            
+
+
         </div>
+        <div class="flex px-8 my-2 font-firasans text-[13px]">
+            <p>team7902@markhamfirebirds.ca</p>
+            
+        </div>
+        
 
     </nav>
 

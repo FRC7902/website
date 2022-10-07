@@ -65,7 +65,7 @@
 
 
 
-<body class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth">
+<body class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth" id = "index">
 
     <span
         class="absolute z-20 text-white top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
@@ -82,15 +82,10 @@
         $(function () {
             $("#nav").load("header.txt");
 
-                
-
         });
-
-
-
     </script>
 
-    <header id="nav" class="flex"  onload="activeMenuItem('about');" ></header>
+    <div id="nav" class="flex"></div>
 
     <main class="flex-1 overflow-y-scroll h-full ">
 
