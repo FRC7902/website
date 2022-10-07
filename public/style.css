@@ -4707,12 +4707,16 @@ textarea.form-control.is-invalid {
   width: 40%;
 }
 
-.w-4\/5 {
-  width: 80%;
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-fit {
@@ -4729,12 +4733,12 @@ textarea.form-control.is-invalid {
   width: 0.5rem;
 }
 
-.w-3 {
-  width: 0.75rem;
-}
-
 .w-4 {
   width: 1rem;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .w-56 {
