@@ -17,11 +17,11 @@
 
         <!-- Menu items -->
         <div class="h-3/5 flex flex-col py-4">
-            <a class="menu-item-2" href="about.html">About</a>
-            <a class="menu-item-2" href="sponsors.html">Sponsors</a>
-            <a class="menu-item-2" href="resources.html">Resources</a>
-            <a class="menu-item-2" href="contact.html">Contact</a>
-            <a class="menu-item-2" href="join.html">Join</a>
+            <a class="menu-item-2" id="menuAbout" href="about.html">About</a>
+            <a class="menu-item-2" id="menuSponsors" href="sponsors.html">Sponsors</a>
+            <a class="menu-item-2" id="menuResources" href="resources.html">Resources</a>
+            <a class="menu-item-2" id="menuContact" href="contact.html">Contact</a>
+            <a class="menu-item-2" id="menuJoin" href="join.html">Join</a>
         </div>
 
         <!-- Social Media -->

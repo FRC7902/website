@@ -241,12 +241,9 @@
 
 .menu-item-active{
   @apply
-  cursor-pointer
-  h-full
-  bg-slate-100
-  flex items-center 
-  flex-1 justify-center self-center
-  text-firebirds-blue-mid-200
+text-firebirds-blue-mid-900
+bg-slate-100
+  translate-x-2
 }
 
 .menu-item{

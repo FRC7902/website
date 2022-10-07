@@ -9,8 +9,7 @@ RewriteCond %{HTTP_HOST} ^www.staging.markhamfirebirds.ca$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
 
-
 RewriteCond %{HTTP_HOST} ^www.127.0.0.1:5500$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^127.0.0.1:5500$
+RewriteCond %{HTTP_HOST} 127.0.0.1:5500$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
