@@ -69,6 +69,13 @@
     url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
   }
 
+  .bg-img-about {
+    @apply bg-img;
+    background-image:
+    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
+    url('../public/img/CoverImages/CoverAbout.JPG');
+  }
+
 
 
   .text-shadow {
@@ -239,6 +246,36 @@
   rounded-l-sm;
 }
 
+.menu-item-4{
+  @apply cursor-pointer 
+  w-full 
+
+  flex 
+  justify-start self-center
+  text-white
+  py-0.5
+ 
+  font-firasans font-normal
+
+  items-center
+  pl-4 -translate-x-4
+
+  text-base md:text-lg
+
+  border-l-2
+  border-transparent
+  border-spacing-x-2
+
+
+
+  hover:border-firebirds-blue-light-500
+
+  transition-all
+  duration-300;
+
+  vertical-align: central;
+}
+
 .menu-item-active{
   @apply
 text-firebirds-blue-mid-900
@@ -264,9 +301,7 @@ bg-slate-100
 #resourcesPage #menuResources {
   
   @apply
-text-firebirds-blue-mid-900
-bg-slate-100
-  translate-x-2;
+  border-firebirds-blue-light-500
 }
 
 @font-face {
