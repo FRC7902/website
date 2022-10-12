@@ -2068,6 +2068,14 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -4331,8 +4339,16 @@ textarea.form-control.is-invalid {
   margin-top: 1.5rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mr-7 {
@@ -4555,10 +4571,6 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
-.h-1\/6 {
-  height: 16.666667%;
-}
-
 .h-\[15\%\] {
   height: 15%;
 }
@@ -4593,6 +4605,10 @@ textarea.form-control.is-invalid {
 
 .h-\[12\%\] {
   height: 12%;
+}
+
+.h-1\/6 {
+  height: 16.666667%;
 }
 
 .h-3\/5 {
@@ -4791,10 +4807,6 @@ textarea.form-control.is-invalid {
   width: 60%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .w-2 {
   width: 0.5rem;
 }
@@ -4805,6 +4817,10 @@ textarea.form-control.is-invalid {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .w-min {
@@ -5234,6 +5250,11 @@ textarea.form-control.is-invalid {
 
 .scroll-m-1 {
   scroll-margin: 0.25rem;
+}
+
+.-scroll-my-4 {
+  scroll-margin-top: -1rem;
+  scroll-margin-bottom: -1rem;
 }
 
 .list-inside {
@@ -7801,6 +7822,10 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-home {
+  margin-bottom: 4rem;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7815,6 +7840,10 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-about {
+  margin-bottom: 4rem;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7832,6 +7861,10 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-contact {
+  margin-bottom: 4rem;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8192,9 +8225,10 @@ textarea.form-control.is-invalid {
 
 h3 {
   display: flex;
-  height: 100%;
   align-items: center;
   justify-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   font-size: 3rem;
   line-height: 1;
   text-transform: uppercase;
