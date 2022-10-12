@@ -317,7 +317,7 @@ bg-slate-100
   border-firebirds-blue-light-500
 }
 
-h1 {
+h3 {
   @apply justify-center items-center h-full flex uppercase text-5xl md:text-6xl text-white text-shadow-md;
 }
 

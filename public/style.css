@@ -8190,7 +8190,7 @@ textarea.form-control.is-invalid {
   border-color: rgb(140 236 248 / var(--tw-border-opacity));
 }
 
-h1 {
+h3 {
   display: flex;
   height: 100%;
   align-items: center;
@@ -8204,7 +8204,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  h1 {
+  h3 {
     font-size: 3.75rem;
     line-height: 1;
   }
