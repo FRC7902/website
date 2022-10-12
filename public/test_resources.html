@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth duration-1000 transition-all">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
+    <!-- Icons -->
+    <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
+
+    <!-- Sidebar menu for mobile -->
+    <script src="./scripts/menu.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"> </script>
+
+    <!-- Scroll TODO - add to JS file and make adaptable for any ID -->
+    <script type="text/javascript">
+        function dropdown() {
+            document.querySelector("#submenu").classList.toggle("hidden");
+            document.querySelector("#arrow").classList.toggle("rotate-0");
+        }
+        dropdown();
+
+        // Smooth scroll
+        function scrollFunction1() {
+            let e = document.getElementById("maincontent");
+            e.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+                inline: 'start'
+            });
+        }
+        function scrollFunction2() {
+            let e = document.getElementById("el2");
+            // This ends the block to the window 
+            // bottom and also aligns the view to the center 
+            e.scrollIntoView({
+                block: 'end',
+                behavior: 'smooth',
+                inline: 'center'
+            });
+        }
+    </script>
+
+    <title>Menu</title>
+</head>
+
+
+
+
+<body class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth" id="resourcesPage">
+
+    <span
+        class="absolute z-20 text-white text-4xl top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
+        onclick="openSidebar()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-white m-2" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+
+    </span>
+
+    <!-- Navbar (from text file)-->
+    <script>
+        $(function () {
+            $("#nav").load("header.txt");
+        });
+    </script>
+    <header id="nav" class="flex"></header>
+
+    <!-- form -->
+
+    <body>
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScGFXBqfwJ4qFCFETMpJz6CNJW4DyFNTGAvonPFoxJLTxQK2Q/viewform?embedded=true"
+            width="1240" height="725" frameborder="10" marginheight="15" marginwidth="10">Loading…</iframe>
+    </body>
+</body>
+<body>
+    <iframe
+        src="https://drive.google.com/drive/folders/1-oZhcOuwGy4z612nHSmP8docuf1BJy4r?usp=sharing"
+        width="640" height="325" frameborder="10" marginheight="15" marginwidth="10">Loading…</iframe>
+</body>
+</html>
+
+
