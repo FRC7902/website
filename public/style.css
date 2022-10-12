@@ -6630,6 +6630,10 @@ textarea.form-control.is-invalid {
   fill: currentColor;
 }
 
+.fill-orange-500 {
+  fill: #f97316;
+}
+
 .fill-red-600 {
   fill: #dc2626;
 }
@@ -6879,10 +6883,6 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.875rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pl-8 {
   padding-left: 2rem;
 }
@@ -6897,6 +6897,10 @@ textarea.form-control.is-invalid {
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .pr-16 {
@@ -7308,6 +7312,11 @@ textarea.form-control.is-invalid {
 .text-blue-400 {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+.text-orange-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
 }
 
 .text-firebirds-background-200 {
@@ -8210,6 +8219,12 @@ textarea.form-control.is-invalid {
   vertical-align: central;
 }
 
+.mobile-footer{
+  padding-bottom: calc(1em + env(safe-area-inset-bottom));
+  /* adds the safe-area-inset-bottom value to the initial 1em of padding.
+    a larger black area will display for a device that has a positive value for this variable. */
+}
+
 .menu-item-active {
   --tw-translate-x: 0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -9015,5 +9030,11 @@ h3 {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+}
+
+@media (max-height: 600px) {
+  .hPhone\:hidden {
+    display: none;
   }
 }

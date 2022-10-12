@@ -293,6 +293,12 @@
   vertical-align: central;
 }
 
+.mobile-footer{
+    padding-bottom: calc(1em + env(safe-area-inset-bottom));
+    /* adds the safe-area-inset-bottom value to the initial 1em of padding.
+    a larger black area will display for a device that has a positive value for this variable. */
+}
+
 .menu-item-active{
   @apply
 text-firebirds-blue-mid-900

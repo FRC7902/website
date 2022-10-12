@@ -14,6 +14,10 @@ module.exports = {
                 firasans: ['Fira Sans'],
             },
 
+            screens: {
+                'hPhone': {'raw': '(max-height: 600px)'},
+            },
+
             colors: {
                 "blue-custom": "#b2efe0",
                 firebirds: {
