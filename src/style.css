@@ -72,8 +72,21 @@
   .bg-img-about {
     @apply bg-img;
     background-image:
-    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('../public/img/CoverImages/CoverAbout.JPG');
+    linear-gradient(to right, 
+    rgb(23, 34, 55) 0%, 
+    rgba(23, 34, 55, 0.99) 2%,  
+    rgba(23, 34, 55, 0.5) 100%),
+    url('../public/img/CoverImages/CoverAbout.webp');
+  }
+
+  .bg-img-contact {
+    @apply bg-img;
+    background-image:
+    linear-gradient(to right, 
+    rgb(23, 34, 55) 0%, 
+    rgba(23, 34, 55, 0.99) 2%,  
+    rgba(23, 34, 55, 0.5) 100%),
+    url('../public/img/CoverImages/CoverContact.JPG');
   }
 
 
@@ -302,6 +315,10 @@ bg-slate-100
   
   @apply
   border-firebirds-blue-light-500
+}
+
+h1 {
+  @apply justify-center items-center h-full flex uppercase text-5xl md:text-6xl text-white text-shadow-md;
 }
 
 @font-face {

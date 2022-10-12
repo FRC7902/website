@@ -4148,10 +4148,6 @@ textarea.form-control.is-invalid {
   margin: 0.5rem;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .m-4 {
   margin: 1rem;
 }
@@ -4162,6 +4158,10 @@ textarea.form-control.is-invalid {
 
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .m-1 {
@@ -4567,8 +4567,12 @@ textarea.form-control.is-invalid {
   height: 10%;
 }
 
-.h-\[60\%\] {
-  height: 60%;
+.h-\[62\%\] {
+  height: 62%;
+}
+
+.h-\[8\%\] {
+  height: 8%;
 }
 
 .h-\[5\%\] {
@@ -4693,12 +4697,28 @@ textarea.form-control.is-invalid {
   max-height: 800px;
 }
 
+.max-h-8 {
+  max-height: 2rem;
+}
+
 .max-h-\[1000px\] {
   max-height: 1000px;
 }
 
 .max-h-full {
   max-height: 100%;
+}
+
+.max-h-6 {
+  max-height: 1.5rem;
+}
+
+.max-h-12 {
+  max-height: 3rem;
+}
+
+.max-h-4 {
+  max-height: 1rem;
 }
 
 .max-h-min {
@@ -4741,10 +4761,6 @@ textarea.form-control.is-invalid {
   width: 2rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .w-2\/5 {
   width: 40%;
 }
@@ -4773,6 +4789,10 @@ textarea.form-control.is-invalid {
 
 .w-3\/5 {
   width: 60%;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .w-2 {
@@ -4871,8 +4891,16 @@ textarea.form-control.is-invalid {
   min-width: fit-content;
 }
 
-.max-w-\[80\%\] {
-  max-width: 80%;
+.max-w-\[256px\] {
+  max-width: 256px;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .max-w-full {
@@ -6655,16 +6683,16 @@ textarea.form-control.is-invalid {
      object-position: center;
 }
 
-.p-16 {
-  padding: 4rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .p-12 {
   padding: 3rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-16 {
+  padding: 4rem;
 }
 
 .p-10 {
@@ -7059,11 +7087,6 @@ textarea.form-control.is-invalid {
   line-height: 2.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -7086,6 +7109,11 @@ textarea.form-control.is-invalid {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-2xl {
@@ -7122,16 +7150,16 @@ textarea.form-control.is-invalid {
   font-size: 15px;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-light {
   font-weight: 300;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-normal {
@@ -7796,8 +7824,28 @@ textarea.form-control.is-invalid {
   image-rendering: pixelated;
   position: relative;
   background-image:
-    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('../public/img/CoverImages/CoverAbout.JPG');
+    linear-gradient(to right, 
+    rgb(23, 34, 55) 0%, 
+    rgba(23, 34, 55, 0.99) 2%,  
+    rgba(23, 34, 55, 0.5) 100%),
+    url('../public/img/CoverImages/CoverAbout.webp');
+}
+
+.bg-img-contact {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  position: relative;
+  background-image:
+    linear-gradient(to right, 
+    rgb(23, 34, 55) 0%, 
+    rgba(23, 34, 55, 0.99) 2%,  
+    rgba(23, 34, 55, 0.5) 100%),
+    url('../public/img/CoverImages/CoverContact.JPG');
 }
 
 .text-shadow {
@@ -8140,6 +8188,26 @@ textarea.form-control.is-invalid {
 #resourcesPage #menuResources {
   --tw-border-opacity: 1;
   border-color: rgb(140 236 248 / var(--tw-border-opacity));
+}
+
+h1 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-shadow: 0 4px 8px rgba(0,0,0,0.48), 0 2px 4px rgba(0,0,0,0.32);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @font-face {
@@ -8783,6 +8851,10 @@ textarea.form-control.is-invalid {
 
   .md\:w-72 {
     width: 18rem;
+  }
+
+  .md\:max-w-\[80\%\] {
+    max-width: 80%;
   }
 
   .md\:grid-cols-2 {
