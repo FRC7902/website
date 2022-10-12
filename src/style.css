@@ -54,7 +54,7 @@
 
   .bg-img {
     @apply shadow-2xl
-    mb-16;
+    mb-12;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@
     @apply bg-img;
     background-image:
     linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
+    url('../public/img/CoverImages/WebsiteCover.webp');
   }
 
   .bg-img-about {
@@ -89,7 +89,7 @@
     rgb(23, 34, 55) 0%, 
     rgba(23, 34, 55, 0.99) 2%,  
     rgba(23, 34, 55, 0.5) 100%),
-    url('../public/img/CoverImages/CoverContact.JPG');
+    url('../public/img/CoverImages/CoverContact.webp');
   }
 
 
@@ -276,7 +276,8 @@
   items-center
   pl-4 -translate-x-4
 
-  text-base md:text-lg
+  text-sm
+  sm:text-base md:text-lg
 
   border-l-2
   border-transparent
@@ -322,7 +323,7 @@ bg-slate-100
 
 h3 {
   @apply justify-center 
-  items-center py-10 flex uppercase text-5xl 
+  items-center py-12 flex uppercase text-5xl 
   md:text-6xl 
   text-white text-shadow-md;
 }

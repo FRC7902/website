@@ -4224,9 +4224,14 @@ textarea.form-control.is-invalid {
   margin-right: 0.5rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mx-12 {
@@ -4244,9 +4249,9 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.25rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-auto {
@@ -4267,11 +4272,6 @@ textarea.form-control.is-invalid {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .my-20 {
@@ -4297,10 +4297,6 @@ textarea.form-control.is-invalid {
 .mx-28 {
   margin-left: 7rem;
   margin-right: 7rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mt-20 {
@@ -4343,8 +4339,20 @@ textarea.form-control.is-invalid {
   margin-bottom: 0px;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
 }
 
 .mb-1 {
@@ -4381,10 +4389,6 @@ textarea.form-control.is-invalid {
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-1 {
@@ -4575,12 +4579,16 @@ textarea.form-control.is-invalid {
   height: 15%;
 }
 
+.h-\[13\%\] {
+  height: 13%;
+}
+
 .h-\[10\%\] {
   height: 10%;
 }
 
-.h-\[62\%\] {
-  height: 62%;
+.h-\[63\%\] {
+  height: 63%;
 }
 
 .h-\[8\%\] {
@@ -6766,11 +6774,6 @@ textarea.form-control.is-invalid {
   padding-bottom: 1.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -6784,6 +6787,11 @@ textarea.form-control.is-invalid {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-8 {
@@ -7822,7 +7830,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-home {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -7836,11 +7844,11 @@ textarea.form-control.is-invalid {
   position: relative;
   background-image:
     linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('https://media.discordapp.net/attachments/612345027951329303/988627835059064992/WebsiteCover.JPG');
+    url('../public/img/CoverImages/WebsiteCover.webp');
 }
 
 .bg-img-about {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -7861,7 +7869,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-contact {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -7878,7 +7886,7 @@ textarea.form-control.is-invalid {
     rgb(23, 34, 55) 0%, 
     rgba(23, 34, 55, 0.99) 2%,  
     rgba(23, 34, 55, 0.5) 100%),
-    url('../public/img/CoverImages/CoverContact.JPG');
+    url('../public/img/CoverImages/CoverContact.webp');
 }
 
 .text-shadow {
@@ -8169,8 +8177,8 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.125rem;
   padding-left: 1rem;
   font-family: Fira Sans;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -8182,6 +8190,13 @@ textarea.form-control.is-invalid {
 .menu-item-4:hover {
   --tw-border-opacity: 1;
   border-color: rgb(140 236 248 / var(--tw-border-opacity));
+}
+
+@media (min-width: 640px) {
+  .menu-item-4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -8227,8 +8242,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 3rem;
   line-height: 1;
   text-transform: uppercase;
@@ -8869,6 +8884,11 @@ h3 {
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
+  }
+
+  .md\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .md\:mt-10 {
