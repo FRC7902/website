@@ -92,8 +92,6 @@
     url('../public/img/CoverImages/CoverContact.webp');
   }
 
-
-
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0,0,0,0.4);
   }
@@ -110,6 +108,30 @@
     text-shadow: none;
   }
   
+}
+
+.hidden {
+  display: hidden;
+}
+
+.animate__animated.fadeOut {
+  --animate-duration: 2s;
+  @apply
+  lg:transition-transform
+  /* lg:duration-500 */
+  lg:hover:border-transparent
+  lg:hover:scale-110
+  lg:hover:origin-center;
+}
+
+.animate__animated.fadeIn {
+  --animate-duration: 2s;
+  @apply
+  lg:transition-transform
+  /* lg:duration-500 */
+  lg:hover:border-transparent
+  lg:hover:scale-110
+  lg:hover:origin-center;
 }
 
 .logo-section{

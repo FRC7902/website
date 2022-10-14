@@ -4623,8 +4623,16 @@ textarea.form-control.is-invalid {
   height: 60%;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .h-3 {
   height: 0.75rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-auto {
@@ -4691,10 +4699,6 @@ textarea.form-control.is-invalid {
 
 .h-2 {
   height: 0.5rem;
-}
-
-.h-10 {
-  height: 2.5rem;
 }
 
 .h-32 {
@@ -7912,6 +7916,50 @@ textarea.form-control.is-invalid {
 
 .text-shadow-none {
   text-shadow: none;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.animate__animated.fadeOut {
+  --animate-duration: 2s;
+}
+
+@media (min-width: 1024px) {
+  .animate__animated.fadeOut {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .animate__animated.fadeOut:hover {
+    transform-origin: center;
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-color: transparent;
+  }
+}
+
+.animate__animated.fadeIn {
+  --animate-duration: 2s;
+}
+
+@media (min-width: 1024px) {
+  .animate__animated.fadeIn {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .animate__animated.fadeIn:hover {
+    transform-origin: center;
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-color: transparent;
+  }
 }
 
 .logo-section {

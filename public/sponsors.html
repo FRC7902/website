@@ -11,6 +11,13 @@
     <!-- Icons -->
     <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
 
+    <!-- Animations -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="./scripts/intersection.js"></script>
+    
     <!-- Sidebar menu for mobile -->
     <script src="./scripts/menu.js"></script>
 
@@ -72,7 +79,7 @@
                 </h3>
             </div>
 
-            <div class="flex place-content-center flex-col px-16 mx-auto">
+            <div class="flex place-content-center flex-col px-16 mx-auto fade-anim-wrapper">
 
                 <div class="flex place-content-center flex-col p-12 mx-auto">
                     <p class="text-center text-sm lg:text-lg text-black font-ch font-medium">
@@ -93,16 +100,15 @@
 
                 <!-- Title Sponsors -->
                 <div class="flex flex-col lg:flex-row sponsor-row">
-                    <h1 class="sponsor-heading-1">TITLE</h1>
+                    <h1 class="sponsor-heading-1 tiers-pulse">TITLE</h1>
                     <div class="logo-section flex-row">
                         <a href="https://sablemetal.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/sable-Logo.png" class="logo logo-short-rect"></img>
+                            <img src="./img/SponsorLogos/sable-Logo.png" class="logo logo-short-rect logo-fade logo-fade"></img>
                         </a>
                         <a href="https://igentechnologies.ca/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/iGEN Technologies Inc - Logo - For Distribution.png"
-                                class="logo logo-short-rect"></img>
+                            <img src="./img/SponsorLogos/iGEN Technologies Inc - Logo - For Distribution.png" class="logo logo-short-rect logo-fade"></img>
                         </a>
                     </div>
                 </div>
@@ -111,25 +117,23 @@
 
                 <!-- Blaze Sponsors -->
                 <div class="flex flex-col lg:flex-row sponsor-row">
-                    <h1 class="sponsor-heading-1">BLAZE</h1>
+                    <h1 class="sponsor-heading-1 tiers-pulse">BLAZE</h1>
                     <div class="logo-section">
                         <a href="https://www.firstroboticscanada.org/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/FIRSTRegionHorz_Canada.png" class="logo logo-long-rect"></img>
+                            <img src="./img/SponsorLogos/FIRSTRegionHorz_Canada.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                         <a href="https://www.honda.ca/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/honda-logo-1700x1150.png" class="logo logo-square"></img>
+                            <img src="./img/SponsorLogos/honda-logo-1700x1150.png" class="logo logo-square logo-fade"></img>
                         </a>
                         <a href="https://www.argosyfnd.org/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/ArgosyFoundation_Logo_Color.png"
-                                class="logo logo-short-rect"></img>
+                            <img src="./img/SponsorLogos/ArgosyFoundation_Logo_Color.png" class="logo logo-short-rect logo-fade"></img>
                         </a>
                         <a href="https://www.futurecom.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/Futurecom Systems Group, ULC.png"
-                                class="logo logo-long-rect"></img>
+                            <img src="./img/SponsorLogos/Futurecom Systems Group, ULC.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                     </div>
                 </div>
@@ -138,23 +142,22 @@
 
                 <!-- Flame Sponsors -->
                 <div class="flex flex-col lg:flex-row sponsor-row">
-                    <h1 class="sponsor-heading-1">FLAME</h1>
+                    <h1 class="sponsor-heading-1 tiers-pulse">FLAME</h1>
                     <div class="logo-section">
                         <a href="https://gflenv.com/our-services/for-business/infrastructure/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/GFL Infrastructure Logo.png"
-                                class="logo logo-short-rect"></img>
+                            <img src="./img/SponsorLogos/GFL Infrastructure Logo.png" class="logo logo-short-rect logo-fade"></img>
                         </a>
                         <a href="https://boxgrovedental.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/boxgrovedental.png" class="logo logo-long-rect"></img>
+                            <img src="./img/SponsorLogos/boxgrovedental.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                         <a href="https://neurocorephysiotherapy.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/neurocore.png" class="logo logo-square"></img>
+                            <img src="./img/SponsorLogos/neurocore.png" class="logo logo-square logo-fade"></img>
                         </a>
-                        <h1 class="text-2xl lg:text-5xl logo text-black font-ch font-light">BHATIA FAMILY</h1>
-                        <h1 class="text-2xl lg:text-5xl logo text-black font-ch font-light">LIU FAMILY</h1>
+                        <h1 class="text-2xl lg:text-5xl logo text-black font-ch font-light logo-fade">BHATIA FAMILY</h1>
+                        <h1 class="text-2xl lg:text-5xl logo text-black font-ch font-light logo-fade">LIU FAMILY</h1>
                     </div>
                 </div>
 
@@ -162,16 +165,14 @@
 
                 <!-- Flare Sponsors -->
                 <div class="flex flex-col lg:flex-row sponsor-row">
-                    <h1 class="sponsor-heading-1">FLARE</h1>
+                    <h1 class="sponsor-heading-1 tiers-pulse">FLARE</h1>
                     <div class="logo-section">
                         <a href="https://www.stickergiant.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/StickerGiant-Flame-Logo-SVG-2017.svg"
-                                class="logo logo-square"></img>
+                            <img src="./img/SponsorLogos/StickerGiant-Flame-Logo-SVG-2017.svg" class="logo logo-square logo-fade"></img>
                         </a>
                         <a href="http://www.lakeharbourcanada.com/" target="_blank"
-                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/lake-harbour.png" class="logo logo-long-rect"></img>
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias"> <img src="./img/SponsorLogos/lake-harbour.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                     </div>
                 </div>
@@ -180,30 +181,34 @@
 
                 <!-- Spark Sponsors -->
                 <div class="flex flex-col lg:flex-row sponsor-row">
-                    <h1 class="sponsor-heading-1">SPARK</h1>
+                    <h1 class="sponsor-heading-1 tiers-pulse">SPARK</h1>
                     <div class="logo-section">
                         <a href="https://www.promopays.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/PromoPays-CircleLogo-NoBG.png" class="logo logo-square"></img>
+                            <img src="./img/SponsorLogos/PromoPays-CircleLogo-NoBG.png" class="logo logo-square logo-fade"></img>
                         </a>
                         <a href="https://www.princessauto.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/Princess+Auto+Logo+01.png" class="logo logo-long-rect"></img>
+                            <img src="./img/SponsorLogos/Princess+Auto+Logo+01.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                         <a href="https://www.markhamtrophy.ca/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/Markham-trophy.png" class="logo logo-long-rect"></img>
+                            <img src="./img/SponsorLogos/Markham-trophy.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                         <a href="https://www.metalsupermarkets.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/Metal-Supermarkets-Logo.png" class="logo logo-long-rect"></img>
+                            <img src="./img/SponsorLogos/Metal-Supermarkets-Logo.png" class="logo logo-long-rect logo-fade"></img>
                         </a>
                         <a href="https://cloud3dprint.com/" target="_blank"
                             class="hover:to-firebirds-blue-mid-100 cursor-alias">
-                            <img src="./img/SponsorLogos/C3DPBlack_S.svg" class="logo logo-square"></img>
+                            <img src="./img/SponsorLogos/C3DPBlack_S.svg" class="logo logo-square logo-fade"></img>
                         </a>
                     </div>
                 </div>
+
+                <!-- <div>
+                    <p class="h-48"></p>
+                </div> -->
             </div>
     </div>
     </main>

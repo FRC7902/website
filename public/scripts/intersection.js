@@ -1,66 +1,67 @@
-let menuItem1 = document.querySelector(".menuItem1")
-let menuItem2 = document.querySelector(".menuItem2")
-let menuItem3 = document.querySelector(".menuItem3")
-let menuItem4 = document.querySelector(".menuItem4")
-let menuItem5 = document.querySelector(".menuItem5")
-let section1 = document.querySelector(".section1")
-let section2 = document.querySelector(".section2")
-let section3 = document.querySelector(".section3")
-let section4 = document.querySelector(".section4")
-let section5 = document.querySelector(".section5")
-
 const options = {
-    threshold: 0.35
+    rootMargin: '0px',
+    threshold: 0.4
 }
 
-const sectionObserver1 = new IntersectionObserver(function(entries, sectionObserver1) {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            menuItem1.classList.add("menu-item-visible");
-        } else {
-            menuItem1.classList.remove("menu-item-visible")
-        }
-    })
-}, options)
-const sectionObserver2 = new IntersectionObserver(function(entries, sectionObserver1) {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            menuItem2.classList.add("menu-item-visible");
-        } else {
-            menuItem2.classList.remove("menu-item-visible")
-        }
-    })
-}, options)
-const sectionObserver3 = new IntersectionObserver(function(entries, sectionObserver1) {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            menuItem3.classList.add("menu-item-visible");
-        } else {
-            menuItem3.classList.remove("menu-item-visible")
-        }
-    })
-}, options)
-const sectionObserver4 = new IntersectionObserver(function(entries, sectionObserver1) {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            menuItem4.classList.add("menu-item-visible");
-        } else {
-            menuItem4.classList.remove("menu-item-visible")
-        }
-    })
-}, options)
-const sectionObserver5 = new IntersectionObserver(function(entries, sectionObserver1) {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            menuItem5.classList.add("menu-item-visible");
-        } else {
-            menuItem5.classList.remove("menu-item-visible")
-        }
-    })
-}, options)
+var observer = new IntersectionObserver(observerCallback, options);
 
-sectionObserver1.observe(section1)
-sectionObserver2.observe(section2)
-sectionObserver3.observe(section3)
-sectionObserver4.observe(section4)
-sectionObserver5.observe(section5)
+function observerCallback(entries, observer) {
+    entries.forEach(entry => {
+        // in view
+        if(entry.isIntersecting) {
+            entry.target.classList.add('animate__animated')
+
+            // sponsor logos
+            if (entry.target.classList.contains('logo')) {
+                if (entry.target.classList.contains('animate__fadeOut')) {
+                    entry.target.classList.remove('animate__fadeOut')
+                }
+                if (!(entry.target.classList.contains('animate__fadeIn'))) {
+                    entry.target.classList.add('animate__fadeIn')
+                }
+            }
+            // sponsor tier headings
+            else if (entry.target.classList.contains('sponsor-heading-1')) {
+                if (!(entry.target.classList.contains('animate__fadeInLeft'))) {
+                    entry.target.classList.remove('animate__fadeOut')
+                    entry.target.classList.add('animate__fadeInLeft')
+                }
+            }
+
+        }
+        // out of view
+        else {
+            // sponsor logos
+            if (entry.target.classList.contains('logo')) {
+                if (entry.target.classList.contains('animate__fadeIn')) {
+                    entry.target.classList.remove('animate__fadeIn')
+                }
+                if (!(entry.target.classList.contains('animate__fadeOut'))) {
+                    entry.target.classList.add('animate__fadeOut')
+                }
+            }
+            // sponsor tier headings
+            else if (entry.target.classList.contains('sponsor-heading-1')) {
+                if (entry.target.classList.contains('animate__fadeInLeft')) {
+                    entry.target.classList.remove('animate__fadeInLeft')
+                    entry.target.classList.add('animate__fadeOut')
+                }
+            }
+        }
+    });
+};
+
+window.onload = function(){
+    document.querySelectorAll('.logo-fade').forEach((i) => {
+        if (i) {
+            observer.observe(i);
+        }
+    });
+
+    document.querySelectorAll('.tiers-pulse').forEach((i) => {
+        if (i) {
+            observer.observe(i);
+        }
+    });
+}
+
