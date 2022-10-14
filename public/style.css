@@ -4214,11 +4214,6 @@ textarea.form-control.is-invalid {
   margin-bottom: 2rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -4252,6 +4247,11 @@ textarea.form-control.is-invalid {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .my-auto {
@@ -4575,10 +4575,6 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
-.h-\[15\%\] {
-  height: 15%;
-}
-
 .h-\[13\%\] {
   height: 13%;
 }
@@ -4715,10 +4711,6 @@ textarea.form-control.is-invalid {
 
 .h-1\/4 {
   height: 25%;
-}
-
-.max-h-\[500px\] {
-  max-height: 500px;
 }
 
 .max-h-\[800px\] {
@@ -4973,14 +4965,6 @@ textarea.form-control.is-invalid {
 
 .grow {
   flex-grow: 1;
-}
-
-.basis-\[15\%\] {
-  flex-basis: 15%;
-}
-
-.basis-\[70\%\] {
-  flex-basis: 70%;
 }
 
 .basis-1 {
@@ -6179,6 +6163,11 @@ textarea.form-control.is-invalid {
   background-color: rgb(19 66 186 / var(--tw-bg-opacity));
 }
 
+.bg-firebirds-background-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 34 53 / var(--tw-bg-opacity));
+}
+
 .bg-red-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
@@ -6192,11 +6181,6 @@ textarea.form-control.is-invalid {
 .bg-teal-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(153 246 228 / var(--tw-bg-opacity));
-}
-
-.bg-firebirds-background-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 34 53 / var(--tw-bg-opacity));
 }
 
 .bg-neutral-700 {
@@ -6772,11 +6756,6 @@ textarea.form-control.is-invalid {
   padding: 0.625rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -6810,6 +6789,11 @@ textarea.form-control.is-invalid {
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-0 {
@@ -6891,10 +6875,6 @@ textarea.form-control.is-invalid {
   padding-left: 2rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -6917,6 +6897,10 @@ textarea.form-control.is-invalid {
 
 .pr-10 {
   padding-right: 2.5rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pt-16 {
@@ -7138,14 +7122,14 @@ textarea.form-control.is-invalid {
   font-size: 13px;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm {
@@ -7796,50 +7780,50 @@ textarea.form-control.is-invalid {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fire-text-5{
-  text-shadow: 0 0 10px #eaf3fb, 
-    20px 0 30px #9acaf5, 
-    -20px 0 30px #1462a9, 
-    23px -20px 40px #035197, 
-    -25px -40px 50px #5baffa, 
-    6px -60px 60px #3a8fdc, 
-    18px -70px 70px #7fbcea,
-    12px -80px 80px #164c76,
-    -9px -900px 90px #0286ea;
+.fire-text-5 {
+  text-shadow:0 0 10px #eaf3fb,
+      20px 0 30px #9acaf5,
+      -20px 0 30px #1462a9,
+      23px -20px 40px #035197,
+      -25px -40px 50px #5baffa,
+      6px -60px 60px #3a8fdc,
+      18px -70px 70px #7fbcea,
+      12px -80px 80px #164c76,
+      -9px -900px 90px #0286ea;
 }
 
-.fire-text-4{
-  text-shadow: 0 0 20px #eaf3fb, 
-    8px -10px 30px #9acaf5, 
-    -12px -10px 40px #1462a9, 
-    14px -30px 60px #035197,
-    -16px -20px 70px #5baffa;
+.fire-text-4 {
+  text-shadow:0 0 20px #eaf3fb,
+      8px -10px 30px #9acaf5,
+      -12px -10px 40px #1462a9,
+      14px -30px 60px #035197,
+      -16px -20px 70px #5baffa;
 }
 
-.fire-text-3{
-  text-shadow: 0 10px 20px #fefcc9, 
-    10px 0 30px #feec85, 
-    -20px -10px 40px #ffae34, 
-    20px -30px 50px #ec760c, 
-    -20px -50px 60px #cd4606, 
-    0 -60px 70px #973716, 
-    10px -70px 80px #451b0e;
+.fire-text-3 {
+  text-shadow:0 10px 20px #fefcc9,
+      10px 0 30px #feec85,
+      -20px -10px 40px #ffae34,
+      20px -30px 50px #ec760c,
+      -20px -50px 60px #cd4606,
+      0 -60px 70px #973716,
+      10px -70px 80px #451b0e;
 }
 
-.fire-text-2{
-  text-shadow: 0 0 20px #fefcc9, 
-    10px 5px 30px #feec85, 
-    -20px 0px 40px #ffae34, 
-    20px -20px 50px #ec760c, 
-    -20px -40px 60px #cd4606, 
-    0 -80px 60px #973716;
+.fire-text-2 {
+  text-shadow:0 0 20px #fefcc9,
+      10px 5px 30px #feec85,
+      -20px 0px 40px #ffae34,
+      20px -20px 50px #ec760c,
+      -20px -40px 60px #cd4606,
+      0 -80px 60px #973716;
 }
 
-.fire-text-1{
-  text-shadow: 0 0 20px #fefcc9, 
-    10px 0px 30px #feec85, 
-    -20px -10px 40px #ffae34,
-    20px -30px 50px #ec760c;
+.fire-text-1 {
+  text-shadow:0 0 20px #fefcc9,
+      10px 0px 30px #feec85,
+      -20px -10px 40px #ffae34,
+      20px -30px 50px #ec760c;
 }
 
 .bg-img-home {
@@ -7847,17 +7831,17 @@ textarea.form-control.is-invalid {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: pixelated;
-  position: relative;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:pixelated;
+  position:relative;
   background-image:
-    linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-    url('../public/img/CoverImages/WebsiteCover.webp');
+      linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
+      url('../public/img/CoverImages/WebsiteCover.webp');
 }
 
 .bg-img-about {
@@ -7865,20 +7849,20 @@ textarea.form-control.is-invalid {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: pixelated;
-  position: relative;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:pixelated;
+  position:relative;
   background-image:
-    linear-gradient(to right, 
-    rgb(23, 34, 55) 0%, 
-    rgba(23, 34, 55, 0.99) 2%,  
-    rgba(23, 34, 55, 0.5) 100%),
-    url('../public/img/CoverImages/CoverAbout.webp');
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverAbout.webp');
 }
 
 .bg-img-contact {
@@ -7886,44 +7870,44 @@ textarea.form-control.is-invalid {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: pixelated;
-  position: relative;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:pixelated;
+  position:relative;
   background-image:
-    linear-gradient(to right, 
-    rgb(23, 34, 55) 0%, 
-    rgba(23, 34, 55, 0.99) 2%,  
-    rgba(23, 34, 55, 0.5) 100%),
-    url('../public/img/CoverImages/CoverContact.webp');
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverContact.webp');
 }
 
 .text-shadow {
-  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  text-shadow:0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .text-shadow-md {
-  text-shadow: 0 4px 8px rgba(0,0,0,0.48), 0 2px 4px rgba(0,0,0,0.32);
+  text-shadow:0 4px 8px rgba(0, 0, 0, 0.48), 0 2px 4px rgba(0, 0, 0, 0.32);
 }
 
 .text-shadow-lg {
-  text-shadow: 0 15px 30px rgba(0,0,0,0.44), 0 5px 15px rgba(0,0,0,0.32);
+  text-shadow:0 15px 30px rgba(0, 0, 0, 0.44), 0 5px 15px rgba(0, 0, 0, 0.32);
 }
 
 .text-shadow-none {
-  text-shadow: none;
+  text-shadow:none;
 }
 
 .hidden {
-  display: hidden;
+  display:hidden;
 }
 
 .animate__animated.fadeOut {
-  --animate-duration: 2s;
+  --animate-duration:2s;
 }
 
 @media (min-width: 1024px) {
@@ -7943,7 +7927,7 @@ textarea.form-control.is-invalid {
 }
 
 .animate__animated.fadeIn {
-  --animate-duration: 2s;
+  --animate-duration:2s;
 }
 
 @media (min-width: 1024px) {
@@ -8069,28 +8053,6 @@ textarea.form-control.is-invalid {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.sponsor-heading-1 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  width: 5rem;
-  font-family: Cooper Hewitt;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1024px) {
-  .sponsor-heading-1 {
-    margin-left: 3rem;
-    margin-right: 1rem;
-    font-size: 3rem;
-    line-height: 1;
-  }
-}
-
 .h-line {
   margin-left: auto;
   margin-right: auto;
@@ -8184,8 +8146,8 @@ textarea.form-control.is-invalid {
   }
 }
 
-.menu-item-2{
-  vertical-align: central;
+.menu-item-2 {
+  vertical-align:central;
 }
 
 .menu-item-3 {
@@ -8263,12 +8225,12 @@ textarea.form-control.is-invalid {
   }
 }
 
-.menu-item-4{
-  vertical-align: central;
+.menu-item-4 {
+  vertical-align:central;
 }
 
-.mobile-footer{
-  padding-bottom: calc(1em + env(safe-area-inset-bottom));
+.mobile-footer {
+  padding-bottom:calc(1em + env(safe-area-inset-bottom));
   /* adds the safe-area-inset-bottom value to the initial 1em of padding.
     a larger black area will display for a device that has a positive value for this variable. */
 }
@@ -8292,567 +8254,647 @@ textarea.form-control.is-invalid {
   color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
-#aboutPage #menuAbout,  
-#contactPage #menuContact,  
-#sponsorsPage #menuSponsors,  
-#joinPage #menuJoin,  
+#aboutPage #menuAbout, 
+#contactPage #menuContact, 
+#sponsorsPage #menuSponsors, 
+#joinPage #menuJoin, 
 #resourcesPage #menuResources {
   --tw-border-opacity: 1;
   border-color: rgb(140 236 248 / var(--tw-border-opacity));
 }
 
-h3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+/* Index page splash photo */
+
+h1 {
+  border-left-width: 4px;
+  --tw-border-opacity: 1;
+  border-left-color: rgb(130 235 249 / var(--tw-border-opacity));
+  padding-left: 1.5rem;
   font-size: 3rem;
-  line-height: 1;
-  text-transform: uppercase;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  text-shadow: 0 4px 8px rgba(0,0,0,0.48), 0 2px 4px rgba(0,0,0,0.32);
+  line-height: 1.25;
 }
 
 @media (min-width: 768px) {
-  h3 {
+  h1 {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
 
-@font-face {
-  font-family: 'Cooper Hewitt';
+/* Heading for page banners */
 
-  src: url('./font/CooperHewitt-Bold.woff2') format('woff2'),
-      url('./font/CooperHewitt-Bold.woff') format('woff');
-
-  font-weight: bold;
-
-  font-style: normal;
-
-  font-display: swap;
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: League Spartan;
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-shadow:0 4px 8px rgba(0, 0, 0, 0.48), 0 2px 4px rgba(0, 0, 0, 0.32);
 }
 
-@font-face {
-  font-family: 'Cooper Hewitt';
-
-  src: url('./font/CooperHewitt-BoldItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-BoldItalic.woff') format('woff');
-
-  font-weight: bold;
-
-  font-style: italic;
-
-  font-display: swap;
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
-@font-face {
-  font-family: 'Cooper Hewitt Book';
+/* Sponsor headings */
 
-  src: url('./font/CooperHewitt-Book.woff2') format('woff2'),
-      url('./font/CooperHewitt-Book.woff') format('woff');
-
-  font-weight: normal;
-
-  font-style: normal;
-
-  font-display: swap;
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 5rem;
+  font-family: Cooper Hewitt;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-@font-face {
-  font-family: 'Cooper Hewitt Book';
-
-  src: url('./font/CooperHewitt-BookItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-BookItalic.woff') format('woff');
-
-  font-weight: normal;
-
-  font-style: italic;
-
-  font-display: swap;
+@media (min-width: 1024px) {
+  h3 {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
-@font-face {
-  font-family: 'Cooper Hewitt';
-
-  src: url('./font/CooperHewitt-Heavy.woff2') format('woff2'),
-      url('./font/CooperHewitt-Heavy.woff') format('woff');
-
-  font-weight: 900;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cooper Hewitt';
-
-  src: url('./font/CooperHewitt-HeavyItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-HeavyItalic.woff') format('woff');
-
-  font-weight: 900;
-
-  font-style: italic;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cooper Hewitt';
-
-  src: url('./font/CooperHewitt-Light.woff2') format('woff2'),
-      url('./font/CooperHewitt-Light.woff') format('woff');
-
+h6 {
+  font-family: Cooper Hewitt;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 300;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+}
 
-  font-style: normal;
+@media (min-width: 1024px) {
+  h6 {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+  }
 
-  font-display: swap;
+  h6:hover {
+    transform-origin: center;
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-color: transparent;
+  }
+
+  h6 {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/CooperHewitt-Semibold.woff2') format('woff2'),
-      url('./font/CooperHewitt-Semibold.woff') format('woff');
+  src:url('./font/CooperHewitt-Bold.woff2') format('woff2'),
+    url('./font/CooperHewitt-Bold.woff') format('woff');
 
-  font-weight: 600;
+  font-weight:bold;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/CooperHewitt-MediumItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-MediumItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-BoldItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-BoldItalic.woff') format('woff');
 
-  font-weight: 500;
+  font-weight:bold;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt Book';
 
-  src: url('./font/CooperHewitt-SemiboldItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-SemiboldItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-Book.woff2') format('woff2'),
+    url('./font/CooperHewitt-Book.woff') format('woff');
 
-  font-weight: 600;
+  font-weight:normal;
 
-  font-style: italic;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt Book';
 
-  src: url('./font/CooperHewitt-LightItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-LightItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-BookItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-BookItalic.woff') format('woff');
 
-  font-weight: 300;
+  font-weight:normal;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/CooperHewitt-Medium.woff2') format('woff2'),
-      url('./font/CooperHewitt-Medium.woff') format('woff');
+  src:url('./font/CooperHewitt-Heavy.woff2') format('woff2'),
+    url('./font/CooperHewitt-Heavy.woff') format('woff');
 
-  font-weight: 500;
+  font-weight:900;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/CooperHewitt-ThinItalic.woff2') format('woff2'),
-      url('./font/CooperHewitt-ThinItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-HeavyItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-HeavyItalic.woff') format('woff');
 
-  font-weight: 100;
+  font-weight:900;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/CooperHewitt-Thin.woff2') format('woff2'),
-      url('./font/CooperHewitt-Thin.woff') format('woff');
+  src:url('./font/CooperHewitt-Light.woff2') format('woff2'),
+    url('./font/CooperHewitt-Light.woff') format('woff');
 
-  font-weight: 100;
+  font-weight:300;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-Bold.woff2') format('woff2'),
-      url('./font/FiraSans-Bold.woff') format('woff');
+  src:url('./font/CooperHewitt-Semibold.woff2') format('woff2'),
+    url('./font/CooperHewitt-Semibold.woff') format('woff');
 
-  font-weight: bold;
+  font-weight:600;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-Black.woff2') format('woff2'),
-      url('./font/FiraSans-Black.woff') format('woff');
+  src:url('./font/CooperHewitt-MediumItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-MediumItalic.woff') format('woff');
 
-  font-weight: 900;
+  font-weight:500;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-BlackItalic.woff2') format('woff2'),
-      url('./font/FiraSans-BlackItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-SemiboldItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-SemiboldItalic.woff') format('woff');
 
-  font-weight: 900;
+  font-weight:600;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-ExtraBold.woff2') format('woff2'),
-      url('./font/FiraSans-ExtraBold.woff') format('woff');
+  src:url('./font/CooperHewitt-LightItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-LightItalic.woff') format('woff');
 
-  font-weight: bold;
+  font-weight:300;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-ExtraBoldItalic.woff2') format('woff2'),
-      url('./font/FiraSans-ExtraBoldItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-Medium.woff2') format('woff2'),
+    url('./font/CooperHewitt-Medium.woff') format('woff');
 
-  font-weight: bold;
+  font-weight:500;
 
-  font-style: italic;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-BoldItalic.woff2') format('woff2'),
-      url('./font/FiraSans-BoldItalic.woff') format('woff');
+  src:url('./font/CooperHewitt-ThinItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-ThinItalic.woff') format('woff');
 
-  font-weight: bold;
+  font-weight:100;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Cooper Hewitt';
 
-  src: url('./font/FiraSans-ExtraLight.woff2') format('woff2'),
-      url('./font/FiraSans-ExtraLight.woff') format('woff');
+  src:url('./font/CooperHewitt-Thin.woff2') format('woff2'),
+    url('./font/CooperHewitt-Thin.woff') format('woff');
 
-  font-weight: 200;
+  font-weight:100;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-Italic.woff2') format('woff2'),
-      url('./font/FiraSans-Italic.woff') format('woff');
+  src:url('./font/FiraSans-Bold.woff2') format('woff2'),
+    url('./font/FiraSans-Bold.woff') format('woff');
 
-  font-weight: normal;
+  font-weight:bold;
 
-  font-style: italic;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-ExtraLightItalic.woff2') format('woff2'),
-      url('./font/FiraSans-ExtraLightItalic.woff') format('woff');
+  src:url('./font/FiraSans-Black.woff2') format('woff2'),
+    url('./font/FiraSans-Black.woff') format('woff');
 
-  font-weight: 200;
+  font-weight:900;
 
-  font-style: italic;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-Light.woff2') format('woff2'),
-      url('./font/FiraSans-Light.woff') format('woff');
+  src:url('./font/FiraSans-BlackItalic.woff2') format('woff2'),
+    url('./font/FiraSans-BlackItalic.woff') format('woff');
 
-  font-weight: 300;
+  font-weight:900;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-LightItalic.woff2') format('woff2'),
-      url('./font/FiraSans-LightItalic.woff') format('woff');
+  src:url('./font/FiraSans-ExtraBold.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraBold.woff') format('woff');
 
-  font-weight: 300;
+  font-weight:bold;
 
-  font-style: italic;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-Medium.woff2') format('woff2'),
-      url('./font/FiraSans-Medium.woff') format('woff');
+  src:url('./font/FiraSans-ExtraBoldItalic.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraBoldItalic.woff') format('woff');
 
-  font-weight: 500;
+  font-weight:bold;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-MediumItalic.woff2') format('woff2'),
-      url('./font/FiraSans-MediumItalic.woff') format('woff');
+  src:url('./font/FiraSans-BoldItalic.woff2') format('woff2'),
+    url('./font/FiraSans-BoldItalic.woff') format('woff');
 
-  font-weight: 500;
+  font-weight:bold;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-Regular.woff2') format('woff2'),
-      url('./font/FiraSans-Regular.woff') format('woff');
+  src:url('./font/FiraSans-ExtraLight.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraLight.woff') format('woff');
 
-  font-weight: normal;
+  font-weight:200;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-SemiBold.woff2') format('woff2'),
-      url('./font/FiraSans-SemiBold.woff') format('woff');
+  src:url('./font/FiraSans-Italic.woff2') format('woff2'),
+    url('./font/FiraSans-Italic.woff') format('woff');
 
-  font-weight: 600;
+  font-weight:normal;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-SemiBoldItalic.woff2') format('woff2'),
-      url('./font/FiraSans-SemiBoldItalic.woff') format('woff');
+  src:url('./font/FiraSans-ExtraLightItalic.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraLightItalic.woff') format('woff');
 
-  font-weight: 600;
+  font-weight:200;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-Thin.woff2') format('woff2'),
-      url('./font/FiraSans-Thin.woff') format('woff');
+  src:url('./font/FiraSans-Light.woff2') format('woff2'),
+    url('./font/FiraSans-Light.woff') format('woff');
 
-  font-weight: 100;
+  font-weight:300;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
+  font-family:'Fira Sans';
 
-  src: url('./font/FiraSans-ThinItalic.woff2') format('woff2'),
-      url('./font/FiraSans-ThinItalic.woff') format('woff');
+  src:url('./font/FiraSans-LightItalic.woff2') format('woff2'),
+    url('./font/FiraSans-LightItalic.woff') format('woff');
 
-  font-weight: 100;
+  font-weight:300;
 
-  font-style: italic;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-Black.woff2') format('woff2'),
-      url('./font/LeagueSpartan-Black.woff') format('woff');
+  src:url('./font/FiraSans-Medium.woff2') format('woff2'),
+    url('./font/FiraSans-Medium.woff') format('woff');
 
-  font-weight: 900;
+  font-weight:500;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-Light.woff2') format('woff2'),
-      url('./font/LeagueSpartan-Light.woff') format('woff');
+  src:url('./font/FiraSans-MediumItalic.woff2') format('woff2'),
+    url('./font/FiraSans-MediumItalic.woff') format('woff');
 
-  font-weight: 300;
+  font-weight:500;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-Medium.woff2') format('woff2'),
-      url('./font/LeagueSpartan-Medium.woff') format('woff');
+  src:url('./font/FiraSans-Regular.woff2') format('woff2'),
+    url('./font/FiraSans-Regular.woff') format('woff');
 
-  font-weight: 500;
+  font-weight:normal;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-Thin.woff2') format('woff2'),
-      url('./font/LeagueSpartan-Thin.woff') format('woff');
+  src:url('./font/FiraSans-SemiBold.woff2') format('woff2'),
+    url('./font/FiraSans-SemiBold.woff') format('woff');
 
-  font-weight: 100;
+  font-weight:600;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-ExtraBold.woff2') format('woff2'),
-      url('./font/LeagueSpartan-ExtraBold.woff') format('woff');
+  src:url('./font/FiraSans-SemiBoldItalic.woff2') format('woff2'),
+    url('./font/FiraSans-SemiBoldItalic.woff') format('woff');
 
-  font-weight: bold;
+  font-weight:600;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-ExtraLight.woff2') format('woff2'),
-      url('./font/LeagueSpartan-ExtraLight.woff') format('woff');
+  src:url('./font/FiraSans-Thin.woff2') format('woff2'),
+    url('./font/FiraSans-Thin.woff') format('woff');
 
-  font-weight: 200;
+  font-weight:100;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'Fira Sans';
 
-  src: url('./font/LeagueSpartan-SemiBold.woff2') format('woff2'),
-      url('./font/LeagueSpartan-SemiBold.woff') format('woff');
+  src:url('./font/FiraSans-ThinItalic.woff2') format('woff2'),
+    url('./font/FiraSans-ThinItalic.woff') format('woff');
 
-  font-weight: 600;
+  font-weight:100;
 
-  font-style: normal;
+  font-style:italic;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'League Spartan';
 
-  src: url('./font/LeagueSpartan-Bold.woff2') format('woff2'),
-      url('./font/LeagueSpartan-Bold.woff') format('woff');
+  src:url('./font/LeagueSpartan-Black.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Black.woff') format('woff');
 
-  font-weight: bold;
+  font-weight:900;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
 }
 
 @font-face {
-  font-family: 'League Spartan';
+  font-family:'League Spartan';
 
-  src: url('./font/LeagueSpartan-Regular.woff2') format('woff2'),
-      url('./font/LeagueSpartan-Regular.woff') format('woff');
+  src:url('./font/LeagueSpartan-Light.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Light.woff') format('woff');
 
-  font-weight: normal;
+  font-weight:300;
 
-  font-style: normal;
+  font-style:normal;
 
-  font-display: swap;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-Medium.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Medium.woff') format('woff');
+
+  font-weight:500;
+
+  font-style:normal;
+
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-Thin.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Thin.woff') format('woff');
+
+  font-weight:100;
+
+  font-style:normal;
+
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-ExtraBold.woff2') format('woff2'),
+    url('./font/LeagueSpartan-ExtraBold.woff') format('woff');
+
+  font-weight:bold;
+
+  font-style:normal;
+
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-ExtraLight.woff2') format('woff2'),
+    url('./font/LeagueSpartan-ExtraLight.woff') format('woff');
+
+  font-weight:200;
+
+  font-style:normal;
+
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-SemiBold.woff2') format('woff2'),
+    url('./font/LeagueSpartan-SemiBold.woff') format('woff');
+
+  font-weight:600;
+
+  font-style:normal;
+
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-Bold.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Bold.woff') format('woff');
+
+  font-weight:bold;
+
+  font-style:normal;
+
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+
+  src:url('./font/LeagueSpartan-Regular.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Regular.woff') format('woff');
+
+  font-weight:normal;
+
+  font-style:normal;
+
+  font-display:swap;
 }
 
 .hover\:-z-50:hover {
@@ -9058,11 +9100,6 @@ h3 {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-base {
