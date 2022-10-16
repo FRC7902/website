@@ -4,7 +4,7 @@ module.exports = {
         './img/*{svg,jpg,txt}'
     ],
     theme: {
-        
+
         extend: {
             // Cooper hewitt for menu items
             // Fira sans for general body text
@@ -15,7 +15,7 @@ module.exports = {
             },
 
             screens: {
-                'hPhone': {'raw': '(max-height: 600px)'},
+                'hPhone': { 'raw': '(max-height: 600px)' },
             },
 
             colors: {
@@ -57,6 +57,14 @@ module.exports = {
                         300: "#f35e5e",
                         400: "#142237",
                     },
+                    timeline: {
+                        1: '#0B32B0',
+                        2: '#1D56BF',
+                        3: '#2F7BCF',
+                        4: '#419FDF',
+                        5: '#53C4EF',
+                        6: '#65E9FF',
+                    },
                 },
             },
             ringWidth: {
@@ -65,10 +73,10 @@ module.exports = {
         },
     },
     variants: {
-    
-            stroke: ['hover', 'focus', 'focus-visible', 'first'],
-   
- 
+
+        stroke: ['hover', 'focus', 'focus-visible', 'first'],
+
+
     },
     plugins: [
         require('tw-elements/dist/plugin')

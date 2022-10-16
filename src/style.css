@@ -226,9 +226,13 @@ h2 {
   @apply justify-center items-center py-12 flex uppercase text-5xl md:text-6xl text-white text-shadow-md font-ls;
 }
 
+.tiers-pulse{
+  @apply text-black;
+}
+
 /* Sponsor headings */
 h3 {
-  @apply text-black font-ch font-bold mx-auto mt-8 lg:ml-12 lg:mr-4 text-4xl lg:text-5xl w-20;
+  @apply text-black font-ch font-bold mx-auto mt-8 lg:ml-12 lg:mr-4 text-4xl lg:text-5xl w-20 tiers-pulse;
 }
 
 h6 {

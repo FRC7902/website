@@ -6699,6 +6699,11 @@ textarea.form-control.is-invalid {
      object-fit: scale-down;
 }
 
+.object-right {
+  -o-object-position: right;
+     object-position: right;
+}
+
 .object-center {
   -o-object-position: center;
      object-position: center;
@@ -8303,6 +8308,11 @@ h2 {
     font-size: 3.75rem;
     line-height: 1;
   }
+}
+
+.tiers-pulse {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 /* Sponsor headings */
