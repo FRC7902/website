@@ -6,51 +6,6 @@
 
 
 @layer utilities {
-  .fire-text-5 {
-    text-shadow:0 0 10px #eaf3fb,
-      20px 0 30px #9acaf5,
-      -20px 0 30px #1462a9,
-      23px -20px 40px #035197,
-      -25px -40px 50px #5baffa,
-      6px -60px 60px #3a8fdc,
-      18px -70px 70px #7fbcea,
-      12px -80px 80px #164c76,
-      -9px -900px 90px #0286ea;
-  }
-
-  .fire-text-4 {
-    text-shadow:0 0 20px #eaf3fb,
-      8px -10px 30px #9acaf5,
-      -12px -10px 40px #1462a9,
-      14px -30px 60px #035197,
-      -16px -20px 70px #5baffa;
-  }
-
-  .fire-text-3 {
-    text-shadow:0 10px 20px #fefcc9,
-      10px 0 30px #feec85,
-      -20px -10px 40px #ffae34,
-      20px -30px 50px #ec760c,
-      -20px -50px 60px #cd4606,
-      0 -60px 70px #973716,
-      10px -70px 80px #451b0e;
-  }
-
-  .fire-text-2 {
-    text-shadow:0 0 20px #fefcc9,
-      10px 5px 30px #feec85,
-      -20px 0px 40px #ffae34,
-      20px -20px 50px #ec760c,
-      -20px -40px 60px #cd4606,
-      0 -80px 60px #973716;
-  }
-
-  .fire-text-1 {
-    text-shadow:0 0 20px #fefcc9,
-      10px 0px 30px #feec85,
-      -20px -10px 40px #ffae34,
-      20px -30px 50px #ec760c;
-  }
 
   .bg-img {
     @apply shadow-2xl mb-12;
@@ -61,7 +16,6 @@
     -webkit-background-size:cover;
     image-rendering:pixelated;
     position:relative;
-
   }
 
   .bg-img-home {
@@ -223,7 +177,9 @@ h1 {
 
 /* Heading for page banners */
 h2 {
-  @apply justify-center items-center py-12 flex uppercase text-5xl md:text-6xl text-white text-shadow-md font-ls;
+  @apply justify-center items-center 
+  py-12 flex uppercase text-5xl md:text-6xl 
+  text-white text-shadow-md font-ls;
 }
 
 .tiers-pulse{
@@ -238,6 +194,74 @@ h3 {
 h6 {
   @apply text-2xl lg:text-5xl logo text-black font-ch font-light;
 }
+
+
+.timeline-line {
+  @apply box-border relative max-w-[1200px] my-auto
+
+  after:absolute after:w-[9px]
+  after:bg-gradient-to-b
+
+  after:left-8
+  md:after:left-1/2
+
+  after:top-0 after:bottom-0 after:-ml-1
+  -z-10;
+}
+
+.timeline-point {
+  @apply px-3 pb-5 relative bg-inherit w-1/2
+
+  after:absolute after:w-6 after:h-6 after:-right-3 
+  after:-top-2 after:rounded-[50%];
+}
+
+.timeline-content {
+  @apply px-5 py-7 bg-slate-400 mx-2;
+}
+
+.timeline-left{
+  left: 0;
+}
+
+.timeline-right{
+  left: 50%;
+}
+
+.timeline-left::before{
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 29px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.timeline-right::before{
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.timeline-right::after {
+  left: -12px;
+}
+
+
+
+
 
 @font-face {
   font-family:'Cooper Hewitt';
