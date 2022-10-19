@@ -25,6 +25,8 @@
       url('../public/img/CoverImages/WebsiteCover.webp');
   }
 
+
+
   .bg-img-about {
     @apply bg-img;
     background-image:
@@ -191,15 +193,24 @@ h3 {
   @apply text-black font-ch font-bold mx-auto mt-8 lg:ml-12 lg:mr-4 text-4xl lg:text-5xl w-20 tiers-pulse;
 }
 
+h5 {
+  @apply text-firebirds-background-200 font-ls text-xl uppercase 
+  font-medium;
+}
+
 h6 {
   @apply text-2xl lg:text-5xl logo text-black font-ch font-light;
+}
+
+p{
+  @apply font-firasans font-light;
 }
 
 
 .timeline-line {
   @apply box-border relative max-w-[1200px] my-auto
 
-  after:absolute after:w-[9px]
+  after:absolute after:w-[8px]
   after:bg-gradient-to-b
 
   after:left-8
@@ -210,14 +221,13 @@ h6 {
 }
 
 .timeline-point {
-  @apply px-3 pb-5 relative bg-inherit w-1/2
-
+  @apply px-12 pb-8 relative bg-inherit w-1/2
   after:absolute after:w-6 after:h-6 after:-right-3 
   after:-top-2 after:rounded-[50%];
 }
 
 .timeline-content {
-  @apply px-5 py-7 bg-slate-400 mx-2;
+  @apply pb-7 mx-2 -translate-y-[8px];
 }
 
 .timeline-left{
@@ -228,30 +238,20 @@ h6 {
   left: 50%;
 }
 
-.timeline-left::before{
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 29px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+.timeline-left h5 {
+  @apply text-right;
 }
 
-.timeline-right::before{
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+.timeline-left p {
+  @apply text-right;
+}
+
+.timeline-right h5 {
+  @apply text-left;
+}
+
+.timeline-right p {
+  @apply text-left;
 }
 
 /* Fix the circle for containers on the right side */
@@ -262,7 +262,7 @@ h6 {
 
 
 
-
+/* FONTS */
 @font-face {
   font-family:'Cooper Hewitt';
   src:url('./font/CooperHewitt-Bold.woff2') format('woff2'),
