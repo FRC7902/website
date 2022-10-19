@@ -4208,6 +4208,16 @@ textarea.form-control.is-invalid {
   margin: 7rem;
 }
 
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -4223,19 +4233,9 @@ textarea.form-control.is-invalid {
   margin-right: 0.5rem;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .my-12 {
@@ -6815,11 +6815,6 @@ textarea.form-control.is-invalid {
   padding: 0.625rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -6848,6 +6843,11 @@ textarea.form-control.is-invalid {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .px-3 {
@@ -7159,12 +7159,12 @@ textarea.form-control.is-invalid {
   vertical-align: super;
 }
 
-.font-ch {
-  font-family: Cooper Hewitt;
-}
-
 .font-firasans {
   font-family: Fira Sans;
+}
+
+.font-ch {
+  font-family: Cooper Hewitt;
 }
 
 .font-ls {
@@ -8356,6 +8356,16 @@ h3 {
   }
 }
 
+h5 {
+  font-family: League Spartan;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(23 34 53 / var(--tw-text-opacity));
+}
+
 h6 {
   font-family: Cooper Hewitt;
   font-size: 1.5rem;
@@ -8391,6 +8401,11 @@ h6 {
   }
 }
 
+p {
+  font-family: Fira Sans;
+  font-weight: 300;
+}
+
 .timeline-line {
   position: relative;
   z-index: -10;
@@ -8406,7 +8421,7 @@ h6 {
   top: 0px;
   bottom: 0px;
   margin-left: -0.25rem;
-  width: 9px;
+  width: 8px;
   content: var(--tw-content);
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -8422,9 +8437,9 @@ h6 {
   position: relative;
   width: 50%;
   background-color: inherit;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 1.25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
 }
 
 .timeline-point::after {
@@ -8440,11 +8455,8 @@ h6 {
 .timeline-content {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 1.75rem;
+  --tw-translate-y: -8px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-bottom: 1.75rem;
 }
 
@@ -8456,30 +8468,20 @@ h6 {
   left: 50%;
 }
 
-.timeline-left::before{
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 29px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+.timeline-left h5 {
+  text-align: right;
 }
 
-.timeline-right::before{
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+.timeline-left p {
+  text-align: right;
+}
+
+.timeline-right h5 {
+  text-align: left;
+}
+
+.timeline-right p {
+  text-align: left;
 }
 
 /* Fix the circle for containers on the right side */
@@ -8487,6 +8489,8 @@ h6 {
 .timeline-right::after {
   left: -12px;
 }
+
+/* FONTS */
 
 @font-face {
   font-family:'Cooper Hewitt';
