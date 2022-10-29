@@ -25,8 +25,6 @@
       url('../public/img/CoverImages/WebsiteCover.webp');
   }
 
-
-
   .bg-img-about {
     @apply bg-img;
     background-image:
@@ -179,12 +177,10 @@ h1 {
 
 /* Heading for page banners */
 h2 {
-  @apply justify-center items-center 
-  py-12 flex uppercase text-5xl md:text-6xl 
-  text-white text-shadow-md font-ls;
+  @apply justify-center items-center py-12 flex uppercase text-5xl md:text-6xl text-white text-shadow-md font-ls;
 }
 
-.tiers-pulse{
+.tiers-pulse {
   @apply text-black;
 }
 
@@ -194,48 +190,39 @@ h3 {
 }
 
 h5 {
-  @apply text-firebirds-background-200 font-ls text-xl uppercase 
-  font-medium;
+  @apply text-firebirds-background-200 font-ls text-xl uppercase font-medium;
 }
 
 h6 {
   @apply text-2xl lg:text-5xl logo text-black font-ch font-light;
 }
 
-p{
+p {
   @apply font-firasans font-light;
 }
 
 
+
+
 .timeline-line {
-  @apply box-border relative max-w-[1200px] my-auto
-
-  after:absolute after:w-[8px]
-  after:bg-gradient-to-b
-
-  after:left-8
-  md:after:left-1/2
-
-  after:top-0 after:bottom-0 after:-ml-1
-  -z-10;
+  @apply box-border relative max-w-[1200px] my-auto after:absolute after:w-[8px] after:bg-gradient-to-b after:left-8 md:after:left-1/2 after:top-0 after:bottom-0 after:-ml-1 -z-10;
 }
 
 .timeline-point {
-  @apply px-12 pb-8 relative bg-inherit w-1/2
-  after:absolute after:w-6 after:h-6 after:-right-3 
-  after:-top-2 after:rounded-[50%];
+  @apply px-12 pb-8 relative bg-inherit w-1/2 after:absolute after:w-6 after:h-6 after:-right-3 after:-top-2 after:rounded-[50%];
 }
 
 .timeline-content {
   @apply pb-7 mx-2 -translate-y-[8px];
 }
 
-.timeline-left{
-  left: 0;
+
+.timeline-left {
+  left:0;
 }
 
-.timeline-right{
-  left: 50%;
+.timeline-right {
+  left:50%;
 }
 
 .timeline-left h5 {
@@ -256,9 +243,111 @@ p{
 
 /* Fix the circle for containers on the right side */
 .timeline-right::after {
-  left: -12px;
+  left:-12px;
 }
 
+/* V2 Timeline */
+.timeline {
+  @apply mx-10 relative;
+}
+
+.timeline ul li:nth-child(odd) .content:before {
+  @apply w-1.5 left-full;
+  content:'';
+  position:absolute;
+  height:100%;
+  padding-bottom:4px;
+  z-index:-1;
+}
+
+.timeline ul li:nth-child(even) .content:before {
+  @apply w-1.5;
+  content:'';
+  position:absolute;
+  left:0%;
+  height:100%;
+  padding-bottom:4px;
+  z-index:-1;
+}
+
+.timeline ul li .content:before {
+  @apply bg-gradient-to-b translate-y-2;
+}
+
+.timeline ul {
+  padding:0;
+  margin:0;
+}
+
+.timeline ul li {
+  list-style:none;
+  position:relative;
+  width:50%;
+  padding:20px 40px;
+  box-sizing:border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+  float:left;
+  text-align:right; 
+  clear:both;
+}
+
+.timeline ul li:nth-child(even) {
+  float:right;
+  text-align:left;
+  clear:both;
+}
+
+.timeline ul li .content {
+  @apply pb-5;
+}
+
+.timeline ul li:nth-child(odd):before {
+  @apply -right-[13px];
+}
+
+.timeline ul li:nth-child(even):before {
+  @apply -left-[7px];
+}
+
+.timeline ul li:before {
+  @apply w-5 h-5 ;
+  content:'';
+  position:absolute;
+  top:24px;
+  border-radius:50%;
+}
+
+
+.timeline ul li p {
+  margin:10px 0 0;
+  padding:0;
+}
+
+.timeline ul li .time h4 {
+  margin:0;
+  padding:0;
+  font-size:14px;
+}
+
+.timeline ul li:nth-child(odd) .time {
+  position:absolute;
+
+  color:#fff;
+  @apply left-full md:ml-8;
+}
+
+.timeline ul li:nth-child(even) .time {
+  position:absolute;
+  
+  color:#fff;
+  @apply right-full md:mr-7;
+}
+
+.timeline ul li .time{
+  @apply italic rounded-lg text-center w-max top-4 py-2 px-4;
+}
 
 
 
