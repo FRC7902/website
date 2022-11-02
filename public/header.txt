@@ -1,6 +1,6 @@
 <header id="header" class="z-10 sidebar bg-firebirds-background-200 text-white 
         w-full md:w-72 overflow-clip
-        hidden md:flex fixed md:relative h-screen py-6 md:pb-12">
+        hidden md:flex fixed md:relative h-full py-6 md:pb-12">
 
     <!-- nav -->
     <nav class="font-semibold text-white flex flex-col flex-1 
