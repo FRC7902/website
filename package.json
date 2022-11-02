@@ -4,10 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build:spaghettiman": "tailwind build -i src/style.css -o public/style.css",
-        "build:tailwinds": "tailwind build -i src/style.css -o public/style.css",
-        "build:tailwind": "tailwind build -i src/style.css -o public/style.css",
-        "tw": "tailwind build -i src/style.css -o public/style.css"
+        "build:spaghettiman": "tailwind build -i src/style.css -o public/style2.css",
+        "build:tailwinds": "tailwind build -i src/style.css -o public/style2.css",
+        "build:tailwind": "tailwind build -i src/style.css -o public/style2.css",
+        "tw": "tailwind build -i src/style.css -o public/style2.css"
     },
     "keywords": [],
     "author": "",
