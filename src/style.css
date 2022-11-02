@@ -8,7 +8,7 @@
 @layer utilities {
 
   .bg-img {
-    @apply shadow-2xl mb-12;
+    @apply shadow-2xl mb-8;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;

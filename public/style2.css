@@ -4795,10 +4795,6 @@ textarea.form-control.is-invalid {
   width: 91.666667%;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -7902,7 +7898,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-home {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -7920,7 +7916,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-about {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -7941,7 +7937,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-img-contact {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
