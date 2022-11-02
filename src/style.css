@@ -202,105 +202,63 @@ p {
 }
 
 
-
-
-.timeline-line {
-  @apply box-border relative max-w-[1200px] my-auto after:absolute after:w-[8px] after:bg-gradient-to-b after:left-8 md:after:left-1/2 after:top-0 after:bottom-0 after:-ml-1 -z-10;
-}
-
-.timeline-point {
-  @apply px-12 pb-8 relative bg-inherit w-1/2 after:absolute after:w-6 after:h-6 after:-right-3 after:-top-2 after:rounded-[50%];
-}
-
-.timeline-content {
-  @apply pb-7 mx-2 -translate-y-[8px];
-}
-
-
-.timeline-left {
-  left:0;
-}
-
-.timeline-right {
-  left:50%;
-}
-
-.timeline-left h5 {
-  @apply text-right;
-}
-
-.timeline-left p {
-  @apply text-right;
-}
-
-.timeline-right h5 {
-  @apply text-left;
-}
-
-.timeline-right p {
-  @apply text-left;
-}
-
-/* Fix the circle for containers on the right side */
-.timeline-right::after {
-  left:-12px;
-}
-
 /* V2 Timeline */
 .timeline {
-  @apply mx-10 relative;
+  @apply mx-4 md:mx-10 relative;
 }
 
+/* Timeline content - both */
+.timeline ul li .content::before {
+  @apply w-1.5 h-full absolute pb-1 -z-[1px] left-[23px];
+}
+
+/* Timeline content - odd */
 .timeline ul li:nth-child(odd) .content:before {
-  @apply w-1.5 left-full;
+  @apply md:left-full;
   content:'';
-  position:absolute;
-  height:100%;
-  padding-bottom:4px;
-  z-index:-1;
 }
 
+/* Timeline content - even */
 .timeline ul li:nth-child(even) .content:before {
-  @apply w-1.5;
+  @apply md:left-0;
   content:'';
-  position:absolute;
-  left:0%;
-  height:100%;
-  padding-bottom:4px;
-  z-index:-1;
 }
 
+/* Timeline gradient line */
 .timeline ul li .content:before {
-  @apply bg-gradient-to-b translate-y-2;
+  @apply bg-gradient-to-b 
+  md:translate-y-2 -translate-y-8;
 }
 
+/* List of timeline points */
 .timeline ul {
-  padding:0;
-  margin:0;
+  @apply p-0 m-0;
 }
 
 .timeline ul li {
+  @apply clear-both w-full md:w-1/2 
+  pb-12 pl-14 md:px-5 md:py-10 ;
   list-style:none;
   position:relative;
-  width:50%;
-  padding:20px 40px;
   box-sizing:border-box;
 }
 
 .timeline ul li:nth-child(odd) {
-  float:left;
-  text-align:right; 
-  clear:both;
+  @apply 
+  md:text-right   md:float-left
+  text-left      float-left; /* Small screen */
 }
 
 .timeline ul li:nth-child(even) {
-  float:right;
-  text-align:left;
-  clear:both;
+  @apply  
+  md:text-left    md:float-right 
+  text-left      float-left; /* Small screen */
 }
 
 .timeline ul li .content {
-  @apply pb-5;
+  @apply pb-5 
+  pt-6 md:pt-0
+  md:-mt-4;
 }
 
 .timeline ul li:nth-child(odd):before {
@@ -312,13 +270,11 @@ p {
 }
 
 .timeline ul li:before {
-  @apply w-5 h-5 ;
+  @apply w-5 h-5 absolute 
+  top-9 md:top-6 /* Distance of points down the line */
+  rounded-[50%];
   content:'';
-  position:absolute;
-  top:24px;
-  border-radius:50%;
 }
-
 
 .timeline ul li p {
   margin:10px 0 0;
@@ -331,24 +287,26 @@ p {
   font-size:14px;
 }
 
-.timeline ul li:nth-child(odd) .time {
-  position:absolute;
-
-  color:#fff;
-  @apply left-full md:ml-8;
-}
-
-.timeline ul li:nth-child(even) .time {
-  position:absolute;
-  
-  color:#fff;
-  @apply right-full md:mr-7;
-}
-
+/* Time block - both */
 .timeline ul li .time{
-  @apply italic rounded-lg text-center w-max top-4 py-2 px-4;
+  @apply italic rounded-lg text-center w-max 
+  md:top-4 -top-7
+  py-2 px-4
+  absolute text-white
+  ;
 }
 
+/* Time block - odd */
+.timeline ul li:nth-child(odd) .time {
+  @apply md:left-full 
+  md:ml-8;
+}
+
+/* Time block - even */
+.timeline ul li:nth-child(even) .time {
+  @apply md:right-full 
+  md:mr-7;
+}
 
 
 /* FONTS */
