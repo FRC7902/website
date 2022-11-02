@@ -266,16 +266,17 @@ p {
 }
 
 .timeline ul li:nth-child(odd):before {
-  @apply -right-[13px];
+  @apply md:-right-[13px];
 }
 
 .timeline ul li:nth-child(even):before {
-  @apply -left-[7px];
+  @apply md:-left-[7px];
 }
 
 .timeline ul li:before {
   @apply w-5 h-5 absolute 
-  top-9 md:top-6 /* Distance of points down the line */
+  -top-[18px] md:top-6 /* Distance of points down the line */
+  left-4 md:left-auto
   rounded-[50%];
   content:'';
 }
