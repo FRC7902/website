@@ -50,7 +50,7 @@
             </a>
             <!-- Linkedin -->
 
-            <a class="h-full" target="_blank" href="https://www.linkedin.com/company/18928744">
+            <a class="h-full" target="_blank" href="https://www.linkedin.com/company/frc7902">
                 <svg class="transition-all fill-current cursor-alias text-white hover:text-firebirds-blue-light-600 h-full w-full"
                     viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                     <path
