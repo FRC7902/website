@@ -4208,16 +4208,6 @@ textarea.form-control.is-invalid {
   margin: 7rem;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -4233,9 +4223,19 @@ textarea.form-control.is-invalid {
   margin-right: 0.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .my-12 {
@@ -6178,6 +6178,21 @@ textarea.form-control.is-invalid {
   background-color: rgb(19 66 186 / var(--tw-bg-opacity));
 }
 
+.bg-firebirds-timeline-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 50 176 / var(--tw-bg-opacity));
+}
+
+.bg-firebirds-timeline-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 111 202 / var(--tw-bg-opacity));
+}
+
+.bg-firebirds-timeline-3 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 172 228 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -6205,11 +6220,6 @@ textarea.form-control.is-invalid {
 
 .bg-inherit {
   background-color: inherit;
-}
-
-.bg-firebirds-timeline-1 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(11 50 176 / var(--tw-bg-opacity));
 }
 
 .bg-red-200 {
@@ -6460,16 +6470,6 @@ textarea.form-control.is-invalid {
   background-color: currentColor;
 }
 
-.bg-firebirds-timeline-2 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 111 202 / var(--tw-bg-opacity));
-}
-
-.bg-firebirds-timeline-3 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 172 228 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -6504,12 +6504,6 @@ textarea.form-control.is-invalid {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-firebirds-timeline-4 {
-  --tw-gradient-from: #65E9FF;
-  --tw-gradient-to: rgb(101 233 255 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-firebirds-blue-mid-700 {
   --tw-gradient-from: #1B51C4;
   --tw-gradient-to: rgb(27 81 196 / 0);
@@ -6519,6 +6513,12 @@ textarea.form-control.is-invalid {
 .from-firebirds-blue-mid-900 {
   --tw-gradient-from: #0b32b0;
   --tw-gradient-to: rgb(11 50 176 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-firebirds-timeline-4 {
+  --tw-gradient-from: #65E9FF;
+  --tw-gradient-to: rgb(101 233 255 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -7202,12 +7202,12 @@ textarea.form-control.is-invalid {
   vertical-align: super;
 }
 
-.font-firasans {
-  font-family: Fira Sans;
-}
-
 .font-ch {
   font-family: Cooper Hewitt;
+}
+
+.font-firasans {
+  font-family: Fira Sans;
 }
 
 .font-ls {
@@ -8667,19 +8667,20 @@ p {
     margin-top: -1rem;
     padding-top: 0px;
   }
-}
 
-.timeline ul li:nth-child(odd):before {
-  right: -13px;
-}
+  .timeline ul li:nth-child(odd):before {
+    right: -13px;
+  }
 
-.timeline ul li:nth-child(even):before {
-  left: -7px;
+  .timeline ul li:nth-child(even):before {
+    left: -7px;
+  }
 }
 
 .timeline ul li:before {
   position: absolute;
-  top: 2.25rem;
+  top: -18px;
+  left: 1rem;
   height: 1.25rem;
   width: 1.25rem;
   border-radius: 50%;
@@ -8688,6 +8689,7 @@ p {
 @media (min-width: 768px) {
   .timeline ul li:before {
     top: 1.5rem;
+    left: auto;
   }
 }
 
@@ -9300,30 +9302,6 @@ p {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(71 172 228 / var(--tw-bg-opacity));
-}
-
-.after\:bg-firebirds-timeline-1::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(11 50 176 / var(--tw-bg-opacity));
-}
-
-.after\:bg-firebirds-timeline-2::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 111 202 / var(--tw-bg-opacity));
-}
-
-.after\:bg-firebirds-timeline-3::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 172 228 / var(--tw-bg-opacity));
-}
-
-.after\:bg-firebirds-timeline-4::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(101 233 255 / var(--tw-bg-opacity));
 }
 
 .hover\:-z-50:hover {
