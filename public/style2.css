@@ -6857,6 +6857,11 @@ textarea.form-control.is-invalid {
   padding-right: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -6872,19 +6877,6 @@ textarea.form-control.is-invalid {
   padding-bottom: 2rem;
 }
 
-<<<<<<< HEAD:public/style.css
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-=======
->>>>>>> 131e836f9e8d2396c8a696f0b1e19695f99e3bd0:public/style2.css
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
