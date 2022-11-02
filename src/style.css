@@ -97,6 +97,10 @@
   @apply w-40 md:w-48 lg:w-96
 }
 
+.socials-logo{
+  @apply lg:cursor-alias text-white lg:hover:text-firebirds-blue-light-600 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center w-32 h-32 lg:h-full lg:w-full p-8;
+}
+
 .logo {
   @apply mx-6 my-5 p-4 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
 }
@@ -194,7 +198,7 @@ h5 {
 }
 
 h6 {
-  @apply text-2xl lg:text-5xl logo text-black font-ch font-light;
+  @apply text-2xl lg:text-5xl text-black font-ch font-light;
 }
 
 p {

@@ -11,6 +11,8 @@ function observerCallback(entries, observer) {
         if(entry.isIntersecting) {
             entry.target.classList.add('animate__animated')
 
+            console.log("eggggg")
+
             // sponsor logos
             if (entry.target.classList.contains('logo')) {
                 if (entry.target.classList.contains('animate__fadeOut')) {
@@ -21,10 +23,19 @@ function observerCallback(entries, observer) {
                 }
             }
             // sponsor tier headings
-            else if (entry.target.classList.contains('sponsor-heading-1')) {
+            if (entry.target.classList.contains('sponsor-heading-1')) {
                 if (!(entry.target.classList.contains('animate__fadeInLeft'))) {
                     entry.target.classList.remove('animate__fadeOut')
                     entry.target.classList.add('animate__fadeInLeft')
+                }
+            }
+            // about page content sections
+            if (entry.target.classList.contains('timeline-content')) {
+                if (entry.target.classList.contains('animate__fadeOut')) {
+                    entry.target.classList.remove('animate__fadeOut')
+                }
+                if (!(entry.target.classList.contains('animate__fadeIn'))) {
+                    entry.target.classList.add('animate__fadeIn')
                 }
             }
 
@@ -41,9 +52,18 @@ function observerCallback(entries, observer) {
                 }
             }
             // sponsor tier headings
-            else if (entry.target.classList.contains('sponsor-heading-1')) {
+            if (entry.target.classList.contains('sponsor-heading-1')) {
                 if (entry.target.classList.contains('animate__fadeInLeft')) {
                     entry.target.classList.remove('animate__fadeInLeft')
+                    entry.target.classList.add('animate__fadeOut')
+                }
+            }
+            // about page content sections
+            if (entry.target.classList.contains('timeline-content')) {
+                if (entry.target.classList.contains('animate__fadeIn')) {
+                    entry.target.classList.remove('animate__fadeIn')
+                }
+                if (!(entry.target.classList.contains('animate__fadeOut'))) {
                     entry.target.classList.add('animate__fadeOut')
                 }
             }
@@ -51,7 +71,7 @@ function observerCallback(entries, observer) {
     });
 };
 
-window.onload = function(){
+window.onload = function() {
     document.querySelectorAll('.logo-fade').forEach((i) => {
         if (i) {
             observer.observe(i);
@@ -59,6 +79,12 @@ window.onload = function(){
     });
 
     document.querySelectorAll('.tiers-pulse').forEach((i) => {
+        if (i) {
+            observer.observe(i);
+        }
+    });
+
+    document.querySelectorAll('.timeline-content').forEach((i) => {
         if (i) {
             observer.observe(i);
         }
