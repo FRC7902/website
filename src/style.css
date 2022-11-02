@@ -86,11 +86,11 @@
 }
 
 .logo-square {
-  @apply h-32 md:h-36 lg:h-48
+  @apply h-24 md:h-36 lg:h-48
 }
 
 .logo-short-rect {
-  @apply w-40 md:w-48 lg:w-72
+  @apply w-32 md:w-48 lg:w-72
 }
 
 .logo-long-rect {
@@ -102,7 +102,7 @@
 }
 
 .logo {
-  @apply mx-6 my-5 p-4 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
+  @apply mx-1 lg:mx-6 my-5 p-4 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
 }
 
 .sponsor-row {

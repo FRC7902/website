@@ -4303,12 +4303,8 @@ textarea.form-control.is-invalid {
   margin-right: 7rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-20 {
@@ -4317,6 +4313,14 @@ textarea.form-control.is-invalid {
 
 .mr-16 {
   margin-right: 4rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .-mr-12 {
@@ -4329,10 +4333,6 @@ textarea.form-control.is-invalid {
 
 .mr-12 {
   margin-right: 3rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .mt-6 {
@@ -4351,6 +4351,10 @@ textarea.form-control.is-invalid {
   margin-right: 1.5rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -4361,10 +4365,6 @@ textarea.form-control.is-invalid {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
 }
 
 .mb-1 {
@@ -6813,6 +6813,10 @@ textarea.form-control.is-invalid {
      object-position: center;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -6825,6 +6829,10 @@ textarea.form-control.is-invalid {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-12 {
   padding: 3rem;
 }
@@ -6833,20 +6841,12 @@ textarea.form-control.is-invalid {
   padding: 4rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .p-20 {
@@ -6895,6 +6895,11 @@ textarea.form-control.is-invalid {
   padding-bottom: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -6923,11 +6928,6 @@ textarea.form-control.is-invalid {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .py-2 {
@@ -7011,6 +7011,10 @@ textarea.form-control.is-invalid {
 
 .pr-10 {
   padding-right: 2.5rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
 }
 
 .pt-5 {
@@ -8058,7 +8062,7 @@ textarea.form-control.is-invalid {
 }
 
 .logo-square {
-  height: 8rem;
+  height: 6rem;
 }
 
 @media (min-width: 768px) {
@@ -8074,7 +8078,7 @@ textarea.form-control.is-invalid {
 }
 
 .logo-short-rect {
-  width: 10rem;
+  width: 8rem;
 }
 
 @media (min-width: 768px) {
@@ -8135,8 +8139,8 @@ textarea.form-control.is-invalid {
 }
 
 .logo {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   padding: 1rem;
@@ -8144,6 +8148,8 @@ textarea.form-control.is-invalid {
 
 @media (min-width: 1024px) {
   .logo {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     transition-property: transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 500ms;
@@ -9451,6 +9457,10 @@ p {
     margin-right: 6rem;
   }
 
+  .lg\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .lg\:hidden {
     display: none;
   }
@@ -9473,6 +9483,14 @@ p {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:p-8 {
+    padding: 2rem;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
   }
 
   .lg\:px-16 {
