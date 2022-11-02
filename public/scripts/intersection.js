@@ -11,13 +11,8 @@ function observerCallback(entries, observer) {
         if(entry.isIntersecting) {
             entry.target.classList.add('animate__animated')
 
-            console.log("eggggg")
-
             // sponsor logos
             if (entry.target.classList.contains('logo')) {
-                if (entry.target.classList.contains('animate__fadeOut')) {
-                    entry.target.classList.remove('animate__fadeOut')
-                }
                 if (!(entry.target.classList.contains('animate__fadeIn'))) {
                     entry.target.classList.add('animate__fadeIn')
                 }
@@ -42,15 +37,6 @@ function observerCallback(entries, observer) {
         }
         // out of view
         else {
-            // sponsor logos
-            if (entry.target.classList.contains('logo')) {
-                if (entry.target.classList.contains('animate__fadeIn')) {
-                    entry.target.classList.remove('animate__fadeIn')
-                }
-                if (!(entry.target.classList.contains('animate__fadeOut'))) {
-                    entry.target.classList.add('animate__fadeOut')
-                }
-            }
             // sponsor tier headings
             if (entry.target.classList.contains('sponsor-heading-1')) {
                 if (entry.target.classList.contains('animate__fadeInLeft')) {
