@@ -8106,8 +8106,6 @@ textarea.form-control.is-invalid {
 }
 
 .socials-logo {
-  height: 100%;
-  width: 100%;
   padding: 2rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -8115,6 +8113,8 @@ textarea.form-control.is-invalid {
 
 @media (min-width: 1024px) {
   .socials-logo {
+    height: 100%;
+    width: 100%;
     cursor: alias;
     transition-property: transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
