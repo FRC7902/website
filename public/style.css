@@ -4303,12 +4303,8 @@ textarea.form-control.is-invalid {
   margin-right: 7rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-20 {
@@ -4317,6 +4313,14 @@ textarea.form-control.is-invalid {
 
 .mr-16 {
   margin-right: 4rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .-mr-12 {
@@ -4329,10 +4333,6 @@ textarea.form-control.is-invalid {
 
 .mr-12 {
   margin-right: 3rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .mt-6 {
@@ -6789,6 +6789,10 @@ textarea.form-control.is-invalid {
      object-position: center;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -6807,10 +6811,6 @@ textarea.form-control.is-invalid {
 
 .p-16 {
   padding: 4rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .p-10 {
@@ -6959,6 +6959,10 @@ textarea.form-control.is-invalid {
 .py-3\.5 {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pl-8 {

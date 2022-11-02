@@ -4,7 +4,7 @@
 
     <!-- nav -->
     <nav class="font-semibold text-white flex flex-col flex-1 
-    md:pb-12 mobile-footer
+    md:pb-12 pb-20
      mx-2 pl-8 h-full max-h-[800px]" id="navigation">
 
         <!-- logo -->
