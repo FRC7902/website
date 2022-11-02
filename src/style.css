@@ -98,7 +98,7 @@
 }
 
 .socials-logo{
-  @apply lg:cursor-alias text-white lg:hover:text-firebirds-blue-light-600 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center lg:h-full lg:w-full p-8;
+  @apply lg:cursor-alias text-white lg:hover:text-firebirds-blue-light-600 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center w-32 h-32 lg:h-full lg:w-full p-8;
 }
 
 .logo {
