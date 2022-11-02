@@ -4233,11 +4233,6 @@ textarea.form-control.is-invalid {
   margin-bottom: 1rem;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -4251,6 +4246,11 @@ textarea.form-control.is-invalid {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .my-auto {
@@ -7914,6 +7914,8 @@ textarea.form-control.is-invalid {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Header background images */
+
 .bg-img-home {
   margin-bottom: 2rem;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -7972,6 +7974,27 @@ textarea.form-control.is-invalid {
         rgba(23, 34, 55, 0.99) 2%,
         rgba(23, 34, 55, 0.5) 100%),
       url('../public/img/CoverImages/CoverContact.webp');
+}
+
+.bg-img-resources {
+  margin-bottom: 2rem;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:pixelated;
+  position:relative;
+  background-image:
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverResources.webp');
 }
 
 .text-shadow {
@@ -8534,8 +8557,8 @@ p {
 
 .timeline {
   position: relative;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @media (min-width: 768px) {

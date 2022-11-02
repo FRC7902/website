@@ -7,6 +7,7 @@
 
 @layer utilities {
 
+  /* Header background images */
   .bg-img {
     @apply shadow-2xl mb-8;
     background-position:center;
@@ -43,6 +44,16 @@
         rgba(23, 34, 55, 0.99) 2%,
         rgba(23, 34, 55, 0.5) 100%),
       url('../public/img/CoverImages/CoverContact.webp');
+  }
+
+  .bg-img-resources {
+    @apply bg-img;
+    background-image:
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverResources.webp');
   }
 
   .text-shadow {
@@ -216,7 +227,7 @@ p {
 
 /* V2 Timeline */
 .timeline {
-  @apply mx-4 md:mx-10 relative;
+  @apply mx-8 md:mx-10 relative;
 }
 
 /* Timeline content - both */
