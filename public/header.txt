@@ -8,12 +8,12 @@
      mx-2 pl-8 h-full max-h-[800px]" id="navigation">
 
         <!-- logo -->
-        <a href="/" class="h-[13%] mt-20 md:my-6  hPhone:hidden">
+        <a href="/" class="md:h-[13%] h-[10%] mt-20 md:my-6  hPhone:hidden">
             <img src="/img/LogoIcon.svg" alt="" class="cursor-pointer h-full">
         </a>
 
         <!-- Logo text -->
-        <a href="/" class="h-[10%] my-6 mr-16 hPhone:hidden">
+        <a href="/" class="md:h-[10%] h-[8%] my-6 mr-16 hPhone:hidden">
             <img src="/img/LogoTextLeftWhite.svg" alt="" class="cursor-pointer h-full">
         </a>
 
