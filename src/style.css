@@ -81,6 +81,14 @@
     lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
 }
 
+.index-text-heading {
+  @apply pt-6 pb-6 w-fit font-ls font-normal text-5xl uppercase text-black;
+}
+
+.index-text-block {
+  @apply block sm:text-sm lg:text-xl font-light px-1 lg:px-16 mt-4 mb-6 w-full lg:w-4/5 mx-auto text-black;
+}
+
 .logo-section {
   @apply flex place-content-center flex-row flex-wrap items-center mx-auto lg:mt-12
 }

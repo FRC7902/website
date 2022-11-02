@@ -4172,6 +4172,10 @@ textarea.form-control.is-invalid {
   margin: auto;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -4182,10 +4186,6 @@ textarea.form-control.is-invalid {
 
 .m-20 {
   margin: 5rem;
-}
-
-.m-0 {
-  margin: 0px;
 }
 
 .m-1 {
@@ -4319,10 +4319,6 @@ textarea.form-control.is-invalid {
   margin-bottom: 3rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .-mr-12 {
   margin-right: -3rem;
 }
@@ -4335,12 +4331,20 @@ textarea.form-control.is-invalid {
   margin-right: 3rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mb-10 {
@@ -4361,10 +4365,6 @@ textarea.form-control.is-invalid {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mb-1 {
@@ -4803,14 +4803,8 @@ textarea.form-control.is-invalid {
   width: auto;
 }
 
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.w-40 {
+  width: 10rem;
 }
 
 .w-2 {
@@ -4819,6 +4813,32 @@ textarea.form-control.is-invalid {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-4 {
@@ -4831,14 +4851,6 @@ textarea.form-control.is-invalid {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-1 {
@@ -4857,10 +4869,6 @@ textarea.form-control.is-invalid {
 
 .w-56 {
   width: 14rem;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .w-52 {
@@ -4883,20 +4891,12 @@ textarea.form-control.is-invalid {
   width: 100vw;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
 .w-60 {
   width: 15rem;
 }
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-72 {
-  width: 18rem;
 }
 
 .w-12 {
@@ -4909,6 +4909,10 @@ textarea.form-control.is-invalid {
 
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .min-w-fit {
@@ -6862,6 +6866,11 @@ textarea.form-control.is-invalid {
   padding-right: 1rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -6963,6 +6972,10 @@ textarea.form-control.is-invalid {
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .pt-6 {
@@ -8018,6 +8031,52 @@ textarea.form-control.is-invalid {
     --tw-scale-y: 1.1;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     border-color: transparent;
+  }
+}
+
+.index-text-heading {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-family: League Spartan;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.index-text-block {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  display: block;
+  width: 100%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-weight: 300;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .index-text-block {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .index-text-block {
+    width: 80%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -9349,13 +9408,6 @@ p {
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
@@ -9461,6 +9513,10 @@ p {
     width: 60%;
   }
 
+  .lg\:w-72 {
+    width: 18rem;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -9480,11 +9536,6 @@ p {
 
   .lg\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
