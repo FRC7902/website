@@ -4248,6 +4248,11 @@ textarea.form-control.is-invalid {
   margin-bottom: 0.5rem;
 }
 
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
