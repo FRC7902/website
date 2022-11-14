@@ -16,7 +16,7 @@ RewriteRule (.*) /public/$1 [L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^.]+)$ $1.html [NC,L]
+RewriteRule ^([^.]+)$ /public/$1.html [NC,L]
 
 RewriteCond %{THE_REQUEST} \.html
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
