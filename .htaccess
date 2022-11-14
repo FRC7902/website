@@ -13,8 +13,3 @@ RewriteCond %{HTTP_HOST} ^www.127.0.0.1:5500$ [NC,OR]
 RewriteCond %{HTTP_HOST} 127.0.0.1:5500$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
-
-
-
-RewriteCond %{THE_REQUEST} \.html
-RewriteRule ^(.*)\.html$ /public/$1 [R=301,L]
