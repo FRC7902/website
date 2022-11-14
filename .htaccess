@@ -1,11 +1,4 @@
 RewriteEngine on
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^.]+)$ /public/$1.html [NC,L]
-
-RewriteCond %{THE_REQUEST} \.html
-RewriteRule ^(.*)\.html$ /$1 [R=301,L]
-
 RewriteCond %{HTTP_HOST} ^markhamfirebirds.ca$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.markhamfirebirds.ca$
 RewriteCond %{REQUEST_URI} !public/
@@ -20,4 +13,3 @@ RewriteCond %{HTTP_HOST} ^www.127.0.0.1:5500$ [NC,OR]
 RewriteCond %{HTTP_HOST} 127.0.0.1:5500$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
-
