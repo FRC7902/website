@@ -1,4 +1,7 @@
-RewriteEngine on
+RewriteEngine On
+
+RewriteBase /
+
 RewriteCond %{HTTP_HOST} ^markhamfirebirds.ca$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.markhamfirebirds.ca$
 RewriteCond %{REQUEST_URI} !public/
@@ -13,3 +16,13 @@ RewriteCond %{HTTP_HOST} ^www.127.0.0.1:5500$ [NC,OR]
 RewriteCond %{HTTP_HOST} 127.0.0.1:5500$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
+
+# Remove the .html from URLs
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+# Show .html page when non .html page is requested
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+#Actually show the page that has the .html extension
+RewriteRule ^(.*)$ $1.html [NC, L]
