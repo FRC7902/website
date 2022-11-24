@@ -225,7 +225,7 @@ p {
 }
 
 
-/* V2 Timeline */
+/* V2 TIMELINE */
 .timeline {
   @apply mx-8 md:mx-10 relative;
 }
@@ -249,9 +249,15 @@ p {
 
 /* Timeline gradient line */
 .timeline ul li .content:before {
-  @apply bg-gradient-to-b 
+  @apply bg-gradient-to-t
   md:translate-y-2 -translate-y-8;
 }
+
+/* Timeline gradient line (last point in list) */
+.timeline ul li:nth-last-child(1) .content:before {
+  @apply hidden;
+}
+
 
 /* List of timeline points */
 .timeline ul {
@@ -260,7 +266,7 @@ p {
 
 .timeline ul li {
   @apply clear-both w-full md:w-1/2 
-  pb-12 pl-14 md:px-5 md:py-10 ;
+  pb-12 pl-14 md:px-10 md:py-10 ;
   list-style:none;
   position:relative;
   box-sizing:border-box;
@@ -281,8 +287,23 @@ p {
 .timeline ul li .content {
   @apply pb-5 
   pt-6 md:pt-0
-  md:-mt-4;
+  md:-mt-4
 }
+
+/* Photo */
+.timeline ul li .content .photo {
+  @apply py-6;
+}
+
+
+.timeline ul li:nth-child(even) .content .photo {
+  @apply pr-16 md:pr-12;
+}
+
+.timeline ul li:nth-child(odd) .content .photo {
+  @apply pr-16 md:pr-0 md:pl-12;
+}
+
 
 .timeline ul li:nth-child(odd):before {
   @apply md:-right-[13px];
@@ -306,6 +327,7 @@ p {
 }
 
 .timeline ul li .time h4 {
+  @apply font-normal;
   margin:0;
   padding:0;
   font-size:14px;
@@ -315,21 +337,20 @@ p {
 .timeline ul li .time{
   @apply italic rounded-lg text-center w-max 
   md:top-4 -top-7
-  py-2 px-4
+  py-2 px-4 md:mx-10
   absolute text-white
+  font-normal
   ;
 }
 
 /* Time block - odd */
 .timeline ul li:nth-child(odd) .time {
-  @apply md:left-full 
-  md:ml-8;
+  @apply md:left-full; 
 }
 
 /* Time block - even */
 .timeline ul li:nth-child(even) .time {
-  @apply md:right-full 
-  md:mr-7;
+  @apply md:right-full;
 }
 
 
