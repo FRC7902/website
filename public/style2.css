@@ -6206,6 +6206,11 @@ textarea.form-control.is-invalid {
   background-color: rgb(19 66 186 / var(--tw-bg-opacity));
 }
 
+.bg-firebirds-timeline-14 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 50 176 / var(--tw-bg-opacity));
+}
+
 .bg-firebirds-timeline-13 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 64 182 / var(--tw-bg-opacity));
@@ -6564,6 +6569,18 @@ textarea.form-control.is-invalid {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
+.from-firebirds-timeline-13 {
+  --tw-gradient-from: #1140B6;
+  --tw-gradient-to: rgb(17 64 182 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-firebirds-timeline-12 {
+  --tw-gradient-from: #184EBC;
+  --tw-gradient-to: rgb(24 78 188 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-firebirds-timeline-11 {
   --tw-gradient-from: #1F5CC2;
   --tw-gradient-to: rgb(31 92 194 / 0);
@@ -6687,6 +6704,10 @@ textarea.form-control.is-invalid {
 .via-firebirds-blue-mid-500 {
   --tw-gradient-to: rgb(44 112 216 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #2C70D8, var(--tw-gradient-to);
+}
+
+.to-firebirds-timeline-14 {
+  --tw-gradient-to: #0B32B0;
 }
 
 .to-firebirds-timeline-13 {
@@ -8856,7 +8877,7 @@ p {
 
 .timeline ul li:nth-child(odd) {
   float: left;
-  text-align: justify;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -8872,7 +8893,7 @@ p {
 
 .timeline ul li:nth-child(even) {
   float: left;
-  text-align: justify;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -9542,6 +9563,12 @@ p {
   font-style:normal;
 
   font-display:swap;
+}
+
+.before\:bg-firebirds-timeline-14::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 50 176 / var(--tw-bg-opacity));
 }
 
 .before\:bg-firebirds-timeline-13::before {

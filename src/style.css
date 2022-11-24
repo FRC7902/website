@@ -275,13 +275,13 @@ p {
 .timeline ul li:nth-child(odd) {
   @apply 
   md:text-right   md:float-left
-  text-justify     float-left; /* Small screen */
+  text-left     float-left; /* Small screen */
 }
 
 .timeline ul li:nth-child(even) {
   @apply  
   md:text-left    md:float-right 
-  text-justify      float-left; /* Small screen */
+  text-left      float-left; /* Small screen */
 }
 
 .timeline ul li .content {
