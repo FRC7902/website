@@ -7122,8 +7122,8 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.875rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pb-20 {
@@ -7136,6 +7136,10 @@ textarea.form-control.is-invalid {
 
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .pt-5 {
@@ -7180,10 +7184,6 @@ textarea.form-control.is-invalid {
 
 .pb-11 {
   padding-bottom: 2.75rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .pb-10 {
@@ -8756,8 +8756,8 @@ p {
 
 .timeline {
   position: relative;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 3.5rem;
+  margin-left: 0.75rem;
 }
 
 @media (min-width: 768px) {
@@ -8856,7 +8856,7 @@ p {
 
 .timeline ul li:nth-child(odd) {
   float: left;
-  text-align: left;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -8872,7 +8872,7 @@ p {
 
 .timeline ul li:nth-child(even) {
   float: left;
-  text-align: left;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -8906,7 +8906,7 @@ p {
 }
 
 .timeline ul li:nth-child(even) .content .photo {
-  padding-right: 4rem;
+  padding-right: 0px;
 }
 
 @media (min-width: 768px) {
@@ -8916,12 +8916,11 @@ p {
 }
 
 .timeline ul li:nth-child(odd) .content .photo {
-  padding-right: 4rem;
+  padding-right: 0px;
 }
 
 @media (min-width: 768px) {
   .timeline ul li:nth-child(odd) .content .photo {
-    padding-right: 0px;
     padding-left: 3rem;
   }
 

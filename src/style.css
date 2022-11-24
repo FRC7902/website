@@ -227,7 +227,7 @@ p {
 
 /* V2 TIMELINE */
 .timeline {
-  @apply mx-8 md:mx-10 relative;
+  @apply mr-14 ml-3 md:mx-10 relative;
 }
 
 /* Timeline content - both */
@@ -275,13 +275,13 @@ p {
 .timeline ul li:nth-child(odd) {
   @apply 
   md:text-right   md:float-left
-  text-left      float-left; /* Small screen */
+  text-justify     float-left; /* Small screen */
 }
 
 .timeline ul li:nth-child(even) {
   @apply  
   md:text-left    md:float-right 
-  text-left      float-left; /* Small screen */
+  text-justify      float-left; /* Small screen */
 }
 
 .timeline ul li .content {
@@ -297,11 +297,11 @@ p {
 
 
 .timeline ul li:nth-child(even) .content .photo {
-  @apply pr-16 md:pr-12;
+  @apply pr-0 md:pr-12;
 }
 
 .timeline ul li:nth-child(odd) .content .photo {
-  @apply pr-16 md:pr-0 md:pl-12;
+  @apply pr-0 md:pl-12;
 }
 
 
