@@ -105,7 +105,7 @@
   @apply flex place-items-center lg:place-items-start text-center flex-col flex-wrap text-black lg:w-2/5 w-full mb-4 lg:mx-2 lg:mb-8 p-2 lg:p-4 lg:px-2 mx-auto mt-4
 }
 .resource-header {
-  @apply px-8 text-3xl lg:text-5xl font-normal
+  @apply px-8 text-3xl md:text-4xl lg:text-3xl xl:text-5xl font-normal
 }
 .resource-text {
   @apply lg:text-left text-lg lg:text-xl p-0 lg:pl-8 m-2
