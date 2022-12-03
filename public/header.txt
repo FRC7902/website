@@ -27,7 +27,7 @@
         </div>
 
         <!-- Social Media -->
-        <div class="h-[8%] flex flex-row justify-items-start justify-between max-w-[256px] md:max-w-[80%] max-h-8 my-8">
+        <div class="h-[4%] flex flex-row justify-items-start justify-between max-w-[256px] md:max-w-[80%] max-h-8 my-8">
 
             <!-- Instagram -->
             <a class="h-full w-full" target="_blank" href="https://www.instagram.com/frc7902/">
@@ -99,7 +99,7 @@
 
 
         <!-- Email -->
-        <div class="h-[5%] font-firasans text-[13px]">
+        <div class="h-[4%] font-firasans md:text-[12px] text-sm">
             <p>team7902@markhamfirebirds.ca</p>
 
         </div>

@@ -133,7 +133,6 @@
 }
 
 
-
 .h-line {
   @apply border-2 w-11/12 mx-auto opacity-40 border-firebirds-background-400;
 }
@@ -184,6 +183,10 @@
   @apply text-blue-400
 }
 
+
+
+
+
 #aboutPage #menuAbout,
 #contactPage #menuContact,
 #sponsorsPage #menuSponsors,
@@ -224,10 +227,21 @@ p {
   @apply font-firasans font-light;
 }
 
+p a {
+  @apply italic font-normal underline
+  decoration-1 hover:decoration-2 transition-all;
+
+}
+
 
 /* V2 TIMELINE */
 .timeline {
   @apply mr-14 ml-3 md:mx-10 relative;
+}
+
+/* Timeline images */
+.timeline img{
+  @apply rounded-md shadow-md;
 }
 
 /* Timeline content - both */
