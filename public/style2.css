@@ -6280,14 +6280,14 @@ textarea.form-control.is-invalid {
   background-color: rgb(101 233 255 / var(--tw-bg-opacity));
 }
 
+.bg-firebirds-blue-mid-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 174 255 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-firebirds-blue-mid-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 128 225 / var(--tw-bg-opacity));
 }
 
 .bg-firebirds-background-200 {
@@ -6295,14 +6295,14 @@ textarea.form-control.is-invalid {
   background-color: rgb(23 34 53 / var(--tw-bg-opacity));
 }
 
+.bg-firebirds-blue-mid-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 128 225 / var(--tw-bg-opacity));
+}
+
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-}
-
-.bg-firebirds-blue-mid-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(76 174 255 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400 {
@@ -6970,20 +6970,20 @@ textarea.form-control.is-invalid {
      object-position: center;
 }
 
-.p-2 {
-  padding: 0.5rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .p-8 {
   padding: 2rem;
 }
 
-.p-0 {
-  padding: 0px;
+.p-2 {
+  padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-0 {
+  padding: 0px;
 }
 
 .p-5 {
@@ -7016,6 +7016,10 @@ textarea.form-control.is-invalid {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-14 {
+  padding: 3.5rem;
 }
 
 .p-2\.5 {
@@ -7429,14 +7433,14 @@ textarea.form-control.is-invalid {
   line-height: 1.75rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-5xl {
@@ -8364,6 +8368,33 @@ textarea.form-control.is-invalid {
     --tw-text-opacity: 1;
     color: rgb(52 128 225 / var(--tw-text-opacity));
   }
+}
+
+.contact-faq-header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .contact-faq-header {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.contact-faq-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .index-text-heading {
@@ -9973,6 +10004,10 @@ p a:hover {
     padding: 2rem;
   }
 
+  .lg\:p-14 {
+    padding: 3.5rem;
+  }
+
   .lg\:p-12 {
     padding: 3rem;
   }
@@ -9985,6 +10020,11 @@ p a:hover {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-lg {

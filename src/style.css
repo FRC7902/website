@@ -114,6 +114,14 @@
   @apply lg:text-firebirds-blue-mid-400
 }
 
+.contact-faq-header {
+  @apply w-full mx-auto text-white my-4 text-2xl lg:text-4xl
+}
+
+.contact-faq-text {
+  @apply w-full mx-auto text-white
+}
+
 .index-text-heading {
   @apply pt-6 pb-6 w-fit font-ls font-normal text-5xl uppercase text-black;
 }
