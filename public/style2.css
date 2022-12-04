@@ -4160,10 +4160,6 @@ textarea.form-control.is-invalid {
   margin: 0.5rem;
 }
 
-.m-5 {
-  margin: 1.25rem;
-}
-
 .m-4 {
   margin: 1rem;
 }
@@ -4178,6 +4174,10 @@ textarea.form-control.is-invalid {
 
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
 }
 
 .m-8 {
@@ -4213,11 +4213,6 @@ textarea.form-control.is-invalid {
   margin-right: auto;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -4231,6 +4226,11 @@ textarea.form-control.is-invalid {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .my-12 {
@@ -4601,12 +4601,12 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
-.h-\[8\%\] {
-  height: 8%;
-}
-
 .h-\[10\%\] {
   height: 10%;
+}
+
+.h-\[8\%\] {
+  height: 8%;
 }
 
 .h-\[63\%\] {
@@ -4727,12 +4727,12 @@ textarea.form-control.is-invalid {
   height: 25%;
 }
 
-.max-h-8 {
-  max-height: 2rem;
-}
-
 .max-h-\[800px\] {
   max-height: 800px;
+}
+
+.max-h-8 {
+  max-height: 2rem;
 }
 
 .max-h-full {
@@ -4997,6 +4997,10 @@ textarea.form-control.is-invalid {
 
 .basis-1 {
   flex-basis: 0.25rem;
+}
+
+.basis-2 {
+  flex-basis: 0.5rem;
 }
 
 .basis-3 {
@@ -7405,19 +7409,9 @@ textarea.form-control.is-invalid {
   line-height: 1.75rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-base {
@@ -7425,9 +7419,19 @@ textarea.form-control.is-invalid {
   line-height: 1.5rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-2xl {
@@ -8336,8 +8340,8 @@ textarea.form-control.is-invalid {
 
 @media (min-width: 1280px) {
   .resource-header {
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -9976,6 +9980,11 @@ p a:hover {
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:text-lg {
