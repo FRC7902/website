@@ -4208,6 +4208,11 @@ textarea.form-control.is-invalid {
   margin: 7rem;
 }
 
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -5149,6 +5154,10 @@ textarea.form-control.is-invalid {
 
 .cursor-alias {
   cursor: alias;
+}
+
+.cursor-s-resize {
+  cursor: s-resize;
 }
 
 .touch-auto {
@@ -6970,6 +6979,10 @@ textarea.form-control.is-invalid {
      object-position: center;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -6984,10 +6997,6 @@ textarea.form-control.is-invalid {
 
 .p-0 {
   padding: 0px;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .p-1 {
@@ -7049,6 +7058,11 @@ textarea.form-control.is-invalid {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .px-8 {
@@ -7151,6 +7165,10 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.875rem;
 }
 
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -7161,10 +7179,6 @@ textarea.form-control.is-invalid {
 
 .pl-8 {
   padding-left: 2rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
 }
 
 .pt-8 {
@@ -7408,6 +7422,11 @@ textarea.form-control.is-invalid {
   line-height: 2.5rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -7416,11 +7435,6 @@ textarea.form-control.is-invalid {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-sm {
@@ -7678,6 +7692,11 @@ textarea.form-control.is-invalid {
           text-decoration-line: none;
 }
 
+.decoration-firebirds-blue-mid-500 {
+  -webkit-text-decoration-color: #2C70D8;
+          text-decoration-color: #2C70D8;
+}
+
 .decoration-firebirds-timeline-9 {
   -webkit-text-decoration-color: #2D78CE;
           text-decoration-color: #2D78CE;
@@ -7691,6 +7710,16 @@ textarea.form-control.is-invalid {
 .decoration-firebirds-timeline-2 {
   -webkit-text-decoration-color: #5EDAF8;
           text-decoration-color: #5EDAF8;
+}
+
+.decoration-firebirds-timeline-1 {
+  -webkit-text-decoration-color: #65E9FF;
+          text-decoration-color: #65E9FF;
+}
+
+.decoration-firebirds-blue-light-500 {
+  -webkit-text-decoration-color: #8cecf8;
+          text-decoration-color: #8cecf8;
 }
 
 .decoration-firebirds-blue-light-900 {
@@ -7730,6 +7759,22 @@ textarea.form-control.is-invalid {
 
 .decoration-1 {
   text-decoration-thickness: 1px;
+}
+
+.underline-offset-auto {
+  text-underline-offset: auto;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.underline-offset-1 {
+  text-underline-offset: 1px;
 }
 
 .antialiased {
@@ -8791,6 +8836,11 @@ textarea.form-control.is-invalid {
   border-color: rgb(140 236 248 / var(--tw-border-opacity));
 }
 
+.tiers-pulse {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 /* Index page splash photo */
 
 h1 {
@@ -8833,11 +8883,6 @@ h2 {
   }
 }
 
-.tiers-pulse {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 /* Sponsor headings */
 
 h3 {
@@ -8861,6 +8906,8 @@ h3 {
     line-height: 1;
   }
 }
+
+/* Timeline point titles */
 
 h5 {
   font-family: League Spartan;
@@ -8887,6 +8934,8 @@ h6 {
     line-height: 1;
   }
 }
+
+/* Standard paragraph */
 
 p {
   font-family: Fira Sans;
@@ -9950,6 +9999,11 @@ p a:hover {
     left: 0px;
   }
 
+  .lg\:mx-9 {
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+  }
+
   .lg\:mx-28 {
     margin-left: 7rem;
     margin-right: 7rem;
@@ -10000,6 +10054,10 @@ p a:hover {
     flex-direction: row;
   }
 
+  .lg\:p-12 {
+    padding: 3rem;
+  }
+
   .lg\:p-8 {
     padding: 2rem;
   }
@@ -10008,13 +10066,18 @@ p a:hover {
     padding: 3.5rem;
   }
 
-  .lg\:p-12 {
-    padding: 3rem;
-  }
-
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .lg\:text-6xl {
@@ -10025,11 +10088,6 @@ p a:hover {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-base {
