@@ -4320,6 +4320,14 @@ textarea.form-control.is-invalid {
   max-height: 100%;
 }
 
+.max-h-12 {
+  max-height: 3rem;
+}
+
+.max-h-2 {
+  max-height: 0.5rem;
+}
+
 .max-h-7 {
   max-height: 1.75rem;
 }
@@ -4334,10 +4342,6 @@ textarea.form-control.is-invalid {
 
 .max-h-6 {
   max-height: 1.5rem;
-}
-
-.max-h-12 {
-  max-height: 3rem;
 }
 
 .max-h-4 {
@@ -4399,20 +4403,32 @@ textarea.form-control.is-invalid {
   width: auto;
 }
 
-.w-40 {
-  width: 10rem;
+.w-72 {
+  width: 18rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-11 {
   width: 2.75rem;
 }
 
-.w-2 {
-  width: 0.5rem;
+.w-40 {
+  width: 10rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .w-4 {
@@ -4436,10 +4452,6 @@ textarea.form-control.is-invalid {
   width: fit-content;
 }
 
-.w-72 {
-  width: 18rem;
-}
-
 .w-48 {
   width: 12rem;
 }
@@ -4459,10 +4471,6 @@ textarea.form-control.is-invalid {
 .w-min {
   width: -moz-min-content;
   width: min-content;
-}
-
-.w-56 {
-  width: 14rem;
 }
 
 .w-52 {
@@ -8417,7 +8425,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  width: 5rem;
+  text-align: start;
   font-family: Cooper Hewitt;
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -8432,6 +8440,12 @@ h3 {
     margin-right: 1rem;
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    text-align: center;
   }
 }
 
@@ -9577,10 +9591,6 @@ p a:hover {
     width: 60%;
   }
 
-  .lg\:w-72 {
-    width: 18rem;
-  }
-
   .lg\:w-full {
     width: 100%;
   }
@@ -9638,9 +9648,9 @@ p a:hover {
 }
 
 @media (max-width: 768px) {
-  .sm-\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+  .sm-\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 
   .sm-\:hidden {

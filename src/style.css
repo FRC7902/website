@@ -243,7 +243,7 @@ h2 {
 
 /* Sponsor headings */
 h3 {
-  @apply text-black font-ch font-bold mx-auto mt-8 lg:ml-12 lg:mr-4 text-4xl lg:text-5xl w-20 tiers-pulse;
+  @apply text-black font-ch font-bold mx-auto mt-8 lg:ml-12 lg:mr-4 text-4xl lg:text-5xl tiers-pulse sm-:text-center text-start;
 }
 
 /* Timeline point titles */
