@@ -4184,6 +4184,10 @@ textarea.form-control.is-invalid {
   height: 8%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-\[63\%\] {
   height: 63%;
 }
@@ -4212,16 +4216,17 @@ textarea.form-control.is-invalid {
   height: 12rem;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-0 {
   height: 0px;
 }
 
 .h-3 {
   height: 0.75rem;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .h-40 {
@@ -4239,11 +4244,6 @@ textarea.form-control.is-invalid {
 .h-min {
   height: -moz-min-content;
   height: min-content;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .h-max {
