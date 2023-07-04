@@ -6,7 +6,7 @@
     <nav class="font-semibold text-white flex flex-col flex-1 
     md:pb-12 pb-20 
     items-center  md:items-stretch
-    sm-:mx-16 mx-2 md:pl-8 h-full max-h-[800px]" id="navigation">
+    sm-:mx-10 mx-2 md:pl-8 h-full max-h-[800px]" id="navigation">
 
         <!-- logo -->
         <a href="/" class="md:h-[13%] h-[10%] mt-20 md:my-6  hPhone:hidden sm-:hidden">
@@ -19,7 +19,7 @@
         </a>
 
         <!-- Mobile Logo Lockup -->
-        <a href="/" class="sm-:h-[12%] mb-6 mt-16 md:hidden overflow-visible w-full">
+        <a href="/" class="sm-:h-[12%] mb-6 mt-16 md:hidden overflow-visible">
             <img src="/img/TeamLogos/7902-Logo-Lockup_FullColour_WhiteText.svg" alt="" class="cursor-pointer h-full">
         </a>
 
