@@ -182,7 +182,7 @@
 .menu-item-2 {
   @apply cursor-pointer w-full flex flex-1 justify-start pl-8 ml-2 self-center my-0.5 text-white hover:text-firebirds-blue-mid-900 rounded-r-sm hover:bg-slate-100 hover:translate-x-2 font-firasans font-normal items-center text-base md:text-lg transition-all duration-300 rounded-l-sm;
 
-  vertical-align:central;
+  vertical-align:middle;
 }
 
 .menu-item-3 {
@@ -190,9 +190,10 @@
 }
 
 .menu-item-4 {
-  @apply cursor-pointer w-full flex justify-start self-center text-white py-0.5 font-firasans font-normal items-center pl-4 -translate-x-4 text-sm sm:text-base md:text-lg border-l-2 border-transparent border-spacing-x-2 hover:border-firebirds-blue-light-500 transition-all duration-300;
+  @apply cursor-pointer w-full flex justify-center md:justify-start self-center text-white py-0.5 font-firasans font-normal items-center md:pl-4 md:-translate-x-4 text-lg 
+  md:border-l-2 border-transparent border-spacing-x-2 hover:border-firebirds-blue-light-500 transition-all duration-300;
 
-  vertical-align:central;
+  vertical-align:middle;
 }
 
 .mobile-footer {

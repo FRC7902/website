@@ -16,6 +16,7 @@ module.exports = {
 
             screens: {
                 'hPhone': { 'raw': '(max-height: 600px)' },
+                'sm-': {'max' : '768px'}
             },
 
             colors: {
