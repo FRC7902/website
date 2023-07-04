@@ -123,7 +123,7 @@
 }
 
 .index-text-heading {
-  @apply pt-6 pb-6 w-fit font-ls font-normal text-5xl uppercase text-black;
+  @apply pt-6 pb-6 w-fit font-ls font-normal text-3xl md:text-5xl uppercase text-black;
 }
 
 .index-text-block {

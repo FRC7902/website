@@ -19,7 +19,7 @@
         </a>
 
         <!-- Mobile Logo Lockup -->
-        <a href="/" class="sm-:h-[12%] mb-6 mt-20 md:hidden">
+        <a href="/" class="sm-:h-[12%] mb-6 mt-16 md:hidden">
             <img src="/img/TeamLogos/7902-Logo-Lockup_FullColour_WhiteText.svg" alt="" class="cursor-pointer h-full">
         </a>
 
