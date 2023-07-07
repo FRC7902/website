@@ -2,8 +2,6 @@ RewriteEngine On
 
 RewriteBase /
 
-
-
 RewriteCond %{HTTP_HOST} ^staging.markhamfirebirds.ca$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.staging.markhamfirebirds.ca$
 RewriteCond %{REQUEST_URI} !public/
