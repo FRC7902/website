@@ -1,0 +1,288 @@
+<html class="absolute max-h-full">
+
+<head>
+    <title>Sponsors | FRC 7902: Markham FireBirds</title>
+    <link rel="icon" type="image/png" href="./img/TeamLogos/Favicon.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style2.css" />
+
+    <!-- Icons -->
+    <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
+
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="./scripts/intersection.js"></script>
+
+    <!-- Sidebar menu for mobile -->
+    <script src="./scripts/menu.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"> </script>
+
+    <!-- Scroll TODO - add to JS file and make adaptable for any ID -->
+    <script type="text/javascript">
+        function dropdown() {
+            document.querySelector("#submenu").classList.toggle("hidden");
+            document.querySelector("#arrow").classList.toggle("rotate-0");
+        }
+        dropdown();
+
+        // Smooth scroll
+        function scrollFunction1() {
+            let e = document.getElementById("maincontent");
+            e.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+                inline: 'start'
+            });
+        }
+        function scrollFunction2() {
+            let e = document.getElementById("el2");
+            // This ends the block to the window 
+            // bottom and also aligns the view to the center 
+            e.scrollIntoView({
+                block: 'end',
+                behavior: 'smooth',
+                inline: 'center'
+            });
+        }
+    </script>
+
+
+</head>
+
+<body class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth" id="sponsorsPage">
+
+    <span
+        class="absolute z-20 text-white text-4xl top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
+        onclick="openSidebar()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-white m-2" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </span>
+
+
+    <!-- Navbar (from text file)-->
+    <script>
+        $(function () {
+            $("#nav").load("header.txt");
+        });
+    </script>
+
+    <header id="nav" class="flex"></header>
+
+    <div class="flex flex-row">
+
+        <main class="flex-1 overflow-y-scroll h-full sm-:pb-32">
+
+            <!-- Header-->
+            <div class="bg-img-about">
+                <h2>
+                    Sponsors
+                </h2>
+            </div>
+
+
+            <!-- Main page content -->
+            <div class="flex place-content-center flex-col px-4 lg:px-16 mx-auto fade-anim-wrapper">
+                <div class="flex place-content-center flex-col p-5 lg:p-12 mx-auto">
+                    <p class="text-center text-base lg:text-lg text-black">
+                        Sponsoring our team provides a unique advertising opportunity for your company. Competitions and
+                        events expose your brand to thousands, including
+                        students, parents, and industry professionals. Additionally, all donations directly support the
+                        success of our team. Our tiered sponsor system features
+                        a range of benefits including but not limited to shout-outs at competition, your logo on our
+                        robot, website, social media, team uniforms, and banners.
+                        </br><br>
+                        Interested in supporting our team?
+                        <a href="https://drive.google.com/file/d/1abc4njMK7h5WGPX_3dyE9gShmvYl_h-4/view" target="_blank"
+                            class="decoration-firebirds-blue-mid-500 cursor-alias">Learn More</a>
+                    </p>
+                </div>
+
+                <hr class="h-line">
+
+                <!-- Title Sponsors -->
+                <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">TITLE</h3>
+                    <div class="logo-section">
+                        <a href="https://sablemetal.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/sable-Logo.png" class="logo logo-long-rect logo-fade"></img>
+                        </a>
+                        <a href="https://www.remingtongroupinc.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/Remington-Group.webp"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="h-line">
+
+
+                <!-- Firestorm Sponsors -->
+                <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">FIRESTORM</h3>
+                    <div class="logo-section">
+                        <a href="https://mpradvisors.ca/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/MPR-Black.svg" class="logo logo-long-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://www.studentscholarscentre.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/StudentScholars-Colour.svg"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="h-line">
+
+                <!-- Blaze Sponsors -->
+                <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">BLAZE</h3>
+                    <div class="logo-section">
+                        <a href="https://www.firstroboticscanada.org/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/FIRSTRegionHorz_Canada.png"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+                        <a href="https://www.hondacanadafoundation.ca/home" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/HondaCanadaFoundation-FullColour.svg"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+
+
+                    </div>
+                </div>
+
+                <hr class="h-line">
+
+                <!-- Flame Sponsors -->
+                <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">FLAME</h3>
+                    <div class="logo-section">
+                        <a href="https://boxgrovedental.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/boxgrovedental.png"
+                                class="logo logo-long-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://www.monstermobile.ca/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/MonsterMobileLogo.svg"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://gipi.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/GIP_Lockup_Green.webp"
+                                class="logo logo-long-rect logo-fade"></img>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="h-line">
+
+                <!-- Flare Sponsors -->
+                <!-- <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">FLARE</h3>
+                    <div class="logo-section">
+                        <a href="https://www.stickergiant.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/StickerGiant-Flame-Logo-SVG-2017.svg"
+                                class="logo logo-square logo-fade"></img>
+                        </a>
+                        <a href="http://www.lakeharbourcanada.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias"> <img
+                                src="./img/SponsorLogos/lake-harbour.png" class="logo logo-long-rect logo-fade"></img>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="h-line"> -->
+
+                <!-- Spark Sponsors -->
+                <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">SPARK</h3>
+                    <div class="logo-section">
+
+
+                        <a href="https://www.princessauto.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/Princess+Auto+Logo+01.png"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+
+
+
+                        <a href="https://www.solidworks.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/solidworks-logo.svg"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+                        <a href="https://www.getbild.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/BildPDMLogo.png" class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://cloud3dprint.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/C3DPBlack_S.svg" class="logo logo-short-rect logo-fade"></img>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="h-line">
+
+                <div class="flex flex-col lg:flex-row sponsor-row">
+                    <h3 class="tiers-pulse">SUPPLIERS</h3>
+                    <div class="logo-section">
+
+                        <a href="https://www.metalsupermarkets.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/Metal-Supermarkets-Logo.png"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://www.promopays.com/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/PromoPays-Logo-Horizontal-NoBG.png"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://www.markhamtrophy.ca/" target="_blank"
+                            class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/Markham-trophy.png"
+                                class="logo logo-short-rect logo-fade"></img>
+                        </a>
+
+                        <a href="https://1360.ca/" target="_blank" class="hover:to-firebirds-blue-mid-100 cursor-alias">
+                            <img src="./img/SponsorLogos/OrbitLogo.svg" class="logo logo-square logo-fade"></img>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <!-- <div>
+                    <p class="h-48"></p>
+                </div> -->
+
+            </div>
+        </main>
+</body>
+
+</html>

@@ -2,3 +2,799 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer utilities {
+
+  body{
+
+    @apply  font-firasans;
+
+  }
+
+  /* Header background images */
+  .bg-img {
+    @apply shadow-2xl mb-8;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    image-rendering:pixelated;
+    position:relative;
+  }
+
+  .bg-img-home {
+    @apply bg-img;
+    background-image:
+      linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
+      url('../public/img/CoverImages/WebsiteCover.webp');
+  }
+
+  .bg-img-about {
+    @apply bg-img;
+    background-image:
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverAbout.webp');
+  }
+
+  .bg-img-contact {
+    @apply bg-img;
+    background-image:
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverContact.webp');
+  }
+
+  .bg-img-resources {
+    @apply bg-img;
+    background-image:
+      linear-gradient(to right,
+        rgb(23, 34, 55) 0%,
+        rgba(23, 34, 55, 0.99) 2%,
+        rgba(23, 34, 55, 0.5) 100%),
+      url('../public/img/CoverImages/CoverResources.webp');
+  }
+
+  .text-shadow {
+    text-shadow:0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .text-shadow-md {
+    text-shadow:0 4px 8px rgba(0, 0, 0, 0.48), 0 2px 4px rgba(0, 0, 0, 0.32);
+  }
+
+  .text-shadow-lg {
+    text-shadow:0 15px 30px rgba(0, 0, 0, 0.44), 0 5px 15px rgba(0, 0, 0, 0.32);
+  }
+
+  .text-shadow-none {
+    text-shadow:none;
+  }
+
+}
+
+.hidden {
+  display:hidden;
+}
+
+.animate__animated.fadeOut {
+  --animate-duration:2s;
+  @apply lg:transition-transform
+    /* lg:duration-500 */
+    lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
+}
+
+.animate__animated.fadeIn {
+  --animate-duration:2s;
+  @apply lg:transition-transform
+    /* lg:duration-500 */
+    lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
+}
+
+.center-diamond {
+  border:0;
+  height:1.5px;
+  width:95%;
+  position:relative;
+  @apply bg-firebirds-blue-mid-900 mb-5 mt-5;
+}
+
+.resource-content {
+  @apply flex place-items-center lg:place-items-start text-left flex-col flex-wrap text-black lg:w-2/5 w-full mb-4 lg:mx-2 lg:mb-8 p-2 lg:p-4 lg:px-2 mx-auto mt-4
+}
+
+.resource-content ul {
+
+  @apply list-none flex flex-col;
+
+}
+
+/* Feather bullet points */
+.resource-content ul li:before {
+
+  @apply inline-block h-6 w-6 transition-colors mr-2 mb-2 align-middle;
+
+  content:'';
+  background-size:1.5rem;
+
+  background-repeat:no-repeat;
+
+  -webkit-mask: url("../img/FeatherBullet.svg") center/cover no-repeat;
+          mask: url("../img/FeatherBullet.svg") center/cover no-repeat;
+
+}
+
+.resource-content a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  transition: width .4s ease-in;
+}
+
+.resource-content a:hover::after {
+  width: 100%;
+}
+
+
+.resource-header {
+  @apply px-8 text-2xl md:text-3xl lg:text-2xl xl:text-3xl font-normal font-ls uppercase;
+}
+
+.resource-text {
+  @apply lg:text-left text-lg lg:text-xl p-0 lg:pl-8 m-2 transition-all w-fit
+}
+
+
+.contact-faq-header {
+  @apply w-full mx-auto text-white my-4 text-2xl lg:text-4xl
+}
+
+.contact-faq-text {
+  @apply w-full mx-auto text-white
+}
+
+.index-text-heading {
+  @apply pt-6 pb-6 w-fit font-ls font-normal text-3xl md:text-5xl uppercase text-black;
+}
+
+.index-text-block {
+  @apply block sm:text-sm lg:text-xl font-light px-1 lg:px-16 mt-4 mb-6 w-full lg:w-4/5 mx-auto text-black;
+}
+
+.logo-section {
+  @apply flex place-content-center flex-row flex-wrap items-center mx-auto lg:mt-12
+}
+
+.logo-square {
+  @apply h-24 md:h-36 lg:h-48
+}
+
+.logo-short-rect {
+  @apply w-32 md:w-48 lg:w-72
+}
+
+.logo-long-rect {
+  @apply w-40 md:w-48 lg:w-96
+}
+
+.socials-logo {
+  @apply lg:cursor-alias text-white lg:hover:text-firebirds-blue-light-600 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center w-32 h-32 lg:h-full lg:w-full p-8;
+}
+
+.logo {
+  @apply mx-1 lg:mx-6 my-5 p-4 lg:transition-transform lg:duration-500 lg:hover:border-transparent lg:hover:scale-110 lg:hover:origin-center;
+}
+
+.sponsor-row {
+  @apply m-4
+}
+
+.sponsor-page-banner {
+  @apply p-4 mt-12 text-white bg-firebirds-background-400 font-ch font-semibold text-7xl mx-auto;
+}
+
+
+.h-line {
+  @apply border-2 w-11/12 mx-auto opacity-40 border-firebirds-background-400;
+}
+
+.h-line2 {
+  @apply border-2 mx-auto opacity-20 border-firebirds-background-400;
+}
+
+.grid-item-1 {
+  @apply bg-firebirds-blue-light-500 p-6;
+}
+
+.menu-item-1 {
+  @apply cursor-pointer h-full flex items-center flex-1 justify-center self-center text-firebirds-blue-light-500 hover:bg-slate-100 hover:text-firebirds-blue-mid-200 mt-4 rounded-t-3xl transition-all duration-200;
+}
+
+.menu-item-2 {
+  @apply cursor-pointer w-full flex flex-1 justify-start pl-8 ml-2 self-center my-0.5 text-white hover:text-firebirds-blue-mid-900 rounded-r-sm hover:bg-slate-100 hover:translate-x-2 font-firasans font-normal items-center text-base md:text-lg transition-all duration-300 rounded-l-sm;
+
+  vertical-align:middle;
+}
+
+.menu-item-3 {
+  @apply cursor-pointer py-5 flex flex-1 justify-center self-center text-white hover:bg-slate-200 hover:text-firebirds-blue-mid-600 hover:translate-x-4 hover:pl-6 transition-all font-ls font-normal duration-300 rounded-l-sm;
+}
+
+.menu-item-4 {
+  @apply cursor-pointer w-full flex justify-center md:justify-start self-center text-white py-0.5 font-firasans font-normal items-center md:pl-4 md:-translate-x-4 text-lg md:border-l-2 border-transparent border-spacing-x-2 hover:border-firebirds-blue-light-500 transition-all duration-300;
+
+  vertical-align:middle;
+}
+
+.mobile-footer {
+  padding-bottom:calc(1em + env(safe-area-inset-bottom));
+  /* adds the safe-area-inset-bottom value to the initial 1em of padding.
+    a larger black area will display for a device that has a positive value for this variable. */
+}
+
+.menu-item-active {
+  @apply text-firebirds-blue-mid-900 bg-slate-100 translate-x-2
+}
+
+.menu-item {
+  @apply block basis-1/5;
+}
+
+.menu-item-visible {
+  @apply text-blue-400
+}
+
+
+
+
+
+#aboutPage #menuAbout,
+#contactPage #menuContact,
+#sponsorsPage #menuSponsors,
+#joinPage #menuJoin,
+#resourcesPage #menuResources {
+
+  @apply border-firebirds-blue-light-500
+}
+
+.tiers-pulse {
+  @apply text-black;
+}
+
+/* Index page splash photo */
+h1 {
+  @apply border-l-firebirds-blue-light-600 border-l-4 pl-6 leading-tight text-5xl md:text-6xl font-ls;
+}
+
+/* Heading for page banners */
+h2 {
+  @apply justify-center items-center py-12 flex uppercase text-5xl md:text-6xl text-white text-shadow-md font-ls;
+}
+
+/* Sponsor headings */
+h3 {
+  @apply text-black font-ls font-bold mx-auto mt-8 lg:ml-12 lg:mr-4 text-4xl lg:text-5xl tiers-pulse sm-:text-center text-start;
+}
+
+/* Timeline point titles */
+h5 {
+  @apply text-firebirds-background-200 font-ls text-xl uppercase font-medium;
+}
+
+h6 {
+  @apply text-2xl lg:text-5xl text-black font-ls font-light;
+}
+
+/* Standard paragraph */
+p {
+  @apply font-firasans font-light;
+}
+
+p a {
+  @apply italic font-normal underline decoration-1 hover:decoration-2 transition-all;
+
+}
+
+
+/* V2 TIMELINE */
+.timeline {
+  @apply mr-14 ml-3 md:mx-10 relative;
+}
+
+/* Timeline images */
+.timeline img {
+  @apply rounded-md shadow-md;
+}
+
+/* Timeline content - both */
+.timeline ul li .content::before {
+  @apply w-1.5 h-full absolute pb-1 -z-[1px] left-[23px];
+}
+
+/* Timeline content - odd */
+.timeline ul li:nth-child(odd) .content:before {
+  @apply md:left-full;
+  content:'';
+}
+
+/* Timeline content - even */
+.timeline ul li:nth-child(even) .content:before {
+  @apply md:left-0;
+  content:'';
+}
+
+/* Timeline gradient line */
+.timeline ul li .content:before {
+  @apply bg-gradient-to-t md:translate-y-2 -translate-y-8;
+}
+
+/* Timeline gradient line (last point in list) */
+.timeline ul li:nth-last-child(1) .content:before {
+  @apply hidden;
+}
+
+
+/* List of timeline points */
+.timeline ul {
+  @apply p-0 m-0;
+}
+
+.timeline ul li {
+  @apply clear-both w-full md:w-1/2 pb-12 pl-14 md:px-10 md:py-10;
+  list-style:none;
+  position:relative;
+  box-sizing:border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+  @apply md:text-right md:float-left text-left float-left;
+  /* Small screen */
+}
+
+.timeline ul li:nth-child(even) {
+  @apply md:text-left md:float-right text-left float-left;
+  /* Small screen */
+}
+
+.timeline ul li .content {
+  @apply pb-5 pt-6 md:pt-0 md:-mt-4
+}
+
+/* Photo */
+.timeline ul li .content .photo {
+  @apply py-6;
+}
+
+
+.timeline ul li:nth-child(even) .content .photo {
+  @apply pr-0 md:pr-12;
+}
+
+.timeline ul li:nth-child(odd) .content .photo {
+  @apply pr-0 md:pl-12;
+}
+
+
+.timeline ul li:nth-child(odd):before {
+  @apply md:-right-[13px];
+}
+
+.timeline ul li:nth-child(even):before {
+  @apply md:-left-[7px];
+}
+
+.timeline ul li:before {
+  @apply w-5 h-5 absolute -top-[18px] md:top-6
+    /* Distance of points down the line */
+    left-4 md:left-auto rounded-[50%];
+  content:'';
+}
+
+.timeline ul li p {
+  margin:10px 0 0;
+  padding:0;
+}
+
+.timeline ul li .time h4 {
+  @apply font-normal font-ls ;
+  margin:0;
+  padding:0;
+  font-size:14px;
+}
+
+/* Time block - both */
+.timeline ul li .time {
+  @apply italic rounded-lg text-center w-max md:top-4 -top-7 py-2 px-4 md:mx-10 absolute text-white font-normal;
+}
+
+/* Time block - odd */
+.timeline ul li:nth-child(odd) .time {
+  @apply md:left-full;
+}
+
+/* Time block - even */
+.timeline ul li:nth-child(even) .time {
+  @apply md:right-full;
+}
+
+
+/* FONTS */
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-Bold.woff2') format('woff2'),
+    url('./font/CooperHewitt-Bold.woff') format('woff');
+  font-weight:bold;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-BoldItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-BoldItalic.woff') format('woff');
+  font-weight:bold;
+  font-style:italic;
+  font-display:swap;
+}
+
+
+@font-face {
+  font-family:'Cooper Hewitt Book';
+  src:url('./font/CooperHewitt-Book.woff2') format('woff2'),
+    url('./font/CooperHewitt-Book.woff') format('woff');
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt Book';
+  src:url('./font/CooperHewitt-BookItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-BookItalic.woff') format('woff');
+  font-weight:normal;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-Heavy.woff2') format('woff2'),
+    url('./font/CooperHewitt-Heavy.woff') format('woff');
+  font-weight:900;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-HeavyItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-HeavyItalic.woff') format('woff');
+  font-weight:900;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-Light.woff2') format('woff2'),
+    url('./font/CooperHewitt-Light.woff') format('woff');
+  font-weight:300;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-Semibold.woff2') format('woff2'),
+    url('./font/CooperHewitt-Semibold.woff') format('woff');
+  font-weight:600;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-MediumItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-MediumItalic.woff') format('woff');
+  font-weight:500;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-SemiboldItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-SemiboldItalic.woff') format('woff');
+  font-weight:600;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-LightItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-LightItalic.woff') format('woff');
+  font-weight:300;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-Medium.woff2') format('woff2'),
+    url('./font/CooperHewitt-Medium.woff') format('woff');
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-ThinItalic.woff2') format('woff2'),
+    url('./font/CooperHewitt-ThinItalic.woff') format('woff');
+  font-weight:100;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Cooper Hewitt';
+  src:url('./font/CooperHewitt-Thin.woff2') format('woff2'),
+    url('./font/CooperHewitt-Thin.woff') format('woff');
+  font-weight:100;
+  font-style:normal;
+  font-display:swap;
+}
+
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Bold.woff2') format('woff2'),
+    url('./font/FiraSans-Bold.woff') format('woff');
+  font-weight:bold;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Black.woff2') format('woff2'),
+    url('./font/FiraSans-Black.woff') format('woff');
+  font-weight:900;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-BlackItalic.woff2') format('woff2'),
+    url('./font/FiraSans-BlackItalic.woff') format('woff');
+  font-weight:900;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-ExtraBold.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraBold.woff') format('woff');
+  font-weight:bold;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-ExtraBoldItalic.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraBoldItalic.woff') format('woff');
+  font-weight:bold;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-BoldItalic.woff2') format('woff2'),
+    url('./font/FiraSans-BoldItalic.woff') format('woff');
+  font-weight:bold;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-ExtraLight.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraLight.woff') format('woff');
+  font-weight:200;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Italic.woff2') format('woff2'),
+    url('./font/FiraSans-Italic.woff') format('woff');
+  font-weight:normal;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-ExtraLightItalic.woff2') format('woff2'),
+    url('./font/FiraSans-ExtraLightItalic.woff') format('woff');
+  font-weight:200;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Light.woff2') format('woff2'),
+    url('./font/FiraSans-Light.woff') format('woff');
+  font-weight:300;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-LightItalic.woff2') format('woff2'),
+    url('./font/FiraSans-LightItalic.woff') format('woff');
+  font-weight:300;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Medium.woff2') format('woff2'),
+    url('./font/FiraSans-Medium.woff') format('woff');
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-MediumItalic.woff2') format('woff2'),
+    url('./font/FiraSans-MediumItalic.woff') format('woff');
+  font-weight:500;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Regular.woff2') format('woff2'),
+    url('./font/FiraSans-Regular.woff') format('woff');
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-SemiBold.woff2') format('woff2'),
+    url('./font/FiraSans-SemiBold.woff') format('woff');
+  font-weight:600;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-SemiBoldItalic.woff2') format('woff2'),
+    url('./font/FiraSans-SemiBoldItalic.woff') format('woff');
+  font-weight:600;
+  font-style:italic;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-Thin.woff2') format('woff2'),
+    url('./font/FiraSans-Thin.woff') format('woff');
+  font-weight:100;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'Fira Sans';
+  src:url('./font/FiraSans-ThinItalic.woff2') format('woff2'),
+    url('./font/FiraSans-ThinItalic.woff') format('woff');
+  font-weight:100;
+  font-style:italic;
+  font-display:swap;
+}
+
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-Black.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Black.woff') format('woff');
+  font-weight:900;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-Light.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Light.woff') format('woff');
+  font-weight:300;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-Medium.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Medium.woff') format('woff');
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-Thin.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Thin.woff') format('woff');
+  font-weight:100;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-ExtraBold.woff2') format('woff2'),
+    url('./font/LeagueSpartan-ExtraBold.woff') format('woff');
+  font-weight:bold;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-ExtraLight.woff2') format('woff2'),
+    url('./font/LeagueSpartan-ExtraLight.woff') format('woff');
+  font-weight:200;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-SemiBold.woff2') format('woff2'),
+    url('./font/LeagueSpartan-SemiBold.woff') format('woff');
+  font-weight:600;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-Bold.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Bold.woff') format('woff');
+  font-weight:bold;
+  font-style:normal;
+  font-display:swap;
+}
+
+@font-face {
+  font-family:'League Spartan';
+  src:url('./font/LeagueSpartan-Regular.woff2') format('woff2'),
+    url('./font/LeagueSpartan-Regular.woff') format('woff');
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}

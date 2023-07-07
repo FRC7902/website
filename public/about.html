@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth duration-1000 transition-all">
+
+
+<head>
+    <title>About | FRC 7902: Markham FireBirds</title>
+    <link rel="icon" type="image/png" href="./img/TeamLogos/Favicon.png">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
+
+    <!-- Icons -->
+    <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
+
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="./scripts/intersection.js"></script>
+
+    <!-- Sidebar menu for mobile -->
+    <script src="./scripts/menu.js"></script>
+
+    <!-- Scroll-to element function -->
+    <script src="./scripts/scrollTo.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"> </script>
+
+    <!-- Scroll TODO - add to JS file and make adaptable for any ID -->
+    <script type="text/javascript">
+        function dropdown() {
+            document.querySelector("#submenu").classList.toggle("hidden");
+            document.querySelector("#arrow").classList.toggle("rotate-0");
+        }
+        dropdown();
+
+        // Smooth scroll
+        function scrollFunction1() {
+            let e = document.getElementById("maincontent");
+            e.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+                inline: 'start'
+            });
+        }
+        function scrollFunction2() {
+            let e = document.getElementById("el2");
+            // This ends the block to the window 
+            // bottom and also aligns the view to the center 
+            e.scrollIntoView({
+                block: 'end',
+                behavior: 'smooth',
+                inline: 'center'
+            });
+        }
+
+    </script>
+
+</head>
+
+
+<body class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth" id="aboutPage">
+
+    <span
+        class="absolute z-20 text-white text-4xl top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
+        onclick="openSidebar()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-white m-2" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </span>
+
+    <!-- Navbar (from text file)-->
+    <script>
+        $(function () {
+            $("#nav").load("header.txt");
+        });
+    </script>
+    <header id="nav" class="flex"></header>
+
+    <main class="flex-1 overflow-y-scroll h-full sm-:pb-32">
+        <!-- Main splash photo -->
+        <div class="bg-img-about">
+            <h2>
+                About
+            </h2>
+        </div>
+
+        <!-- Opener text -->
+        <div class="flex place-content-center flex-col p-5 lg:p-12 lg:pb-0 pb-0 mx-9 lg:mx-9">
+            <p class="text-center text-base lg:text-lg">Team 7902, the Markham FireBirds, is a community-based
+                <i>FIRST</i>
+                Robotics Competition team from Markham, Ontario. Read a bit about our recent history or
+                <a onclick="scrollToID('November2018')"
+                    class="cursor-pointer decoration-firebirds-blue-mid-500 underline-offset-auto scroll-smooth">
+                    start at the bottom</a>.
+            </p>
+        </div>
+
+        <!-- Timeline -->
+        <div class="timeline pt-10">
+            <ul>
+                <!-- Point 14:  -->
+                <li class="before:bg-firebirds-timeline-14">
+                    <div class="content from-firebirds-timeline-13 to-firebirds-timeline-14">
+                        <h5>The 2023 Season</h5>
+                        <p>Four years after our first attempt to build an arm, the 2023 season marked the successful
+                            design of a 5-foot long telescoping robot arm. This bot competed at the Newmarket Sports Complex and
+                            Western University Events.
+                        </p>
+                        <div class="photo">
+                            <img src="./img/TeamMedia/WesternComp2023.webp"
+                                alt="The team's robot at the Western University 2023 event.">
+                        </div>
+                    </div>
+                    <div class="time bg-firebirds-timeline-14">
+                        <h4>Jan-Mar 2023</h4>
+                    </div>
+                </li>
+
+                <!-- Point 13:  -->
+                <li class="before:bg-firebirds-timeline-13">
+                    <div class="content from-firebirds-timeline-12 to-firebirds-timeline-13">
+                        <h5>Our First Provincials</h5>
+                        <p>By the end of the qualifiers round, our team had ranked 28th in the province and
+                            attended our first-ever Provincial Championships, where we ranked 29 (of 67). We hope to be
+                            back next year!
+                        </p>
+                        <div class="photo">
+                            <img src="./img/TeamMedia/DCMP2022Field.webp"
+                                alt="Group photo with (left to right) our team, 2200, and 5409 after Humber 2022 awards ceremony">
+                        </div>
+                    </div>
+                    <div class="time bg-firebirds-timeline-13">
+                        <h4>April 2022</h4>
+                    </div>
+                </li>
+
+                <!-- Point 12: 2022 Season-->
+                <li class="before:bg-firebirds-timeline-12">
+                    <div class="content from-firebirds-timeline-11 to-firebirds-timeline-12">
+                        <h5>2022: Return to Competition</h5>
+                        <p>We came out of the pandemic better than ever before. For the first time, we were a team that
+                            could hold its own in competition, winning the Humber College Event with 2200 and 5409,
+                            seeding 3rd at York
+                            University, and earning Excellence in Engineering at that same event.
+                        </p>
+                        <div class="photo">
+                            <img src="./img/TeamMedia/HumberEvent2022.webp"
+                                alt="Group photo with (left to right) our team, 2200, and 5409 after Humber 2022 awards ceremony">
+                        </div>
+                    </div>
+                    <div class="time bg-firebirds-timeline-12">
+                        <h4>Jan-Mar 2022</h4>
+                    </div>
+                </li>
+
+                <!-- Point 11: Summer Camps -->
+                <li class="before:bg-firebirds-timeline-11">
+                    <div class="content from-firebirds-timeline-10 to-firebirds-timeline-11">
+                        <h5>Summer Camps with Moorelands Kids</h5>
+                        <p>With support from <i>FIRST</i> Canada, we ran a week of online summer camps with Moorelands
+                            Kids, where we taught the basics of computer-aided design. </p>
+                    </div>
+                    <div class="time bg-firebirds-timeline-11">
+                        <h4>August 2021</h4>
+                    </div>
+                </li>
+
+                <!-- Point 10: Recharge Your Bot -->
+                <li class="before:bg-firebirds-timeline-10">
+                    <div class="content from-firebirds-timeline-9 to-firebirds-timeline-10">
+                        <h5>The 2021 (Virtual) Season</h5>
+                        <p>While competitions were not running, we took a season to develop internally. Recruiting new
+                            members and training online with CAD and coding set us up for a successful season
+                            back.</p>
+
+                        <div class="photo">
+                            <img src="./img/TeamMedia/OnlineMeeting2021.webp" alt="">
+                        </div>
+
+                    </div>
+                    <div class="time bg-firebirds-timeline-10">
+                        <h4>Jan-Jul 2021</h4>
+                    </div>
+                </li>
+
+                <!-- Point 9: Recharge Your Bot -->
+                <li class="before:bg-firebirds-timeline-9">
+                    <div class="content from-firebirds-timeline-8 to-firebirds-timeline-9">
+                        <h5>Recharge Your Bot Challenge</h5>
+                        <p>With no end to the pandemic in sight <i>FIRST</i> Canada released the Recharge Your Bot
+                            Challenges, which teams could work on while adhering to public safety guidelines. Our team
+                            earned 3rd place in the <a href="https://youtu.be/jEHgCj3W1D0"
+                                class="decoration-firebirds-timeline-9 cursor-alias" target="_blank">
+                                Sprint Challenge using our minibot</a>.</p>
+
+                        <div class="photo">
+                            <img src="./img/TeamMedia/Minibot2020.webp" alt="">
+                        </div>
+
+                    </div>
+                    <div class="time bg-firebirds-timeline-9">
+                        <h4>October 2020</h4>
+                    </div>
+                </li>
+
+                <!-- Point 8 - Ontario PPE Collective -->
+                <li class="before:bg-firebirds-timeline-8">
+
+                    <div class="content from-firebirds-timeline-7 to-firebirds-timeline-8">
+                        <h5>PPE to Support Frontline Health Care</h5>
+                        <p>We partnered with the
+                            <a href="https://www.instagram.com/ontarioppecollective/" target="_blank"
+                                class="cursor-alias decoration-firebirds-timeline-8">
+                                Ontario PPE Collective</a>
+                            to produce components for over 300 face shields, which were delivered to frontline workers
+                            across Ontario.
+                        </p>
+
+                        <div class="photo">
+                            <img src="./img/TeamMedia/PPEPrinting2020.webp" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="time bg-firebirds-timeline-8">
+                        <h4>Apr-Jun 2020</h4>
+                    </div>
+
+                </li>
+
+                <!-- Point 7 -->
+                <li class="before:bg-firebirds-timeline-7">
+                    <div class="content from-firebirds-timeline-6 to-firebirds-timeline-7">
+                        <h5>The 2020 Season</h5>
+                        <p>We were back for a second season, Infinite Recharge! At the Durham College event, we ranked
+                            18/36 teams, a major
+                            improvement from 2019. Unfortunately, the season was cut short by the COVID-19 pandemic.
+                        </p>
+
+                        <div class="photo">
+                            <img src="./img/TeamMedia/Durham2020Action.webp"
+                                alt="Group photo with (left to right) our team, 2200, and 5409 after Humber 2022 awards ceremony">
+                        </div>
+
+                    </div>
+                    <div class="time bg-firebirds-timeline-7">
+                        <h4>Jan-Mar 2020</h4>
+                    </div>
+                </li>
+
+                <!-- Point 6 -->
+                <li class="before:bg-firebirds-timeline-6">
+                    <div class="content from-firebirds-timeline-5 to-firebirds-timeline-6">
+                        <h5>Community Outreach</h5>
+                        <p>The team took part in events around Markham, including Markham Public Library's Digital
+                            Literacy Week, Science Rendezvous, and Box Grove Plaza
+                            Palooza. This marked the start of regular outreach where
+                            we would demo our bot and get the community excited about science and technology.
+                        </p>
+                    </div>
+                    <div class="time bg-firebirds-timeline-6">
+                        <h4>May-Sep 2019</h4>
+                    </div>
+                </li>
+
+                <!-- Point 5 -->
+                <li class="before:bg-firebirds-timeline-5">
+                    <div class="content from-firebirds-timeline-4 to-firebirds-timeline-5">
+                        <h5>2019 District Qualifiers</h5>
+                        <p>Our 2019 competitions were are Humber College and Georgian College. While it might have not
+                            been the first season we envisioned when we founded the team, it was one that would go on to
+                            shape the team's future for the better. We came away with plenty of lessons learned and
+                            renewed ambition for the future. </p>
+                    </div>
+                    <div class="time bg-firebirds-timeline-5">
+                        <h4>March 2019</h4>
+                    </div>
+                </li>
+
+                <!-- Point 4 -->
+                <li class="before:bg-firebirds-timeline-4">
+                    <div class="content from-firebirds-timeline-3 to-firebirds-timeline-4">
+                        <h5>First Build Season</h5>
+                        <p>Our first-ever competition robot! Originally we had tried to build an arm, but ran into some
+                            technical challenges. Thanks to quick pivoting and dedicated members, we managed to put
+                            together a fast, lightweight bot.</p>
+                        <div class="photo">
+                            <img src="./img/TeamMedia/RickHansenUnbag2019.webp"
+                                title="Working on the robot during a trip to Rick Hansen SS (Teams 1241 and 1285)"
+                                alt="Our 2019 robot, around 28x28 inches, sitting on a workbench.">
+                        </div>
+
+                    </div>
+                    <div class="time bg-firebirds-timeline-4">
+                        <h4>Jan-Feb 2019</h4>
+                    </div>
+                </li>
+
+                <!-- Point 3 -->
+                <li class="before:bg-firebirds-timeline-3">
+                    <div class="content from-firebirds-timeline-2 to-firebirds-timeline-3">
+                        <h5>Kickoff & Quickbuild</h5>
+                        <p>For our first season's Kickoff, we were invited to Crescent School by Team 610. In addition
+                            to watching the Kickoff livestream, we had the opportunity to attend training sessions and
+                            receive assistance building our first robot drivetrain.
+                        </p>
+                        <div class="photo">
+                            <img src="./img/TeamMedia/Quickbuild2019.webp"
+                                title="Quickbuild 2019, hosted by Team 610 at Crescent School"
+                                alt="Team 7902 members posing with our first kit of parts, containing starting components and game pieces.">
+                        </div>
+
+                    </div>
+                    <div class="time bg-firebirds-timeline-3">
+                        <h4>January 2019</h4>
+                    </div>
+                </li>
+
+                <!-- Point 2 - Sable-->
+                <li class="before:bg-firebirds-timeline-2">
+                    <div class="content from-firebirds-timeline-1 to-firebirds-timeline-2">
+                        <h5>Partnership with Sable Metal Fabrication</h5>
+                        <p>The team began a long-term sponsorship arrangement with
+                            <a href="https://sablemetal.com/" class="cursor-alias decoration-firebirds-timeline-2"
+                                target="_blank">Sable Metal Fabrication Inc.</a>, a local
+                            manufacturer of laser-cut and precisely bent sheet metal parts. Sable continues to be an
+                            invaluable part of every robot we design and build.
+                        </p>
+
+                        <div class="photo">
+                            <img src="./img/TeamMedia/SableMetalRobot.webp"
+                                title="Sable Metal Fabrication Inc. runs a lights-out operation, leveraging technologies such as a robotic manipulator and automatic brake press."
+                                alt="Flats from the semiautomatic laser cutting tables are positioned, the unmanned press brake cell can complete the bends.">
+                        </div>
+                    </div>
+                    <div class="time bg-firebirds-timeline-2">
+                        <h4>December 2018</h4>
+                    </div>
+                </li>
+
+                <!-- Point 1 -->
+                <li class="before:bg-firebirds-timeline-1" id="November2018">
+                    <div class="content">
+                        <h5>Founding</h5>
+                        <p>FRC Team 7902 and the associated not-for-profit were founded by a few students from Markham
+                            District High School.</p>
+                    </div>
+                    <div class="time bg-firebirds-timeline-1">
+
+                        <h4>November 2018</h4>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </main>
+
+</body>
+
+</html>
