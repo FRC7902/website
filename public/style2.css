@@ -7368,6 +7368,10 @@ textarea.form-control.is-invalid {
   text-decoration-color: #65e9ff;
 }
 
+.decoration-firebirds-blue-mid-300 {
+  text-decoration-color: #3C8FEB;
+}
+
 .decoration-firebirds-blue-mid-500 {
   text-decoration-color: #2C70D8;
 }
@@ -8055,9 +8059,11 @@ body {
 .resource-header {
   padding-left: 2rem;
   padding-right: 2rem;
+  font-family: League Spartan;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -8533,6 +8539,7 @@ h1 {
   --tw-border-opacity: 1;
   border-left-color: rgb(130 235 249 / var(--tw-border-opacity));
   padding-left: 1.5rem;
+  font-family: League Spartan;
   font-size: 3rem;
   line-height: 1.25;
 }
@@ -8575,7 +8582,7 @@ h3 {
   margin-right: auto;
   margin-top: 2rem;
   text-align: start;
-  font-family: Cooper Hewitt;
+  font-family: League Spartan;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
@@ -8611,7 +8618,7 @@ h5 {
 }
 
 h6 {
-  font-family: Cooper Hewitt;
+  font-family: League Spartan;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 300;
@@ -9448,12 +9455,6 @@ p a:hover {
   font-display:swap;
 }
 
-.before\:bg-firebirds-blue-mid-500::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(44 112 216 / var(--tw-bg-opacity));
-}
-
 .before\:bg-firebirds-blue-mid-600::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -9556,12 +9557,6 @@ p a:hover {
   background-color: rgb(45 120 206 / var(--tw-bg-opacity));
 }
 
-.after\:bg-firebirds-blue-mid-400::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 128 225 / var(--tw-bg-opacity));
-}
-
 .after\:bg-firebirds-blue-mid-500::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -9622,11 +9617,6 @@ p a:hover {
   color: rgb(130 235 249 / var(--tw-text-opacity));
 }
 
-.hover\:text-firebirds-blue-mid-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(52 128 225 / var(--tw-text-opacity));
-}
-
 .hover\:text-firebirds-blue-mid-500:hover {
   --tw-text-opacity: 1;
   color: rgb(44 112 216 / var(--tw-text-opacity));
@@ -9664,12 +9654,6 @@ p a:hover {
 .hover\:drop-shadow-md:hover {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:before\:bg-firebirds-blue-mid-400:hover::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 128 225 / var(--tw-bg-opacity));
 }
 
 .hover\:before\:bg-firebirds-blue-mid-500:hover::before {
