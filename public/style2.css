@@ -7856,7 +7856,8 @@ body {
   position:relative;
   background-image:
       linear-gradient(to right, rgb(23, 34, 55) 0%, rgba(23, 34, 55, 0.99) 2%, rgba(0, 0, 0, 0.01) 100%),
-      url('../public/img/CoverImages/WebsiteCover.webp');
+
+      url('../img/CoverImages/WebsiteCover.webp');
 }
 
 .bg-img-about {
@@ -7876,7 +7877,8 @@ body {
         rgb(23, 34, 55) 0%,
         rgba(23, 34, 55, 0.99) 2%,
         rgba(23, 34, 55, 0.5) 100%),
-      url('../public/img/CoverImages/CoverAbout.webp');
+
+      url('../img/CoverImages/CoverAbout.webp');
 }
 
 .bg-img-contact {
@@ -7896,7 +7898,8 @@ body {
         rgb(23, 34, 55) 0%,
         rgba(23, 34, 55, 0.99) 2%,
         rgba(23, 34, 55, 0.5) 100%),
-      url('../public/img/CoverImages/CoverContact.webp');
+
+      url('../img/CoverImages/CoverContact.webp');
 }
 
 .bg-img-resources {
@@ -7916,7 +7919,8 @@ body {
         rgb(23, 34, 55) 0%,
         rgba(23, 34, 55, 0.99) 2%,
         rgba(23, 34, 55, 0.5) 100%),
-      url('../public/img/CoverImages/CoverResources.webp');
+
+      url('../img/CoverImages/CoverResources.webp');
 }
 
 .text-shadow {
