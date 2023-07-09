@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://markhamfirebirds.ca</loc>
+        <lastmod>2023-07-07T03:42:07+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://markhamfirebirds.ca/join</loc>
+        <lastmod>2023-07-07T02:46:05+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://markhamfirebirds.ca/sponsors</loc>
+        <lastmod>2023-07-07T02:46:05+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://markhamfirebirds.ca/about</loc>
+        <lastmod>2023-07-07T02:46:05+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://markhamfirebirds.ca/contact</loc>
+        <lastmod>2023-07-07T02:46:05+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
