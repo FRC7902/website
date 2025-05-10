@@ -6675,6 +6675,10 @@ textarea.form-control.is-invalid {
   padding: 1.5rem;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
