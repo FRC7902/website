@@ -1,7 +1,7 @@
-function getPageName(){
-    var path = window.location.pathname;
-    var page = path.split("/").pop();
-    console.log( page );
+function getPageName() {
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+  console.log(page);
 
-    return page;
+  return page;
 }

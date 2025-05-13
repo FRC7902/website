@@ -1,21 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth duration-1000 transition-all">
-
-
-<head>
+  <head>
     <title>Contact | FRC 7902: Markham Firebirds</title>
-    <link rel="icon" type="image/png" href="./img/TeamLogos/Favicon.png">
+    <link rel="icon" type="image/png" href="./img/TeamLogos/Favicon.png" />
 
     <!-- Prevents google from showing this page in search results -->
     <!-- DELETE BEFORE PUSHING TO DEPLOYMENT -->
-    <meta name="robots" content="noindex">
+    <meta name="robots" content="noindex" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 minimum-scale=1, maximum-scale=1"
+    />
     <link rel="stylesheet" href="./style2.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
 
     <!-- Icons -->
     <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
@@ -24,76 +27,85 @@
     <script src="./scripts/menu.js"></script>
 
     <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"> </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Scroll TODO - add to JS file and make adaptable for any ID -->
     <script type="text/javascript">
-        function dropdown() {
-            document.querySelector("#submenu").classList.toggle("hidden");
-            document.querySelector("#arrow").classList.toggle("rotate-0");
-        }
-        dropdown();
+      function dropdown() {
+        document.querySelector("#submenu").classList.toggle("hidden");
+        document.querySelector("#arrow").classList.toggle("rotate-0");
+      }
+      dropdown();
 
-        // Smooth scroll
-        function scrollFunction1() {
-            let e = document.getElementById("maincontent");
-            e.scrollIntoView({
-                block: 'start',
-                behavior: 'smooth',
-                inline: 'start'
-            });
-        }
-        function scrollFunction2() {
-            let e = document.getElementById("el2");
-            // This ends the block to the window 
-            // bottom and also aligns the view to the center 
-            e.scrollIntoView({
-                block: 'end',
-                behavior: 'smooth',
-                inline: 'center'
-            });
-        }
+      // Smooth scroll
+      function scrollFunction1() {
+        let e = document.getElementById("maincontent");
+        e.scrollIntoView({
+          block: "start",
+          behavior: "smooth",
+          inline: "start",
+        });
+      }
+      function scrollFunction2() {
+        let e = document.getElementById("el2");
+        // This ends the block to the window
+        // bottom and also aligns the view to the center
+        e.scrollIntoView({
+          block: "end",
+          behavior: "smooth",
+          inline: "center",
+        });
+      }
     </script>
+  </head>
 
-
-</head>
-
-
-
-<body class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth" id="contactPage">
-
+  <body
+    class="bg-slate-100 relative h-screen flex overflow-hidden scroll-smooth"
+    id="contactPage"
+  >
     <span
-        class="absolute z-20 text-white text-4xl top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
-        onclick="openSidebar()">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-white m-2" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-
+      class="absolute z-20 text-white text-4xl top-5 left-8 cursor-pointer transition-all md:hidden bg-firebirds-blue-mid-800 rounded-md"
+      onclick="openSidebar()"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-8 w-8 stroke-white m-2"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
     </span>
 
     <!-- Navbar (from text file)-->
     <script>
-        $(function () {
-            $("#nav").load("header.txt");
-        });
+      $(function () {
+        $("#nav").load("header.txt");
+      });
     </script>
     <header id="nav" class="flex"></header>
 
     <main class="flex-1 overflow-y-scroll h-full sm-:pb-32">
+      <!-- Main splash photo -->
+      <div class="bg-img-contact">
+        <h2>Contact</h2>
+      </div>
 
-        <!-- Main splash photo -->
-        <div class="bg-img-contact">
-            <h2>
-                Contact
-            </h2>
-        </div>
-
-        <!-- Main page content -->
-        <div
-            class="flex place-content-center flex-col flex-wrap items-center text-lg font-ch font-light lg:w-3/4 mx-auto">
-            <!-- <div class="flex place-content-center flex-col flex-wrap items-center text-center text-white bg-firebirds-blue-mid-100 mb-4 w-11/12 p-4 lg:p-8">
+      <!-- Main page content -->
+      <div
+        class="flex place-content-center flex-col flex-wrap items-center text-lg font-ch font-light lg:w-3/4 mx-auto"
+      >
+        <!-- <div class="flex place-content-center flex-col flex-wrap items-center text-center text-white bg-firebirds-blue-mid-100 mb-4 w-11/12 p-4 lg:p-8">
                 <h4 class="p-8 text-3xl lg:text-6xl font-normal">FAQ</h4>
                 <h3 class="contact-faq-header">Do I require any robotics experience?</h3>
                 <h4 class="contact-faq-text">this is an answer that is really good...</h4>
@@ -111,12 +123,17 @@
                 <h4 class="contact-faq-text">this is an answer that is really good...</h4>
             </div> -->
 
-            <div
-                class="flex place-content-center flex-col flex-wrap items-center text-center text-black bg-slate-200 w-11/12 mb-4 lg:mb-8 p-2 lg:p-14">
-                <h4 class="p-8 text-3xl lg:text-6xl font-normal">GET IN TOUCH</h4>
-                <h6 class="text-base lg:text-2xl p-0 m-2 text-black"><a href="mailto:team7902@markhamfirebirds.ca">📧
-                        team7902@markhamfirebirds.ca</a></h6>
-            </div>
+        <div
+          class="flex place-content-center flex-col flex-wrap items-center text-center text-black bg-slate-200 w-11/12 mb-4 lg:mb-8 p-2 lg:p-14"
+        >
+          <h4 class="p-8 text-3xl lg:text-6xl font-normal">GET IN TOUCH</h4>
+          <h6 class="text-base lg:text-2xl p-0 m-2 text-black">
+            <a href="mailto:team7902@markhamfirebirds.ca"
+              >📧 team7902@markhamfirebirds.ca</a
+            >
+          </h6>
         </div>
+      </div>
     </main>
-</body>
+  </body>
+</html>
