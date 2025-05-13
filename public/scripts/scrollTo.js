@@ -1,11 +1,9 @@
 function scrollToID(targetID) {
-   
-    let e = document.getElementById(targetID);
+  let e = document.getElementById(targetID);
 
-    e.scrollIntoView({
-        block: 'start',
-        behavior: 'smooth',
-        inline: 'start'
-    });
-
+  e.scrollIntoView({
+    block: "start",
+    behavior: "smooth",
+    inline: "start",
+  });
 }

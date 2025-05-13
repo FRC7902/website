@@ -1,30 +1,32 @@
 {
-    "name": "frc7902",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "build:spaghettiman": "tailwind build -i src/style.css -o public/style2.css",
-        "build:tailwinds": "tailwind build -i src/style.css -o public/style2.css",
-        "build:tailwind": "tailwind build -i src/style.css -o public/style2.css",
-        "tw": "tailwind build -i src/style.css -o public/style2.css"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "animate.css": "^4.1.1",
-        "jquery": "^3.6.0",
-        "jsdom": "^19.0.0",
-        "swiper": "^7.4.1",
-        "tailwind": "^2.3.1",
-        "tailwindcss-border-gradient-radius": "^1.0.0",
-        "tailwindscss": "^0.3.0",
-        "tw-elements": "^1.0.0-alpha4"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.4.14",
-        "postcss": "^8.4.24",
-        "tailwindcss": "^3.3.2"
-    }
+  "name": "frc7902",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:spaghettiman": "tailwind build -i src/style.css -o public/style2.css",
+    "build:tailwinds": "tailwind build -i src/style.css -o public/style2.css",
+    "build:tailwind": "tailwind build -i src/style.css -o public/style2.css",
+    "tw": "tailwind build -i src/style.css -o public/style2.css",
+    "format": "prettier -w ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
+    "swiper": "^7.4.1",
+    "tailwind": "^2.3.1",
+    "tailwindcss-border-gradient-radius": "^1.0.0",
+    "tailwindscss": "^0.3.0",
+    "tw-elements": "^1.0.0-alpha4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.3.2"
+  }
 }
